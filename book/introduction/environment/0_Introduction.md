@@ -12,13 +12,8 @@ kernelspec:
   name: python3
 ---
 
-# <i class="fa-solid fa-earth-europe"></i> Working with .ipynb
+# <i class="fa-solid fa-earth-europe"></i> Start Here
 
-
-<iframe src="https://drive.google.com/file/d/1VCmdiTL-lTuWh1fCJKYlUQ3a19tCe7t2/preview" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
-
-
-[📄 Click here to open the Slides](./figures/S01_Introduction_to_IPYNB.pdf)
 
 
 

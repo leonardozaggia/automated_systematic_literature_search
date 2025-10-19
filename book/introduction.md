@@ -38,7 +38,7 @@ Explore the chapter {fas}`arrow-right`
 :::{grid-item-card}
 :class-body: text-center
 :class-header: bg-light text-center
-:link: ./findpapers/1_Test_Theory_Construction_Template
+:link: ./findpapers/1_demo_findpapers
 :link-type: doc
 Your Portafolio Template 📋
 ^^^
@@ -46,15 +46,15 @@ Your Portafolio Template 📋
 :height: 100
 ```
 +++
-Download the template {fas}`arrow-right`
+Explore tutorial {fas}`arrow-right`
 :::
 
 :::{grid-item-card}
 :class-body: text-center
 :class-header: bg-light text-center
-:link: ./TT/6_Dichotomous_IRT/0_Introduction
+:link: ./AMSR/paperscraper/0_Introduction
 :link-type: doc
-Test construction 📊
+Available tools 📊
 ^^^
 ```{image} https://thumbs.dreamstime.com/b/statistics-linear-icon-modern-outline-logo-concept-o-white-background-business-analytics-collection-suitable-use-133515482.jpg
 :height: 100
