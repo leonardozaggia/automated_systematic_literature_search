@@ -1,0 +1,22 @@
+[{
+    "question": "Would you chose A, B, C, or D?",
+    "type": "multiple_choice",
+    "answers": [
+        {
+            "answer": "A",
+            "correct": false
+        },
+        {
+            "answer": "B",
+            "correct": true
+        },
+        {
+            "answer": "C",
+            "correct": false
+        },
+        {
+            "answer": "D",
+            "correct": false
+        }
+    ]
+}]

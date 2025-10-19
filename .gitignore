@@ -1,0 +1,11 @@
+# Files
+*README.md
+*.pyc
+*test.ipynb
+*test.py
+*.ds
+*.DS_Store
+# Folders
+_build/
+.conda/
+.venv/
