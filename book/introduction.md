@@ -38,7 +38,7 @@ Explore the chapter {fas}`arrow-right`
 :::{grid-item-card}
 :class-body: text-center
 :class-header: bg-light text-center
-:link: ./template_material/1_Test_Theory_Construction_Template
+:link: ./findpapers/1_Test_Theory_Construction_Template
 :link-type: doc
 Your Portafolio Template 📋
 ^^^

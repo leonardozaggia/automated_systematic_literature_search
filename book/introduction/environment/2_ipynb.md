@@ -12,8 +12,4 @@ kernelspec:
   name: python3
 ---
 
-# <i class="fa-solid fa-dice-d20"></i> Multidimentional models
-
-## Multidimentional models
-
-⚠️ This section is under construction. Content will be added soon.
+# 1.2 Findpapers

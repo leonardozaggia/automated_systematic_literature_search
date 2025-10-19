@@ -6,59 +6,22 @@ root: book/introduction
 parts:
   - caption: Environment Setup
     chapters:
-      - file: book/introduction/1_psy126/0_Introduction
+      - file: book/introduction/environment/0_Introduction
         sections:
-          - file: book/introduction/1_psy126/1_Setup
-          - file: book/introduction/1_psy126/2_ipynb
-          - file: book/introduction/1_psy126/3_Markdown
-          - file: book/introduction/1_psy126/4_Exercises
-      - file: book/introduction/2_psy111_recap/0_Introduction
-        sections:
-          - file: book/introduction/2_psy111_recap/1_data_handling
-          - file: book/introduction/2_psy111_recap/2_descriptive_statistics
-          - file: book/introduction/2_psy111_recap/3_data_visualization
-          - file: book/introduction/2_psy111_recap/4_Exercises        
+          - file: book/introduction/environment/1_Setup  
 
-  - caption: Test Theory and Test Construction
+  - caption: Findpapers
     chapters:
-      - file: book/TT/6_Dichotomous_IRT/0_Introduction
+      - file: book/findpapers/0_Introduction
         sections:
-          - file: book/TT/6_Dichotomous_IRT/1_rpy2
-          - file: book/TT/6_Dichotomous_IRT/2_dicho
-          - file: book/TT/6_Dichotomous_IRT/3_irt
-          - file: book/TT/6_Dichotomous_IRT/4_Exercises
-      
-      - file: book/TT/7_Polytomous_IRT/0_Introduction
-        sections:
-          - file: book/TT/7_Polytomous_IRT/1_Rating_Scale_Model
-          - file: book/TT/7_Polytomous_IRT/2_Partial_Credit_Models
-          - file: book/TT/7_Polytomous_IRT/3_Graded_Response_Model
-          - file: book/TT/7_Polytomous_IRT/4_Exercises
+          - file: book/findpapers/1_demo_findpapers
 
-      - file: book/TT/8_Quantitative_IRT/0_Introduction
-        sections:
-          - file: book/TT/8_Quantitative_IRT/1_Tau-Congeneric_Measurement_Model
-          - file: book/TT/8_Quantitative_IRT/2_Tau-Equivalent_Models
-          - file: book/TT/8_Quantitative_IRT/3_Tau-Parallel_Models
-          - file: book/TT/8_Quantitative_IRT/4_Exercises    
-
-      - file: book/TT/9_Invariance/0_Introduction
-        sections:
-          - file: book/TT/9_Invariance/1_inv_quant  
-          - file: book/TT/9_Invariance/2_inv_qual  
-          - file: book/TT/9_Invariance/3_inv_time  
-          - file: book/TT/9_Invariance/4_Exercises  
-
-      - file: book/TT/10_Multilevel/0_Introduction
-        sections:
-          - file: book/TT/10_Multilevel/1_S10_final        
-    
-  - caption: Miscellaneous
+  - caption: AMSR - all tools
     chapters:
-      - file: book/template_material/0_Introduction
+      - file: book/AMSR/paperscraper/0_Introduction
         sections:
-          - file: book/template_material/1_Test_Theory_Construction_Template
-          - file: book/template_material/2_relevant_dates
+          - file: book/paperscraper/1_paperscraper
+
 
   - caption: References
     chapters:
