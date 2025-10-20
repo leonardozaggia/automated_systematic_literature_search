@@ -12,10 +12,31 @@ kernelspec:
   name: python3
 ---
 
-# Welcome to Test Theory and Test construction!
+# Welcome to Automated Metanalysis & Systematic Reviews!
 
-This book contains the course content for the Multivariate Statistics (psy111) lecture and seminar. For the lecture, you will find supplementary information to complement the lecture slides. For the seminar, the first half of the semester will introduce Python and its associated tools, while the second half will focus on the practical application of statistical concepts discussed in the lecture.
+This comprehensive tutorial teaches you how to **automate your literature review process** using modern Python tools. Whether you're conducting a systematic review, metanalysis, or comprehensive literature search for your research, this book will guide you through efficient, reproducible workflows that save time and improve accuracy.
 
+## Why Automate Your Literature Review?
+
+📚 **Systematic reviews** and **metanalyses** are essential for evidence-based research, but they're traditionally time-consuming and error-prone. This book teaches you to:
+
+- **Search multiple databases simultaneously** (ACM, IEEE, Scopus, PubMed, arXiv, bioRxiv, medRxiv)
+- **Automate paper collection and deduplication**
+- **Streamline screening and selection processes**
+- **Generate publication-ready bibliographies**
+- **Create reproducible research workflows**
+- **Reduce manual errors and bias**
+
+## What You'll Learn
+
+This book covers everything from basic setup to advanced automation techniques, including:
+
+✅ Building complex search queries across multiple databases  
+✅ Refining and categorizing search results efficiently  
+✅ Downloading full-text papers automatically  
+✅ Managing references and generating BibTeX files  
+✅ Creating reproducible, documented workflows  
+✅ Following PRISMA guidelines for systematic reviews
 
 ::::{grid} 1 1 2 3
 :class-container: text-center
@@ -24,27 +45,31 @@ This book contains the course content for the Multivariate Statistics (psy111) l
 :::{grid-item-card}
 :class-body: text-center
 :class-header: bg-light text-center
-:link: ./introduction/1_psy126/1_Setup
+:link: ./introduction/0_Introduction
 :link-type: doc
-Setting things up 🚀
+**Getting Started** 🚀
 ^^^
-```{image} https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9E5HZlsBUfIyQdZy53DBNd5c9aIxECWdFww&s
+```{image} ../_static/images/get_started.png
 :height: 100
 ```
+
+Learn what systematic reviews and metanalyses are, why automation matters, and set up your environment.
 +++
-Explore the chapter {fas}`arrow-right`
+Start here {fas}`arrow-right`
 :::
 
 :::{grid-item-card}
 :class-body: text-center
 :class-header: bg-light text-center
-:link: ./findpapers/1_demo_findpapers
+:link: ./findpapers/0_Introduction
 :link-type: doc
-Your Portafolio Template 📋
+**Findpapers Tutorial** �
 ^^^
-```{image}  ../logo_template.png
+```{image} ../_static/images/findpaper.png
 :height: 100
 ```
+
+Master the powerful Findpapers tool for searching, refining, and managing literature across multiple databases.
 +++
 Explore tutorial {fas}`arrow-right`
 :::
@@ -54,19 +79,43 @@ Explore tutorial {fas}`arrow-right`
 :class-header: bg-light text-center
 :link: ./AMSR/paperscraper/0_Introduction
 :link-type: doc
-Available tools 📊
+**Additional Tools** �️
 ^^^
-```{image} https://thumbs.dreamstime.com/b/statistics-linear-icon-modern-outline-logo-concept-o-white-background-business-analytics-collection-suitable-use-133515482.jpg
+```{image} ../_static/images/other_tools.png
 :height: 100
 ```
+
+Discover complementary tools and advanced techniques for comprehensive literature analysis.
 +++
-Explore the chapter {fas}`arrow-right`
+Explore tools {fas}`arrow-right`
 :::
 
 ::::
 
-### Usefull links:
-- [Lecture material](https://elearning.uni-oldenburg.de/dispatch.php/course/files?cid=a819b16aace4eb774d54b16947317b94)
-- [Seminar material group 1](https://elearning.uni-oldenburg.de/dispatch.php/course/files?cid=8d69f333772c13bb395a1419339af627)
-- [Seminar material group 2](https://elearning.uni-oldenburg.de/dispatch.php/course/files?cid=3d8547867bacf69380f84167a5b35e29)
+## Quick Start
+
+```bash
+# Install the main tool
+pip install findpapers
+
+# Run your first search
+findpapers search results.json --query "[machine learning] AND [healthcare]"
+```
+
+---
+
+### Useful Resources
+- 📖 [PRISMA Guidelines](http://www.prisma-statement.org/) - Standards for systematic reviews
+- 💾 [Findpapers Repository](https://github.com/jonatasgrosman/findpapers) - Original tool repository
+- 🎓 [Getting Started with Python & VS Code](https://www.youtube.com/watch?v=6i3e-j3wSf0)
+- 🔬 [PMUS Lab GitHub](https://github.com/pmus-lab)
+
+:::{admonition} New to systematic reviews?
+:class: tip
+Start with the [Introduction section](./introduction/0_Introduction) to understand the fundamentals before diving into the tools!
+:::
+
+---
+
+**Ready to revolutionize your literature review process?** Let's get started! 🎯
 

@@ -4,24 +4,23 @@
 format: jb-book
 root: book/introduction
 parts:
-  - caption: Environment Setup
+  - caption: Getting Started
     chapters:
-      - file: book/introduction/environment/0_Introduction
-        sections:
-          - file: book/introduction/environment/1_Setup  
+      - file: book/introduction/0_Introduction
+      - file: book/introduction/1_Setup  
 
-  - caption: Findpapers
+  - caption: Findpapers Tutorial
     chapters:
-      - file: book/findpapers/0_Introduction
-        sections:
-          - file: book/findpapers/1_demo_findpapers
+      - file: findpapers/0_Introduction
+      - file: findpapers/1_demo_findpapers
 
-  - caption: AMSR - all tools
+  - caption: Additional Tools
     chapters:
       - file: book/AMSR/paperscraper/0_Introduction
-        sections:
-          - file: book/paperscraper/1_paperscraper
 
+  - caption: Complete Workflow
+    chapters:
+      - file: book/AMSR/workflow/0_end_to_end
 
   - caption: References
     chapters:

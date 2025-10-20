@@ -1,0 +1,304 @@
+---
+jupytext:
+  formats: md:myst
+  text_representation:
+    extension: .md
+    format_name: myst
+    format_version: 0.13
+    jupytext_version: 1.11.5
+kernelspec:
+  display_name: Python 3
+  language: python
+  name: python3
+---
+
+# <i class="fa-solid fa-download"></i> Environment Setup
+
+This guide will walk you through setting up your environment for automated systematic literature searches.
+
+## Prerequisites Check
+
+Before we begin, let's check what you need:
+
+::::{grid} 1 1 2 2
+:gutter: 2
+
+:::{grid-item-card} ✅ Required
+- Python 3.7 or higher
+- Package manager (conda/pip)
+- Code editor (VS Code recommended)
+- Internet connection
+:::
+
+:::{grid-item-card} 📚 Optional but Helpful
+- Git (for version control)
+- API keys (Scopus, IEEE)
+- Institutional database access
+- LaTeX (for PDF reports)
+:::
+
+::::
+
+## Step 1: Install Python Environment Manager
+
+If you already have **Anaconda**, **Miniconda**, **Miniforge**, or **Mamba** installed, you can skip to [Step 2](#step-2-install-code-editor).
+
+### Option A: Miniforge (Recommended)
+
+Miniforge is a minimal conda installer with conda-forge as the default channel.
+
+**Windows:**
+1. Download the installer: [Miniforge3-Windows-x86_64.exe](https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Windows-x86_64.exe)
+2. Run the installer and accept default options
+3. At **Advanced Installation Options**, consider checking:
+   - ✅ **"Add Miniforge3 to my PATH environment variable"** (recommended)
+   
+   ![miniforge_add2path](./figures/add2path.png)
+   
+   :::{admonition} Why add to PATH?
+   :class: tip
+   Adding to PATH allows you to use `conda` commands from any terminal, not just the Miniforge Prompt.
+   :::
+
+**macOS/Linux:**
+```bash
+# Download and run the installer
+wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh
+bash Miniforge3-Linux-x86_64.sh
+```
+
+### Option B: Anaconda (Alternative)
+
+Download from [anaconda.com/download](https://www.anaconda.com/download) and follow the installation wizard.
+
+## Step 2: Install Code Editor
+
+### Visual Studio Code (Recommended)
+
+1. Download from [code.visualstudio.com](https://code.visualstudio.com/download)
+2. Install with default settings
+3. Install recommended extensions:
+   - **Python** (by Microsoft)
+   - **Jupyter** (by Microsoft)
+   - **Markdown All in One**
+
+:::{admonition} Alternative Editors
+:class: note
+You can also use **JupyterLab**, **PyCharm**, **Spyder**, or any editor you prefer.
+:::
+
+## Step 3: Create Virtual Environment
+
+Virtual environments keep your project dependencies isolated. Let's create one for our systematic review tools.
+
+### Open Your Terminal
+
+**Windows:**
+- If you added conda to PATH: Use PowerShell, Command Prompt, or Windows Terminal
+- If not: Search for **"Miniforge Prompt"** in Start menu
+
+**macOS/Linux:**
+- Open Terminal application
+
+### Create the Environment
+
+```bash
+# Create a new environment named 'autosearch' with Python 3.10
+conda create -n autosearch python=3.10 -y
+```
+
+```bash
+# Activate the environment
+conda activate autosearch
+```
+
+You should see `(autosearch)` appear in your terminal prompt:
+
+```
+(autosearch) C:\Users\YourName>
+```
+
+:::{admonition} Environment Activation
+:class: important
+You'll need to activate this environment every time you start a new terminal session:
+```bash
+conda activate autosearch
+```
+:::
+
+## Step 4: Install Findpapers
+
+Findpapers requires a specific dependency (`edlib`) that's best installed via conda-forge first.
+
+```bash
+# Install edlib from conda-forge
+conda install -c conda-forge edlib -y
+```
+
+```bash
+# Install findpapers via pip
+pip install findpapers
+```
+
+### Verify Installation
+
+Check that Findpapers is installed correctly:
+
+```bash
+findpapers version
+```
+
+You should see output like:
+```
+findpapers 0.6.7
+```
+
+## Step 5: Install Additional Tools (Optional)
+
+### For Enhanced Data Analysis
+
+```bash
+pip install pandas matplotlib seaborn jupyter
+```
+
+### For Other Automation Tools
+
+```bash
+pip install paperscraper metapub biopython
+```
+
+## Step 6: Database API Keys (Optional)
+
+Some databases require API keys for full access. Here's how to obtain them:
+
+### IEEE Xplore API Key
+
+1. Visit [IEEE Developer Portal](https://developer.ieee.org/)
+2. Create an account or log in
+3. Navigate to "My APIs"
+4. Request an API key (usually instant approval)
+
+### Scopus API Key
+
+1. Visit [Elsevier Developer Portal](https://dev.elsevier.com/)
+2. Create an account or log in
+3. Navigate to "My API Key"
+4. Request an API key (may require institutional email)
+
+:::{admonition} Storing API Keys
+:class: tip
+Store your API keys as environment variables:
+
+**Windows (PowerShell):**
+```powershell
+$env:IEEE_TOKEN = "your-ieee-api-key"
+$env:SCOPUS_TOKEN = "your-scopus-api-key"
+```
+
+**macOS/Linux:**
+```bash
+export IEEE_TOKEN="your-ieee-api-key"
+export SCOPUS_TOKEN="your-scopus-api-key"
+```
+
+For permanent storage, add these to your `.bashrc`, `.zshrc`, or PowerShell profile.
+:::
+
+## Step 7: Verify Your Setup
+
+Let's run a quick test to ensure everything is working:
+
+```python
+# test_setup.py
+import sys
+print(f"Python version: {sys.version}")
+
+try:
+    import findpapers
+    print("✅ Findpapers installed successfully")
+except ImportError:
+    print("❌ Findpapers not found")
+
+try:
+    import pandas
+    print("✅ Pandas installed successfully")
+except ImportError:
+    print("⚠️ Pandas not installed (optional)")
+```
+
+Save this as `test_setup.py` and run:
+
+```bash
+python test_setup.py
+```
+
+## Troubleshooting
+
+### Common Issues
+
+::::{grid} 1 1 1 2
+:gutter: 2
+
+:::{grid-item-card} ❌ "conda not recognized"
+**Solution:** 
+- Use Miniforge Prompt instead of regular terminal
+- OR reinstall with "Add to PATH" option checked
+:::
+
+:::{grid-item-card} ❌ "edlib installation fails"
+**Solution:**
+```bash
+# Try installing through pip
+pip install edlib
+```
+:::
+
+:::{grid-item-card} ❌ "Permission denied"
+**Solution:**
+- Run terminal as Administrator (Windows)
+- Use `sudo` on macOS/Linux
+- Check firewall/antivirus settings
+:::
+
+:::{grid-item-card} ❌ "findpapers command not found"
+**Solution:**
+```bash
+# Ensure environment is activated
+conda activate autosearch
+# Reinstall findpapers
+pip install --upgrade findpapers
+```
+:::
+
+::::
+
+## Quick Reference Card
+
+```{code-block} bash
+# Activate environment
+conda activate autosearch
+
+# Check findpapers version
+findpapers version
+
+# View available commands
+findpapers --help
+
+# Deactivate environment (when done)
+conda deactivate
+```
+
+## What's Next?
+
+🎉 **Congratulations!** Your environment is ready. Now let's learn how to use Findpapers:
+
+➡️ Continue to **[Findpapers Tutorial](../findpapers/0_Introduction)** to start your first literature search!
+
+---
+
+:::{admonition} Need Help?
+:class: tip
+- 📖 [Conda Cheat Sheet](https://docs.conda.io/projects/conda/en/latest/user-guide/cheatsheet.html)
+- 🎥 [VS Code Python Tutorial](https://www.youtube.com/watch?v=6i3e-j3wSf0)
+- 💬 [Findpapers Issues](https://github.com/jonatasgrosman/findpapers/issues)
+:::

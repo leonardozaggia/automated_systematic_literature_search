@@ -1,6 +1,6 @@
 title: AMSR - Automated Metanalysis and Systematic Reviews
 author: Leonardo Zaggia
-logo: 4.png
+logo: amsr_logo.png
 copyright: "2025 Leonardo Zaggia"
 # Useful reference for creating the config: https://jupyterbook.org/en/stable/customize/config.html
 
@@ -40,6 +40,8 @@ launch_buttons:
 
 # Make the book's default style dark
 sphinx:
+  extra_extensions:
+    - sphinxcontrib.mermaid
   html_context:
     default_mode: dark
 
