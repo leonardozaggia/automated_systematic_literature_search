@@ -215,3 +215,66 @@ Continue to the [Findpapers Demo](1_demo_findpapers) for hands-on examples and t
 :class: note
 Findpapers stores all search results in a single JSON file, making your research fully reproducible and easy to share with collaborators!
 :::
+
+---
+
+## Programmatic Usage (Python API)
+
+While Findpapers is primarily used through the command-line interface, it can also be used programmatically in Python scripts for advanced automation workflows.
+
+````{dropdown} Click to see a minimal Python example
+:color: primary
+:icon: code
+
+```python
+from findpapers import search, refine
+
+# Define your search query
+query = "(machine learning OR deep learning) AND healthcare"
+
+# Execute search across databases
+search_result = search.run(
+    query=query,
+    since=2020,
+    databases=['pubmed', 'arxiv', 'scopus'],
+    filepath='results.json'
+)
+
+print(f"Found {len(search_result.papers)} papers")
+
+# Programmatically refine results
+for paper in search_result.papers:
+    # Add your custom filtering logic
+    if 'neural network' in paper.title.lower():
+        paper.selected = True
+        paper.categories.append('neural-networks')
+    
+    # Access paper metadata
+    print(f"Title: {paper.title}")
+    print(f"Authors: {', '.join(paper.authors)}")
+    print(f"Year: {paper.publication_date}")
+    print(f"DOI: {paper.doi}")
+
+# Save refined results
+search_result.save('results.json')
+
+# Generate bibliography for selected papers
+from findpapers import bibtex
+
+bibtex.generate(
+    filepath='results.json',
+    output_filepath='references.bib',
+    only_selected=True
+)
+```
+
+**Key Objects:**
+
+- `SearchResult`: Container for all papers and metadata
+- `Paper`: Individual paper with title, authors, abstract, etc.
+- `search.run()`: Execute search across databases
+- `bibtex.generate()`: Create bibliography files
+
+**Note**: For production workflows requiring more control, consider using [Research Buddy](../research_buddy/0_Overview) which provides a more robust Python API.
+
+````

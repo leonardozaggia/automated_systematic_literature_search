@@ -9,18 +9,24 @@ parts:
       - file: book/introduction/0_Introduction
       - file: book/introduction/1_Setup  
 
-  - caption: Findpapers Tutorial
+  - caption: Research Buddy
+    chapters:
+      - file: book/research_buddy/0_Overview
+      - file: book/research_buddy/1_Installation
+      - file: book/research_buddy/2_Usage_Examples
+
+  - caption: Findpapers
     chapters:
       - file: findpapers/0_Introduction
       - file: findpapers/1_demo_findpapers
 
-  - caption: Additional Tools
+  - caption: Additional Tools & Resources
     chapters:
-      - file: book/AMSR/paperscraper/0_Introduction
-
-  - caption: Complete Workflow
-    chapters:
-      - file: book/AMSR/workflow/0_end_to_end
+      - file: book/additional_tools/0_Overview
+      - file: book/additional_tools/1_PaperScraper
+      - file: book/additional_tools/2_LitMaps
+      - file: book/additional_tools/3_Consensus
+      - file: book/additional_tools/4_Elicit
 
   - caption: References
     chapters:

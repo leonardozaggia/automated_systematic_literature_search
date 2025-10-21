@@ -1,1 +1,0 @@
-# Epty script to be run so that the terminal connected to conda is activated

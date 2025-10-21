@@ -44,17 +44,17 @@ def main():
     until = datetime.date(2025, 10, 15)
     
     # Limit for quick demonstration (adjust as needed)
-    limit_per_database = 5  # Small number to keep demo quick
+    limit_per_database = 10  # Small number to keep demo quick
     
     # Focus on most relevant databases for this topic
-    databases = ["pubmed", "arxiv"]
+    databases = ["scopus"]
     
     # Publication types
     publication_types = ["journal", "conference proceedings"]
     
     # API tokens (optional - replace with your own if available)
     # Leave as None to use databases that don't require authentication
-    scopus_api_token = None  # Replace: "YOUR_SCOPUS_TOKEN"
+    scopus_api_token = "59d5f894f89fdc41c2a6c101ca270648"  # Replace: "YOUR_SCOPUS_TOKEN"
     ieee_api_token = None    # Replace: "YOUR_IEEE_TOKEN"
     
     # Proxy configuration (optional - for institutional access)
@@ -172,28 +172,28 @@ def main():
     input("Press Enter to start interactive refinement...")
     print()
     
-    try:
-        findpapers.refine(
-            search_path=str(search_file),
-            categories=categories,
-            highlights=highlights,
-            show_abstract=True,
-            show_extra_info=True,
-            only_selected_papers=False,
-            verbose=verbose
-        )
-        print()
-        print("✅ Refinement completed!")
+    # try:
+    #     findpapers.refine(
+    #         search_path=str(search_file),
+    #         categories=categories,
+    #         highlights=highlights,
+    #         show_abstract=True,
+    #         show_extra_info=True,
+    #         only_selected_papers=False,
+    #         verbose=verbose
+    #     )
+    #     print()
+    #     print("✅ Refinement completed!")
         
-    except KeyboardInterrupt:
-        print("\n\n⚠️ Refinement interrupted by user.")
-        print("Your progress has been saved.")
-    except Exception as e:
-        print(f"\n⚠️ Refinement issue: {e}")
+    # except KeyboardInterrupt:
+    #     print("\n\n⚠️ Refinement interrupted by user.")
+    #     print("Your progress has been saved.")
+    # except Exception as e:
+    #     print(f"\n⚠️ Refinement issue: {e}")
     
-    print()
-    input("Press Enter to continue to download...")
-    print()
+    # print()
+    # input("Press Enter to continue to download...")
+    # print()
     
     # ------------------------------------------------------------------------
     # STEP 3: Download
@@ -206,7 +206,7 @@ def main():
         findpapers.download(
             search_path=str(search_file),
             output_directory=str(output_dir),
-            only_selected_papers=True,
+            only_selected_papers=False,
             proxy=proxy,
             verbose=verbose
         )

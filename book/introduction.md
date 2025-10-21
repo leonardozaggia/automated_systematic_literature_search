@@ -61,15 +61,15 @@ Start here {fas}`arrow-right`
 :::{grid-item-card}
 :class-body: text-center
 :class-header: bg-light text-center
-:link: ./findpapers/0_Introduction
+:link: ./research_buddy/0_Overview
 :link-type: doc
-**Findpapers Tutorial** �
+**Research Buddy** 🔎
 ^^^
 ```{image} ../_static/images/findpaper.png
 :height: 100
 ```
 
-Master the powerful Findpapers tool for searching, refining, and managing literature across multiple databases.
+Master the powerful Research Buddy tool for programmatic searching, downloading, and managing literature across multiple databases.
 +++
 Explore tutorial {fas}`arrow-right`
 :::
@@ -79,7 +79,7 @@ Explore tutorial {fas}`arrow-right`
 :class-header: bg-light text-center
 :link: ./AMSR/paperscraper/0_Introduction
 :link-type: doc
-**Additional Tools** �️
+**Additional Tools** 🛠️
 ^^^
 ```{image} ../_static/images/other_tools.png
 :height: 100
@@ -92,21 +92,11 @@ Explore tools {fas}`arrow-right`
 
 ::::
 
-## Quick Start
-
-```bash
-# Install the main tool
-pip install findpapers
-
-# Run your first search
-findpapers search results.json --query "[machine learning] AND [healthcare]"
-```
-
 ---
 
 ### Useful Resources
 - 📖 [PRISMA Guidelines](http://www.prisma-statement.org/) - Standards for systematic reviews
-- 💾 [Findpapers Repository](https://github.com/jonatasgrosman/findpapers) - Original tool repository
+- 💾 [Research Buddy](https://github.com/leonardozaggia/review_buddy)
 - 🎓 [Getting Started with Python & VS Code](https://www.youtube.com/watch?v=6i3e-j3wSf0)
 - 🔬 [PMUS Lab GitHub](https://github.com/pmus-lab)
 

@@ -70,15 +70,15 @@ A **metanalysis** is a statistical technique that combines results from multiple
 The **Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA)** provides guidelines for conducting and reporting systematic reviews. The typical workflow includes:
 
 ```{mermaid}
-graph TD
-    A[1. Define Research Question] --> B[2. Develop Protocol]
-    B --> C[3. Literature Search]
-    C --> D[4. Screen Titles/Abstracts]
-    D --> E[5. Full-Text Review]
-    E --> F[6. Data Extraction]
-    F --> G[7. Quality Assessment]
-    G --> H[8. Data Synthesis]
-    H --> I[9. Report Results]
+graph TB
+    A[Define Question] --> B[Develop Protocol]
+    B --> C[Literature Search]
+    C --> D[Screen Papers]
+    D --> E[Full-Text Review]
+    E --> F[Data Extraction]
+    F --> G[Quality Assessment]
+    G --> H[Data Synthesis]
+    H --> I[Report Results]
     
     style A fill:#e1f5ff
     style C fill:#fff4e1
@@ -115,24 +115,27 @@ Automation tools can help with:
 
 ## Tools Overview
 
-This book focuses on several powerful Python tools:
+This book focuses on powerful Python tools for automated literature review:
 
-### 1. **Findpapers** (Primary Tool)
-- Searches 7+ databases simultaneously
-- Advanced query building with boolean logic
+### 1. **Research Buddy** (Primary Tool - Programmatic)
+- **Multi-source search**: Scopus, PubMed, arXiv, Google Scholar, IEEE Xplore
+- **Intelligent downloading**: 8-strategy PDF retrieval (98% success for open access)
+- **Full Python control**: Integrate into custom workflows and pipelines
+- **Smart deduplication**: Automatic across all sources
+- **Multiple exports**: BibTeX, RIS, CSV
+- **Open source**: Available at [github.com/leonardozaggia/review_buddy](https://github.com/leonardozaggia/review_buddy)
+
+### 2. **Findpapers** (Configuration-Based Alternative)
+- YAML-based configuration for quick searches
 - Built-in refinement and categorization
-- Automatic deduplication
-- PDF download capabilities
+- Good for one-off literature reviews
+- No Python coding required
 
-### 2. **Paperscraper**
-- Focused on biomedical literature
-- Integration with PubMed, medRxiv, bioRxiv
-- Clean API for programmatic access
-
-### 3. **Supporting Tools**
-- **Pandas**: Data manipulation and analysis
-- **Jupyter**: Interactive documentation
-- **BibTeX tools**: Reference management
+### 3. **Complementary Tools**
+- **PaperScraper**: Preprint scraping (arXiv, bioRxiv, medRxiv)
+- **LitMaps**: Visual citation network discovery
+- **Consensus**: AI-powered scientific consensus search
+- **Elicit**: AI data extraction and screening
 
 ## What You'll Need
 
@@ -150,20 +153,39 @@ If you're new to Python, check out the [Setup Guide](1_Setup) in the next sectio
 
 ## A Real-World Example
 
-Let's say you want to conduct a systematic review on **"Machine Learning Applications in Mental Health Diagnosis"**. Here's how automation helps:
+Let's say you want to conduct a systematic review on **"Machine Learning Applications in Mental Health Diagnosis"**. Here's how Research Buddy helps:
 
 **Without Automation:**
 - 🕐 Manually search PubMed, Scopus, IEEE, ACM (2-3 days)
 - 🕐 Export results from each database separately (3-4 hours)
 - 🕐 Manually remove duplicates in Excel (4-6 hours)
-- 🕐 Screen 500+ titles/abstracts manually (2-3 weeks)
+- 🕐 Download PDFs one by one (1-2 weeks)
 - 🕐 Track everything in spreadsheets (ongoing confusion)
 
-**With Automation (This Book):**
-- ⚡ Single search command across all databases (30 minutes)
-- ⚡ Automatic deduplication (instant)
-- ⚡ Interactive screening with categorization (2-3 days)
-- ⚡ Automatic BibTeX generation (instant)
+**With Research Buddy:**
+```python
+from src.paper_searcher import PaperSearcher
+from src.config import Config
+
+# Search all databases (30 minutes)
+searcher = PaperSearcher(Config(max_results_per_source=50))
+papers = searcher.search_all(
+    query="(machine learning OR AI) AND mental health AND diagnosis",
+    year_from=2020
+)
+
+# Export results (instant)
+searcher.generate_bibliography(papers, format="bibtex", output_file="papers.bib")
+
+# Download PDFs automatically (2-4 hours, 65-75% success rate)
+downloader.download_from_bib("papers.bib")
+```
+
+**Result:**
+- ⚡ 200+ papers found across 5 databases
+- ⚡ Automatic deduplication
+- ⚡ 130+ PDFs downloaded automatically
+- ⚡ Ready for screening in BibTeX/CSV format
 - ⚡ Everything documented and reproducible
 
 ## Expected Outcomes
