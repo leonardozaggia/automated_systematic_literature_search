@@ -352,6 +352,32 @@ Use Consensus alongside:
 - **Elicit**: Detailed paper analysis
 - **Traditional databases**: PubMed, Scopus, Web of Science
 
+## Example Workflow: Complete Literature Review
+
+```{mermaid}
+graph TD
+    A[Research Question] --> B["Consensus Search<br>Quick Overview"]
+    B --> C{Existing Consensus?}
+    C -->|Strong| D["Refine Question<br>Find Gap"]
+    C -->|Weak/Mixed| E["Opportunity<br>to Clarify"]
+    D --> F["Systematic Search<br>Research Buddy"]
+    E --> F
+    F --> G["Citation Discovery<br>LitMaps"]
+    G --> H["Detailed Analysis<br>Elicit"]
+    H --> I[Final Paper Set]
+    
+    style A fill:#e3f2fd
+    style B fill:#fff3e0
+    style F fill:#f3e5f5
+    style I fill:#e8f5e9
+```
+
+1. **Consensus**: Understand current state (15 min)
+2. **Research Buddy**: Systematic search (30 min)
+3. **LitMaps**: Citation discovery (20 min)
+4. **Elicit**: Deep analysis (variable)
+5. **Traditional reading**: Final verification
+
 ## Resources
 
 - 🌐 **Website**: [https://consensus.app/](https://consensus.app/)
