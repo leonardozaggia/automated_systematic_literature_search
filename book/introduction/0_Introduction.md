@@ -117,7 +117,7 @@ Automation tools can help with:
 
 This book focuses on powerful Python tools for automated literature review:
 
-### 1. **Research Buddy** (Primary Tool - Programmatic)
+### 1. **Review Buddy** (Primary Tool - Programmatic)
 - **Multi-source search**: Scopus, PubMed, arXiv, Google Scholar, IEEE Xplore
 - **Intelligent downloading**: 8-strategy PDF retrieval (98% success for open access)
 - **Full Python control**: Integrate into custom workflows and pipelines
@@ -153,7 +153,7 @@ If you're new to Python, check out the [Setup Guide](1_Setup) in the next sectio
 
 ## A Real-World Example
 
-Let's say you want to conduct a systematic review on **"Machine Learning Applications in Mental Health Diagnosis"**. Here's how Research Buddy helps:
+Let's say you want to conduct a systematic review on **"Machine Learning Applications in Mental Health Diagnosis"**. Here's how Review Buddy helps:
 
 **Without Automation:**
 - 🕐 Manually search PubMed, Scopus, IEEE, ACM (2-3 days)
@@ -162,7 +162,7 @@ Let's say you want to conduct a systematic review on **"Machine Learning Applica
 - 🕐 Download PDFs one by one (1-2 weeks)
 - 🕐 Track everything in spreadsheets (ongoing confusion)
 
-**With Research Buddy:**
+**With Review Buddy:**
 ```python
 from src.paper_searcher import PaperSearcher
 from src.config import Config

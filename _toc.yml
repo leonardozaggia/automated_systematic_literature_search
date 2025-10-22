@@ -9,11 +9,11 @@ parts:
       - file: book/introduction/0_Introduction
       - file: book/introduction/1_Setup  
 
-  - caption: Research Buddy
+  - caption: Review Buddy
     chapters:
-      - file: book/research_buddy/0_Overview
-      - file: book/research_buddy/1_Installation
-      - file: book/research_buddy/2_Usage_Examples
+      - file: book/review_buddy/0_Overview
+      - file: book/review_buddy/1_Installation
+      - file: book/review_buddy/2_Usage_Examples
 
   - caption: Findpapers
     chapters:

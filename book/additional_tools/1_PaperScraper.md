@@ -278,12 +278,12 @@ print(f"High-quality papers: {len(quality_papers)}/{len(papers)}")
 - **Rate Limits**: Must be respectful of server loads
 - **No Scopus/IEEE**: Doesn't cover major subscription databases
 
-## Integration with Research Buddy
+## Integration with Review Buddy
 
-PaperScraper works great alongside Research Buddy:
+PaperScraper works great alongside Review Buddy:
 
 ```python
-# Use Research Buddy for peer-reviewed papers
+# Use Review Buddy for peer-reviewed papers
 from paper_searcher import PaperSearcher
 from config import Config
 

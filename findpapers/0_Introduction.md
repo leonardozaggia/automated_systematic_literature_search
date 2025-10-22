@@ -275,6 +275,6 @@ bibtex.generate(
 - `search.run()`: Execute search across databases
 - `bibtex.generate()`: Create bibliography files
 
-**Note**: For production workflows requiring more control, consider using [Research Buddy](../research_buddy/0_Overview) which provides a more robust Python API.
+**Note**: For production workflows requiring more control, consider using [Review Buddy](../review_buddy/0_Overview) which provides a more robust Python API.
 
 ````

@@ -1,8 +1,8 @@
-# 🤖 Research Buddy
+# 🤖 Review Buddy
 
 ## Overview
 
-**Research Buddy** is a Python-based programmatic toolkit for conducting systematic literature searches across multiple academic databases. Unlike configuration-based tools, Research Buddy provides full programmatic control through a clean Python API, making it ideal for:
+**Review Buddy** is a Python-based programmatic toolkit for conducting systematic literature searches across multiple academic databases. Unlike configuration-based tools, Review Buddy provides full programmatic control through a clean Python API, making it ideal for:
 
 - **Automated workflows** requiring integration with other tools
 - **Custom search logic** and advanced filtering
@@ -40,7 +40,7 @@ Automatic removal of duplicate papers across sources based on:
 ## Architecture
 
 ```
-research_buddy/
+review_buddy/
 ├── searchers/           # Database-specific searchers
 │   ├── scopus_searcher.py
 │   ├── pubmed_searcher.py
@@ -80,7 +80,7 @@ searcher.generate_bibliography(papers, format="bibtex", output_file="results.bib
 
 **GitHub**: [https://github.com/leonardozaggia/review_buddy](https://github.com/leonardozaggia/review_buddy)
 
-The Research Buddy codebase is actively maintained and welcomes contributions from the research community.
+The Review Buddy codebase is actively maintained and welcomes contributions from the research community.
 
 ---
 
@@ -88,9 +88,9 @@ The Research Buddy codebase is actively maintained and welcomes contributions fr
 Detailed tutorials on installation, configuration, and advanced usage patterns will be added in the following sections.
 ```
 
-## When to Use Research Buddy vs Findpapers
+## When to Use Review Buddy vs Findpapers
 
-| Feature | Research Buddy | Findpapers |
+| Feature | Review Buddy | Findpapers |
 |---------|---------------|------------|
 | **Control Level** | Full programmatic control | Configuration-based |
 | **Learning Curve** | Moderate (Python knowledge) | Easy (YAML config) |
@@ -101,6 +101,6 @@ Detailed tutorials on installation, configuration, and advanced usage patterns w
 ## Next Steps
 
 Continue to the next sections to learn:
-1. **Installation**: Setting up Research Buddy and obtaining API keys
+1. **Installation**: Setting up Review Buddy and obtaining API keys
 2. **Usage Examples**: Complete workflows and code examples
 3. **Advanced Features**: Custom searchers, batch processing, and more

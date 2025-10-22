@@ -117,7 +117,7 @@ Get notified when new papers match your criteria:
 **Integration Workflow**:
 
 ```python
-# Step 1: Get papers from Research Buddy
+# Step 1: Get papers from Review Buddy
 from paper_searcher import PaperSearcher
 searcher = PaperSearcher(config)
 papers = searcher.search_all(query="your query")
@@ -200,7 +200,7 @@ LitMaps works best as part of a multi-stage process:
 
 ```{mermaid}
 graph LR
-    A["Database Search<br>Research Buddy/Findpapers"] --> B[Initial Paper Set]
+    A["Database Search<br>Review Buddy/Findpapers"] --> B[Initial Paper Set]
     B --> C["LitMaps<br>Citation Discovery"]
     C --> D[Expanded Paper Set]
     D --> E[Screening & Selection]
@@ -211,7 +211,7 @@ graph LR
     style F fill:#e8f5e9
 ```
 
-1. **Initial Search**: Use Research Buddy or Findpapers for systematic database queries
+1. **Initial Search**: Use Review Buddy or Findpapers for systematic database queries
 2. **Citation Expansion**: Import results into LitMaps to find related papers
 3. **Export**: Download expanded set for screening
 4. **Validation**: Check against consensus tools (see [Consensus](3_Consensus))

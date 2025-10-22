@@ -1,5 +1,5 @@
 # 🛠️ More tools
-Beyond the primary tools covered in this guide (Research Buddy and Findpapers), there are several excellent complementary tools that can enhance your literature review workflow. This section provides brief tutorials for:
+Beyond the primary tools covered in this guide (Review Buddy and Findpapers), there are several excellent complementary tools that can enhance your literature review workflow. This section provides brief tutorials for:
 
 ## 📚 Tools Covered
 
@@ -43,7 +43,7 @@ Different tools excel at different stages of the literature review process:
 ```{mermaid}
 graph TD
     A[Research Question] --> B{Search Strategy}
-    B -->|Programmatic| C[Research Buddy]
+    B -->|Programmatic| C[Review Buddy]
     B -->|Configuration| D[Findpapers]
     B -->|Preprints| E[PaperScraper]
     
@@ -73,14 +73,14 @@ graph TD
 These tools work best when combined with your primary search strategy:
 
 ### Workflow 1: Comprehensive Discovery
-1. **Initial Search**: Use Research Buddy or Findpapers for systematic database searches
+1. **Initial Search**: Use Review Buddy or Findpapers for systematic database searches
 2. **Citation Mapping**: Upload key papers to LitMaps to discover related work
 3. **Validation**: Check scientific consensus with Consensus
 
 ### Workflow 2: Preprint-Focused Research
 1. **Preprint Search**: Use PaperScraper for latest research from arXiv/bioRxiv
 2. **AI Analysis**: Use Elicit to extract key findings from large paper sets
-3. **Integration**: Combine with peer-reviewed papers from Research Buddy
+3. **Integration**: Combine with peer-reviewed papers from Review Buddy
 
 ### Workflow 3: AI-Assisted Review
 1. **Broad Search**: Initial search with Findpapers across multiple databases
@@ -91,7 +91,7 @@ These tools work best when combined with your primary search strategy:
 
 | Tool | Best For | Access | Cost |
 |------|----------|--------|------|
-| **Research Buddy** | Programmatic control | Python API | Free |
+| **Review Buddy** | Programmatic control | Python API | Free |
 | **Findpapers** | Multi-database search | CLI/Python | Free |
 | **PaperScraper** | Preprint archives | Python | Free |
 | **LitMaps** | Citation networks | Web App | Freemium |

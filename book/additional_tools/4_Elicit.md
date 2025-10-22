@@ -68,12 +68,12 @@ Social Science:
 - "Effect sizes?"
 ```
 
-## Integration with Research Buddy/Findpapers
+## Integration with Review Buddy/Findpapers
 
 **Recommended Workflow**:
 
 ```python
-# Step 1: Comprehensive search with Research Buddy
+# Step 1: Comprehensive search with Review Buddy
 from paper_searcher import PaperSearcher
 searcher = PaperSearcher(config)
 papers = searcher.search_all(query="your systematic query")
@@ -105,7 +105,7 @@ with open('dois_for_elicit.txt', 'w') as f:
 **Combined Workflow**:
 ```
 1. Consensus (15 min): Get overview and consensus
-2. Research Buddy (30 min): Comprehensive search
+2. Review Buddy (30 min): Comprehensive search
 3. Elicit (2-4 hours): Extract data and screen papers
 4. Traditional reading: Verify and deep read
 ```

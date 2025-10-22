@@ -61,15 +61,15 @@ Start here {fas}`arrow-right`
 :::{grid-item-card}
 :class-body: text-center
 :class-header: bg-light text-center
-:link: ./research_buddy/0_Overview
+:link: ./review_buddy/0_Overview
 :link-type: doc
-**Research Buddy** 🔎
+**Review Buddy** 🔎
 ^^^
 ```{image} ../_static/images/findpaper.png
 :height: 100
 ```
 
-Master the powerful Research Buddy tool for programmatic searching, downloading, and managing literature across multiple databases.
+Master the powerful Review Buddy tool for programmatic searching, downloading, and managing literature across multiple databases.
 +++
 Explore tutorial {fas}`arrow-right`
 :::
@@ -96,7 +96,7 @@ Explore tools {fas}`arrow-right`
 
 ### Useful Resources
 - 📖 [PRISMA Guidelines](http://www.prisma-statement.org/) - Standards for systematic reviews
-- 💾 [Research Buddy](https://github.com/leonardozaggia/review_buddy)
+- 💾 [Review Buddy](https://github.com/leonardozaggia/review_buddy)
 - 🎓 [Getting Started with Python & VS Code](https://www.youtube.com/watch?v=6i3e-j3wSf0)
 - 🔬 [PMUS Lab GitHub](https://github.com/pmus-lab)
 

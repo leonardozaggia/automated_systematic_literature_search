@@ -229,7 +229,7 @@ print(f"Found {len(papers)} papers with consensus support")
 
 3. Design systematic search strategy
 
-4. Conduct full systematic search (Research Buddy)
+4. Conduct full systematic search (Review Buddy)
 
 5. Screen papers systematically
 
@@ -242,7 +242,7 @@ print(f"Found {len(papers)} papers with consensus support")
 # Go to consensus.app and search your question
 # Export initial_consensus.bib
 
-# Step 2: Systematic search with Research Buddy
+# Step 2: Systematic search with Review Buddy
 from paper_searcher import PaperSearcher
 searcher = PaperSearcher(config)
 papers = searcher.search_all(query="your systematic query")
@@ -347,7 +347,7 @@ Check for conflicts of interest → Form your conclusion
 
 Use Consensus alongside:
 
-- **Research Buddy/Findpapers**: Systematic database searches
+- **Review Buddy/Findpapers**: Systematic database searches
 - **LitMaps**: Citation network discovery
 - **Elicit**: Detailed paper analysis
 - **Traditional databases**: PubMed, Scopus, Web of Science
@@ -360,7 +360,7 @@ graph TD
     B --> C{Existing Consensus?}
     C -->|Strong| D["Refine Question<br>Find Gap"]
     C -->|Weak/Mixed| E["Opportunity<br>to Clarify"]
-    D --> F["Systematic Search<br>Research Buddy"]
+    D --> F["Systematic Search<br>Review Buddy"]
     E --> F
     F --> G["Citation Discovery<br>LitMaps"]
     G --> H["Detailed Analysis<br>Elicit"]
@@ -373,7 +373,7 @@ graph TD
 ```
 
 1. **Consensus**: Understand current state (15 min)
-2. **Research Buddy**: Systematic search (30 min)
+2. **Review Buddy**: Systematic search (30 min)
 3. **LitMaps**: Citation discovery (20 min)
 4. **Elicit**: Deep analysis (variable)
 5. **Traditional reading**: Final verification
