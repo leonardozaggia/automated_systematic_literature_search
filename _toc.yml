@@ -15,18 +15,14 @@ parts:
       - file: book/review_buddy/1_Installation
       - file: book/review_buddy/2_Usage_Examples
 
-  - caption: Findpapers
-    chapters:
-      - file: findpapers/0_Introduction
-      - file: findpapers/1_demo_findpapers
-
   - caption: Additional Tools & Resources
     chapters:
       - file: book/additional_tools/0_Overview
-      - file: book/additional_tools/1_PaperScraper
       - file: book/additional_tools/2_LitMaps
       - file: book/additional_tools/3_Consensus
       - file: book/additional_tools/4_Elicit
+      - file: book/additional_tools/5_Findpapers
+      - file: book/additional_tools/1_PaperScraper
 
   - caption: References
     chapters:

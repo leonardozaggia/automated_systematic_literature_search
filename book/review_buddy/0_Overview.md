@@ -2,7 +2,7 @@
 
 ## Overview
 
-[GitHub Badge](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)(https://github.com/leonardozaggia/review_buddy)
+[![GitHub Badge](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/leonardozaggia/review_buddy)
 
 **Review Buddy** is a production-ready toolkit for conducting automated systematic literature reviews. It provides a simple 3-script workflow that handles everything from multi-source searches to intelligent PDF downloads, with powerful abstract-based filtering (keyword or AI-powered) to streamline your screening process.
 
@@ -14,33 +14,33 @@ Perfect for:
 
 ## Key Features
 
-### 🔍 Multi-Source Search (5 Databases)
+### Multi-Source Search (5 Databases)
 - **Scopus**: Comprehensive coverage of peer-reviewed literature
 - **PubMed**: Biomedical and life sciences focus with PMC access
 - **arXiv**: Pre-prints and cutting-edge research
 - **Google Scholar**: Broadest academic coverage
 - **IEEE Xplore**: Engineering and computer science
 
-### 🎯 Smart Filtering
+### Smart Filtering
 - **Keyword-Based Filtering**: Rule-based abstract screening with customizable criteria
 - **AI-Powered Filtering** (NEW): Local LLM-based filtering using Ollama
 - **Built-in Filters**: Non-English, no abstract, animal studies, reviews, epilepsy, BCI
 - **Custom Filters**: Easy to add domain-specific exclusion criteria
 - **Manual Review Queue**: Papers flagged for manual verification (AI mode)
 
-### 📥 Intelligent Paper Downloading
+### Intelligent Paper Downloading
 - **10+ Download Strategies**: Multiple fallback methods for PDF retrieval
 - **Priority Order**: Direct PDF → arXiv → bioRxiv/medRxiv → Unpaywall → PMC → Publisher patterns → Crossref → HTML scraping → Sci-Hub (optional)
 - **Open Access Focus**: Unpaywall, arXiv, PubMed Central (US & Europe)
 - **Publisher Patterns**: MDPI, Frontiers, Nature, IEEE, ScienceDirect, Springer, PLOS
 - **70-90% Success Rate** (depends on source mix and Sci-Hub usage)
 
-### 📚 Export Formats
+### Export Formats
 - **BibTeX**: For LaTeX and reference managers
 - **RIS**: For EndNote, Mendeley, Zotero
 - **CSV**: For data analysis and spreadsheets
 
-### 🔄 Smart Deduplication
+### Smart Deduplication
 Automatic removal of duplicate papers across sources:
 - Title matching with fuzzy logic
 - DOI comparison

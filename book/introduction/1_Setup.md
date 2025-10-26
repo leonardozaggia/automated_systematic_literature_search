@@ -34,7 +34,7 @@ Before we begin, let's check what you need:
 - Git (for version control)
 - API keys (Scopus, IEEE)
 - Institutional database access
-- LaTeX (for PDF reports)
+
 :::
 
 ::::
@@ -126,7 +126,7 @@ conda activate autosearch
 ```
 :::
 
-## Step 4: Install Review Buddy (Recommended)
+## Step 4: Install Review Buddy
 
 Review Buddy is a production-ready toolkit for systematic reviews with a simple 3-step workflow.
 
@@ -158,6 +158,8 @@ This installs:
 cp .env.example .env
 ```
 
+The `.env` file is already added to `.gitignore` to keep your keys private!
+
 Edit `.env` file with your API keys (**at least one required**):
 
 ```bash
@@ -181,57 +183,9 @@ python 01_fetch_metadata.py
 
 You should see available sources listed. See the [Review Buddy Installation Guide](../review_buddy/1_Installation) for detailed setup instructions.
 
-## Step 4b: Install Findpapers (Alternative)
-
-Findpapers requires a specific dependency (`edlib`) that's best installed via conda-forge first.
-
-```bash
-# Install edlib from conda-forge
-conda install -c conda-forge edlib -y
-```
-
-```bash
-# Install findpapers via pip
-pip install findpapers
-```
-
-### Verify Installation
-
-Check that Findpapers is installed correctly:
-
-```bash
-findpapers version
-```
-
-You should see output like:
-```
-findpapers 0.6.7
-```
-
-## Step 5: Install Additional Tools (Optional)
-
-### For Enhanced Data Analysis
-
-```bash
-pip install pandas matplotlib seaborn jupyter
-```
-
-### For Other Automation Tools
-
-```bash
-pip install paperscraper metapub biopython
-```
-
-## Step 6: Database API Keys (Optional)
+## Step 5: Database API Keys (Optional)
 
 Some databases require API keys for full access. Here's how to obtain them:
-
-### IEEE Xplore API Key
-
-1. Visit [IEEE Developer Portal](https://developer.ieee.org/)
-2. Create an account or log in
-3. Navigate to "My APIs"
-4. Request an API key (usually instant approval)
 
 ### Scopus API Key
 
@@ -240,9 +194,16 @@ Some databases require API keys for full access. Here's how to obtain them:
 3. Navigate to "My API Key"
 4. Request an API key (may require institutional email)
 
+### IEEE Xplore API Key
+
+1. Visit [IEEE Developer Portal](https://developer.ieee.org/)
+2. Create an account or log in
+3. Navigate to "My APIs"
+4. Request an API key (usually instant approval)
+
 :::{admonition} Storing API Keys
 :class: tip
-Store your API keys as environment variables:
+To store your API keys as environment variables:
 
 **Windows (PowerShell):**
 ```powershell
@@ -257,9 +218,11 @@ export SCOPUS_TOKEN="your-scopus-api-key"
 ```
 
 For permanent storage, add these to your `.bashrc`, `.zshrc`, or PowerShell profile.
+
+This step is optional, you can rely on the `.env` file -> see Step 4.
 :::
 
-## Step 7: Verify Your Setup
+## Step 6: Verify Your Setup
 
 Let's run a quick test to ensure everything is working:
 
@@ -275,32 +238,6 @@ python 01_fetch_metadata.py
 
 You should see available sources listed. If you see "No API keys configured", edit your `.env` file.
 
-### For Findpapers (Alternative)
-
-```python
-# test_setup.py
-import sys
-print(f"Python version: {sys.version}")
-
-try:
-    import findpapers
-    print("✅ Findpapers installed successfully")
-except ImportError:
-    print("❌ Findpapers not found")
-
-try:
-    import pandas
-    print("✅ Pandas installed successfully")
-except ImportError:
-    print("⚠️ Pandas not installed (optional)")
-```
-
-Save this as `test_setup.py` and run:
-
-```bash
-python test_setup.py
-```
-
 ## Troubleshooting
 
 ### Common Issues
@@ -314,29 +251,11 @@ python test_setup.py
 - OR reinstall with "Add to PATH" option checked
 :::
 
-:::{grid-item-card} ❌ "edlib installation fails"
-**Solution:**
-```bash
-# Try installing through pip
-pip install edlib
-```
-:::
-
 :::{grid-item-card} ❌ "Permission denied"
 **Solution:**
 - Run terminal as Administrator (Windows)
 - Use `sudo` on macOS/Linux
 - Check firewall/antivirus settings
-:::
-
-:::{grid-item-card} ❌ "findpapers command not found"
-**Solution:**
-```bash
-# Ensure environment is activated
-conda activate autosearch
-# Reinstall findpapers
-pip install --upgrade findpapers
-```
 :::
 
 ::::
@@ -361,16 +280,14 @@ conda deactivate
 
 🎉 **Congratulations!** Your environment is ready. Choose your path:
 
-**Recommended:** ➡️ **[Review Buddy Tutorial](../review_buddy/0_Overview)** - Production-ready 3-step workflow with advanced filtering
-
-**Alternative:** ➡️ **[Findpapers Tutorial](../findpapers/0_Introduction)** - Configuration-based approach
+➡️ **[Review Buddy Tutorial](../review_buddy/0_Overview)** - Production-ready 3-step workflow with advanced filtering
 
 ## Additional Resources
 
-- 📖 [Review Buddy Documentation](https://github.com/leonardozaggia/review_buddy)
-- 💬 [Findpapers Issues](https://github.com/jonatasgrosman/findpapers/issues)
-- 🎓 [Python for Beginners](https://www.python.org/about/gettingstarted/)
-- 📚 [PRISMA Guidelines](http://www.prisma-statement.org/)
+- [Review Buddy Documentation](https://github.com/leonardozaggia/review_buddy)
+- [Findpapers Issues](https://github.com/jonatasgrosman/findpapers/issues)
+- [Python for Beginners](https://www.python.org/about/gettingstarted/)
+- [PRISMA Guidelines](http://www.prisma-statement.org/)
 
 ---
 
@@ -378,5 +295,6 @@ conda deactivate
 :class: tip
 - 📖 [Conda Cheat Sheet](https://docs.conda.io/projects/conda/en/latest/user-guide/cheatsheet.html)
 - 🎥 [VS Code Python Tutorial](https://www.youtube.com/watch?v=6i3e-j3wSf0)
-- 💬 [Findpapers Issues](https://github.com/jonatasgrosman/findpapers/issues)
+- [https://github.com/leonardozaggia/review_buddy](https://github.com/leonardozaggia/review_buddy)
+
 :::

@@ -106,18 +106,18 @@ Manual systematic reviews face several challenges:
 
 Automation tools can help with:
 
-🚀 **Speed**: Search multiple databases simultaneously  
-🎯 **Accuracy**: Consistent application of inclusion/exclusion criteria  
-♻️ **Reproducibility**: Document and share exact search parameters  
-🔍 **Comprehensiveness**: Ensure no relevant papers are missed  
-📊 **Organization**: Systematic tracking of decisions and classifications  
-⚡ **Efficiency**: Free up time for critical thinking and analysis
+ **Speed**: Search multiple databases simultaneously  
+ **Accuracy**: Consistent application of inclusion/exclusion criteria  
+ **Reproducibility**: Document and share exact search parameters  
+ **Comprehensiveness**: Ensure no relevant papers are missed  
+ **Organization**: Systematic tracking of decisions and classifications  
+ **Efficiency**: Free up time for critical thinking and analysis
 
 ## Tools Overview
 
 This book focuses on powerful Python tools for automated literature review:
 
-### 1. **Review Buddy** (Primary Tool - Recommended)
+### 1. **Review Buddy** (Primary Tool)
 - **5-database search**: Scopus, PubMed, arXiv, Google Scholar, IEEE Xplore
 - **Smart filtering**: Keyword-based OR AI-powered (Ollama) abstract screening
 - **10+ download strategies**: 70-90% success rate including open access, arXiv, bioRxiv, PMC, publisher patterns
@@ -126,17 +126,12 @@ This book focuses on powerful Python tools for automated literature review:
 - **Multiple exports**: BibTeX, RIS, CSV
 - **Open source**: Available at [github.com/leonardozaggia/review_buddy](https://github.com/leonardozaggia/review_buddy)
 
-### 2. **Findpapers** (Configuration-Based Alternative)
-- YAML-based configuration for quick searches
-- Built-in refinement and categorization
-- Good for one-off literature reviews
-- No Python coding required
-
-### 3. **Complementary Tools**
-- **PaperScraper**: Preprint scraping (arXiv, bioRxiv, medRxiv)
+### 2. **Complementary Tools**
 - **LitMaps**: Visual citation network discovery
 - **Consensus**: AI-powered scientific consensus search
 - **Elicit**: AI data extraction and screening
+- **Findpapers**: command-line configuration-based search tool
+- **PaperScraper**: Preprint scraping (arXiv, bioRxiv, medRxiv)
 
 ## What You'll Need
 
@@ -157,36 +152,36 @@ If you're new to Python, check out the [Setup Guide](1_Setup) in the next sectio
 Let's say you want to conduct a systematic review on **"Machine Learning Applications in Mental Health Diagnosis"**. Here's how Review Buddy helps:
 
 **Without Automation:**
-- 🕐 Manually search PubMed, Scopus, IEEE, ACM (2-3 days)
-- 🕐 Export results from each database separately (3-4 hours)
-- 🕐 Manually remove duplicates in Excel (4-6 hours)
-- 🕐 Download PDFs one by one (1-2 weeks)
-- 🕐 Track everything in spreadsheets (ongoing confusion)
+- Manually search PubMed, Scopus, IEEE, ACM (2-3 days)
+- Export results from each database separately (3-4 hours)
+- Manually remove duplicates in Excel (4-6 hours)
+- Download PDFs one by one (1-2 weeks)
+- Track everything in spreadsheets (ongoing confusion)
 
 **With Review Buddy:**
 ```bash
-# Step 1: Search all databases (30 minutes)
+# Step 1: Search all databases (5-10 minutes)
 python 01_fetch_metadata.py
 # Query: (machine learning OR AI) AND mental health AND diagnosis
 # Result: 200+ papers from 5 databases → references.bib
 
-# Step 2: Filter papers by abstract (10 minutes) - Optional
+# Step 2: Filter papers by abstract (5-10 minutes) - Optional
 python 02_abstract_filter.py
 # Exclude: non-English, animal studies, reviews
 # Result: 200 → 145 papers → references_filtered.bib
 
-# Step 3: Download PDFs automatically (2-4 hours)
+# Step 3: Download PDFs automatically (10 minutes)
 python 03_download_papers.py
 # Result: 105 PDFs downloaded (72% success rate)
 ```
 
 **Result:**
-- ⚡ 200+ papers found across 5 databases (Scopus, PubMed, arXiv, Scholar, IEEE)
-- ⚡ Automatic deduplication and PubMed prioritization
-- ⚡ Intelligent abstract-based filtering (keyword or AI)
-- ⚡ 105 PDFs downloaded using 10+ strategies
-- ⚡ Ready for screening in BibTeX/RIS/CSV format
-- ⚡ Everything documented, logged, and reproducible
+1. 200+ papers found across 5 databases (Scopus, PubMed, arXiv, Scholar, IEEE)
+2. Automatic deduplication and PubMed prioritization
+3. Intelligent abstract-based filtering (keyword or AI)
+4. 105 PDFs downloaded using 10+ strategies
+5. Ready for screening in BibTeX/RIS/CSV format
+6. Everything documented, logged, and reproducible
 
 ## Expected Outcomes
 

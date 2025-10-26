@@ -1,8 +1,6 @@
 # Automated Systematic Literature Reviews
 
-[![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://leonardozaggia.github.io/automated_systematic_literature_search/)
-
-**Click the badge above to access the interactive tutorial book** 👆
+**Click the badge to access the interactive tutorial book** -> [![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://leonardozaggia.github.io/automated_systematic_literature_search/)
 
 ---
 
@@ -11,11 +9,11 @@
 A comprehensive, hands-on guide for researchers looking to automate their systematic literature review workflows using Python tools.
 
 **What you'll learn:**
-- 🔍 Multi-database searches (Scopus, PubMed, arXiv, IEEE, Google Scholar)
-- 🎯 Smart filtering with keyword-based and AI-powered abstract screening
-- 📥 Automated PDF downloads with 10+ intelligent strategies
-- � Bibliography generation (BibTeX, RIS, CSV)
-- ♻️ Reproducible, PRISMA-compliant workflows
+- Multi-database searches (Scopus, PubMed, arXiv, IEEE, Google Scholar)
+- Smart filtering with keyword-based and AI-powered abstract screening
+- Automated PDF downloads with 10+ intelligent strategies
+- Bibliography generation (BibTeX, RIS, CSV)
+- Reproducible, PRISMA-compliant workflows
 
 **Featured Tools:**
 - **Review Buddy** - Production-ready 3-step workflow (Fetch → Filter → Download)
@@ -26,9 +24,9 @@ A comprehensive, hands-on guide for researchers looking to automate their system
 
 ## Quick Links
 
-� **[Read the Book Online](https://leonardozaggia.github.io/automated_systematic_literature_search/)** ← Start here!
+ **[Read the Book Online](https://leonardozaggia.github.io/automated_systematic_literature_search/)** ← Start here!
 
-💻 **[Review Buddy Repository](https://github.com/leonardozaggia/review_buddy)** - Main toolkit featured in the book
+ **[Review Buddy Repository](https://github.com/leonardozaggia/review_buddy)** - Main toolkit featured in the book
 
 ---
 
