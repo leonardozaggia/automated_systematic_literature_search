@@ -117,11 +117,12 @@ Automation tools can help with:
 
 This book focuses on powerful Python tools for automated literature review:
 
-### 1. **Review Buddy** (Primary Tool - Programmatic)
-- **Multi-source search**: Scopus, PubMed, arXiv, Google Scholar, IEEE Xplore
-- **Intelligent downloading**: 8-strategy PDF retrieval (98% success for open access)
-- **Full Python control**: Integrate into custom workflows and pipelines
-- **Smart deduplication**: Automatic across all sources
+### 1. **Review Buddy** (Primary Tool - Recommended)
+- **5-database search**: Scopus, PubMed, arXiv, Google Scholar, IEEE Xplore
+- **Smart filtering**: Keyword-based OR AI-powered (Ollama) abstract screening
+- **10+ download strategies**: 70-90% success rate including open access, arXiv, bioRxiv, PMC, publisher patterns
+- **Simple 3-step workflow**: Fetch → Filter → Download
+- **Production-ready**: Comprehensive error handling, logging, and documentation
 - **Multiple exports**: BibTeX, RIS, CSV
 - **Open source**: Available at [github.com/leonardozaggia/review_buddy](https://github.com/leonardozaggia/review_buddy)
 
@@ -163,30 +164,29 @@ Let's say you want to conduct a systematic review on **"Machine Learning Applica
 - 🕐 Track everything in spreadsheets (ongoing confusion)
 
 **With Review Buddy:**
-```python
-from src.paper_searcher import PaperSearcher
-from src.config import Config
+```bash
+# Step 1: Search all databases (30 minutes)
+python 01_fetch_metadata.py
+# Query: (machine learning OR AI) AND mental health AND diagnosis
+# Result: 200+ papers from 5 databases → references.bib
 
-# Search all databases (30 minutes)
-searcher = PaperSearcher(Config(max_results_per_source=50))
-papers = searcher.search_all(
-    query="(machine learning OR AI) AND mental health AND diagnosis",
-    year_from=2020
-)
+# Step 2: Filter papers by abstract (10 minutes) - Optional
+python 02_abstract_filter.py
+# Exclude: non-English, animal studies, reviews
+# Result: 200 → 145 papers → references_filtered.bib
 
-# Export results (instant)
-searcher.generate_bibliography(papers, format="bibtex", output_file="papers.bib")
-
-# Download PDFs automatically (2-4 hours, 65-75% success rate)
-downloader.download_from_bib("papers.bib")
+# Step 3: Download PDFs automatically (2-4 hours)
+python 03_download_papers.py
+# Result: 105 PDFs downloaded (72% success rate)
 ```
 
 **Result:**
-- ⚡ 200+ papers found across 5 databases
-- ⚡ Automatic deduplication
-- ⚡ 130+ PDFs downloaded automatically
-- ⚡ Ready for screening in BibTeX/CSV format
-- ⚡ Everything documented and reproducible
+- ⚡ 200+ papers found across 5 databases (Scopus, PubMed, arXiv, Scholar, IEEE)
+- ⚡ Automatic deduplication and PubMed prioritization
+- ⚡ Intelligent abstract-based filtering (keyword or AI)
+- ⚡ 105 PDFs downloaded using 10+ strategies
+- ⚡ Ready for screening in BibTeX/RIS/CSV format
+- ⚡ Everything documented, logged, and reproducible
 
 ## Expected Outcomes
 

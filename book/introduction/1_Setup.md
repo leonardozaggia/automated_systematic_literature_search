@@ -126,7 +126,62 @@ conda activate autosearch
 ```
 :::
 
-## Step 4: Install Findpapers
+## Step 4: Install Review Buddy (Recommended)
+
+Review Buddy is a production-ready toolkit for systematic reviews with a simple 3-step workflow.
+
+### Clone the Repository
+
+```bash
+# Clone from GitHub
+git clone https://github.com/leonardozaggia/review_buddy.git
+cd review_buddy
+```
+
+Or download the ZIP file from GitHub and extract it.
+
+### Install Dependencies
+
+```bash
+# Install required packages
+pip install -r requirements.txt
+```
+
+This installs:
+- Core dependencies (requests, lxml, beautifulsoup4, tqdm, bibtexparser)
+- Optional: scholarly (Google Scholar), langdetect (language filtering)
+
+### Configure API Keys
+
+```bash
+# Create .env file from template
+cp .env.example .env
+```
+
+Edit `.env` file with your API keys (**at least one required**):
+
+```bash
+# Recommended: Scopus (best coverage)
+SCOPUS_API_KEY=your_scopus_key_here
+
+# Recommended: PubMed (biomedical papers)
+PUBMED_EMAIL=your.email@example.com
+
+# Optional but helpful
+UNPAYWALL_EMAIL=your.email@example.com
+IEEE_API_KEY=your_ieee_key_here
+```
+
+### Verify Installation
+
+```bash
+# Run a quick test
+python 01_fetch_metadata.py
+```
+
+You should see available sources listed. See the [Review Buddy Installation Guide](../review_buddy/1_Installation) for detailed setup instructions.
+
+## Step 4b: Install Findpapers (Alternative)
 
 Findpapers requires a specific dependency (`edlib`) that's best installed via conda-forge first.
 
@@ -207,6 +262,20 @@ For permanent storage, add these to your `.bashrc`, `.zshrc`, or PowerShell prof
 ## Step 7: Verify Your Setup
 
 Let's run a quick test to ensure everything is working:
+
+### For Review Buddy (Recommended)
+
+```bash
+# Navigate to review_buddy folder
+cd review_buddy
+
+# Run the fetch script
+python 01_fetch_metadata.py
+```
+
+You should see available sources listed. If you see "No API keys configured", edit your `.env` file.
+
+### For Findpapers (Alternative)
 
 ```python
 # test_setup.py
@@ -290,9 +359,18 @@ conda deactivate
 
 ## What's Next?
 
-🎉 **Congratulations!** Your environment is ready. Now let's learn how to use Findpapers:
+🎉 **Congratulations!** Your environment is ready. Choose your path:
 
-➡️ Continue to **[Findpapers Tutorial](../findpapers/0_Introduction)** to start your first literature search!
+**Recommended:** ➡️ **[Review Buddy Tutorial](../review_buddy/0_Overview)** - Production-ready 3-step workflow with advanced filtering
+
+**Alternative:** ➡️ **[Findpapers Tutorial](../findpapers/0_Introduction)** - Configuration-based approach
+
+## Additional Resources
+
+- 📖 [Review Buddy Documentation](https://github.com/leonardozaggia/review_buddy)
+- 💬 [Findpapers Issues](https://github.com/jonatasgrosman/findpapers/issues)
+- 🎓 [Python for Beginners](https://www.python.org/about/gettingstarted/)
+- 📚 [PRISMA Guidelines](http://www.prisma-statement.org/)
 
 ---
 
