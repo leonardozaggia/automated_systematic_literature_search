@@ -69,7 +69,7 @@ Start here {fas}`arrow-right`
 :height: 100
 ```
 
-Master the powerful Review Buddy tool for programmatic searching, downloading, and managing literature across multiple databases.
+Production-ready toolkit for systematic reviews with 5-database search, intelligent filtering (keyword + AI), and 10+ download strategies.
 +++
 Explore tutorial {fas}`arrow-right`
 :::

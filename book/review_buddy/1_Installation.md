@@ -1,19 +1,25 @@
-# 🔧 Installation & Setup
+# <i class="fa-solid fa-wrench"></i> Installation & Setup
 
 ## Prerequisites
 
-- **Python 3.8+**
+- **Python 3.7+** (Python 3.8+ recommended)
 - **pip** (Python package manager)
-- **Git** (to clone the repository)
+- **Git** (optional - to clone from GitHub)
+- **Ollama** (optional - for AI-powered filtering)
 
 ## Installation Steps
 
-### 1. Clone the Repository
+### 1. Get Review Buddy
 
+**Option A: Clone from GitHub (recommended)**
 ```bash
 git clone https://github.com/leonardozaggia/review_buddy.git
 cd review_buddy
 ```
+
+**Option B: Download ZIP**
+- Download from GitHub and extract
+- Navigate to the folder in terminal
 
 ### 2. Install Dependencies
 
@@ -21,121 +27,221 @@ cd review_buddy
 pip install -r requirements.txt
 ```
 
-**Required packages:**
-- `requests` - HTTP requests
-- `lxml` - HTML/XML parsing
-- `python-dotenv` - Environment variable management
-- `scholarly` - Google Scholar access
+**Core dependencies (always installed):**
+- `requests>=2.31.0` - HTTP requests
+- `lxml>=4.9.0` - HTML/XML parsing
+- `python-dotenv>=1.0.0` - Environment variable management
+- `beautifulsoup4>=4.12.0` - HTML parsing
+- `tqdm>=4.66.0` - Progress bars
+- `bibtexparser>=1.4.0` - BibTeX file handling
+- `rispy>=0.7.0` - RIS file handling
+
+**Optional dependencies:**
+- `scholarly>=1.7.0` - Google Scholar (install if using Scholar search)
+- `langdetect>=1.0.9` - Language detection (for abstract filtering)
+- `scihub` - Sci-Hub access (install if using Sci-Hub downloads)
 
 ### 3. Configure API Keys
 
-Copy the example configuration file:
+Create a `.env` file in the project root:
 
 ```bash
 cp .env.example .env
 ```
 
-Edit `.env` with your API keys (at least one required):
+Edit `.env` with your credentials (**at least one API key required**):
 
 ```bash
-# Required for Scopus searches
+# Scopus (Recommended - best coverage)
 SCOPUS_API_KEY=your_scopus_api_key_here
 
-# Required for PubMed and paper downloads
+# PubMed (Required for biomedical papers and better downloads)
 PUBMED_EMAIL=your.email@example.com
+PUBMED_API_KEY=optional_key_for_higher_rate_limits
 
-# Optional: Increases PubMed rate limits
-PUBMED_API_KEY=your_pubmed_api_key_here
+# Unpaywall (Highly recommended - improves download success)
+UNPAYWALL_EMAIL=your.email@example.com
 
-# Optional: For IEEE searches
+# IEEE Xplore (Optional - for engineering papers)
 IEEE_API_KEY=your_ieee_api_key_here
 
-# Optional: For Unpaywall open access downloads
-UNPAYWALL_EMAIL=your.email@example.com
+# Ollama (Optional - for AI filtering)
+OLLAMA_MODEL=llama3.1:8b
 ```
+
+**Minimum setup**: Either `SCOPUS_API_KEY` OR `PUBMED_EMAIL` (both recommended)  
+**For best results**: Configure all available sources
 
 ### 4. Obtain API Keys
 
-**Scopus (Recommended):**
-- Visit: [https://dev.elsevier.com/](https://dev.elsevier.com/)
-- Create account → Request API key
-- Free tier: 5,000 requests/week
+#### Scopus (Highly Recommended)
+- **Website**: [https://dev.elsevier.com/](https://dev.elsevier.com/)
+- **How**: Create account → Request API key
+- **Free tier**: 5,000 requests/week
+- **Coverage**: Best for peer-reviewed publications
 
-**PubMed (Free):**
-- Email address required (any valid email)
-- Optional API key: [https://www.ncbi.nlm.nih.gov/account/](https://www.ncbi.nlm.nih.gov/account/)
-- Increases rate limits from 3 to 10 requests/second
+#### PubMed (Free, Highly Recommended)
+- **Website**: [https://www.ncbi.nlm.nih.gov/account/](https://www.ncbi.nlm.nih.gov/account/)
+- **Email**: Any valid email (no registration needed)
+- **API Key** (optional): Register for key to increase rate limits (3→10 req/sec)
+- **Coverage**: Best for biomedical/life sciences
 
-**IEEE Xplore (Optional):**
-- Visit: [https://developer.ieee.org/](https://developer.ieee.org/)
-- Register → Request API key
-- Free tier: 200 queries/day
+#### Unpaywall (Free, Recommended)
+- **Email**: Any valid email (no registration)
+- **Benefit**: Significantly improves open access paper discovery
+- **Use**: Add your email to `.env` as `UNPAYWALL_EMAIL`
+
+#### IEEE Xplore (Optional)
+- **Website**: [https://developer.ieee.org/](https://developer.ieee.org/)
+- **How**: Register → Request API key
+- **Free tier**: 200 queries/day
+- **Coverage**: Engineering and computer science
+
+#### Ollama (Optional - for AI Filtering)
+- **Website**: [https://ollama.ai/](https://ollama.ai/)
+- **How**: Download and install Ollama → Pull model: `ollama pull llama3.1:8b`
+- **Models**: llama3.1:8b (recommended), mistral, etc.
+- **Use**: Local LLM for intelligent abstract filtering
 
 ## Verify Installation
 
-Test that everything is configured correctly:
+### Quick Verification
+
+The easiest way to verify is to run the fetch script:
+
+```bash
+python 01_fetch_metadata.py
+```
+
+You should see:
+```
+================================================================================
+REVIEW BUDDY - FETCH PAPER METADATA
+================================================================================
+
+✓ Available sources: Scopus, PubMed, arXiv, Google Scholar, IEEE Xplore
+```
+
+If you see `❌ ERROR: No API keys configured!`, check your `.env` file.
+
+### Manual Test (Optional)
+
+Create a test script to check configuration:
 
 ```python
+from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).parent))
+
 from src.config import Config
 
 config = Config()
 
-# Check which sources are available
+print("Available sources:")
 if config.has_scopus_access():
-    print("✓ Scopus configured")
+    print("  ✓ Scopus configured")
 if config.has_pubmed_access():
-    print("✓ PubMed configured")
+    print("  ✓ PubMed configured")
 if config.has_arxiv_access():
-    print("✓ arXiv available (no key needed)")
+    print("  ✓ arXiv available (no key needed)")
 if config.has_scholar_access():
-    print("✓ Google Scholar available")
+    print("  ✓ Google Scholar available")
 if config.has_ieee_access():
-    print("✓ IEEE Xplore configured")
+    print("  ✓ IEEE Xplore configured")
 ```
 
-## Quick Test
+### Test Search (Optional)
 
-Run a simple search to verify everything works:
+Run a small test search:
 
-```python
-from src.paper_searcher import PaperSearcher
-from src.config import Config
+```bash
+# Edit 01_fetch_metadata.py to set:
+# QUERY = "machine learning"
+# MAX_RESULTS_PER_SOURCE = 5
 
-searcher = PaperSearcher(Config(max_results_per_source=5))
-papers = searcher.search_all(query="machine learning", year_from=2023)
-
-print(f"Found {len(papers)} papers")
+python 01_fetch_metadata.py
 ```
+
+Check that `results/references.bib` is created with papers.
 
 ## Troubleshooting
 
-### Import Errors
-```bash
-# Ensure you're in the review_buddy directory
-cd review_buddy
+### No API Keys Configured
+**Error**: `❌ ERROR: No API keys configured!`
 
-# Verify __init__.py files exist
-ls src/__init__.py
-ls src/searchers/__init__.py
+**Solution**: 
+1. Check that `.env` file exists in project root
+2. Add at least one API key (Scopus or PubMed email)
+3. Restart your terminal/IDE
+
+### Import Errors
+**Error**: `ModuleNotFoundError: No module named 'src'`
+
+**Solution**:
+```bash
+# Run scripts from project root (where src/ folder is)
+cd /path/to/review_buddy
+python 01_fetch_metadata.py
 ```
 
 ### API Key Not Working
+**Error**: `Invalid API key` or `Authentication failed`
+
+**Solution**:
 ```bash
-# Check .env file is in the correct location
+# Verify .env file is in project root
 ls .env
 
-# Verify environment variables are loaded
-python -c "from dotenv import load_dotenv; import os; load_dotenv(); print(os.getenv('SCOPUS_API_KEY'))"
+# Check environment variables load correctly
+python -c "from dotenv import load_dotenv; import os; load_dotenv(); print('Scopus:', os.getenv('SCOPUS_API_KEY')[:10] if os.getenv('SCOPUS_API_KEY') else 'Not set')"
 ```
 
 ### Rate Limit Errors
-- Wait a few minutes before retrying
-- PubMed: Get API key to increase limits
-- Scopus: Check weekly quota at dev.elsevier.com
+**Error**: `Rate limit exceeded`
+
+**Solution**:
+- **PubMed**: Get API key to increase from 3→10 req/sec
+- **Scopus**: Check weekly quota at [dev.elsevier.com](https://dev.elsevier.com)
+- **Wait**: Rate limits reset after a few minutes
+
+### No Papers Found
+**Error**: Search completes but finds 0 papers
+
+**Solution**:
+1. Try a simpler query: `"machine learning"`
+2. Check year range (some databases lag by 1-2 years)
+3. Verify API keys are valid
+4. Try a different source
+
+### Language Detection Issues
+**Error**: `langdetect not installed`
+
+**Solution**:
+```bash
+pip install langdetect
+```
+
+Or disable language filtering in `02_abstract_filter.py`:
+```python
+FILTERS_ENABLED = {
+    'non_english': False,  # Disable
+    # ... other filters
+}
+```
+
+### Ollama Not Working (AI Filtering)
+**Error**: `Failed to initialize Ollama client`
+
+**Solution**:
+1. Install Ollama: [https://ollama.ai](https://ollama.ai)
+2. Pull model: `ollama pull llama3.1:8b`
+3. Check Ollama is running: `ollama list`
+4. Verify URL in `.env`: `OLLAMA_URL=http://localhost:11434`
 
 ## What's Next?
 
 Proceed to [Usage Examples](2_Usage_Examples) to learn how to:
-- Search for papers across multiple databases
-- Download PDFs automatically
+- Configure and run searches across multiple databases
+- Filter papers by abstract content (keyword or AI)
+- Download PDFs with intelligent fallback strategies
 - Export results in multiple formats
