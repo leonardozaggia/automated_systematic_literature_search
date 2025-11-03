@@ -1,0 +1,209 @@
+2025-10-21 17:00:30,374 [INFO] ================================================================================
+2025-10-21 17:00:30,376 [INFO] NEW DOWNLOAD SESSION (Improved)
+2025-10-21 17:00:30,378 [INFO] Input file: L:\Desktop\Main\Projects\review_buddy\results\references.bib
+2025-10-21 17:00:30,378 [INFO] Output directory: results_side
+2025-10-21 17:00:30,378 [INFO] Unpaywall: False
+2025-10-21 17:00:30,379 [INFO] Sci-Hub: False
+2025-10-21 17:00:30,379 [INFO] ================================================================================
+2025-10-21 17:00:30,708 [INFO] [1/199] ------------------------------------------------------------
+2025-10-21 17:00:30,710 [INFO] PROCESSING: Integrating artificial intelligence and quantum computing: A systematic literatu
+2025-10-21 17:00:30,711 [INFO]   DOI: 10.1016/j.ijcce.2025.08.002
+2025-10-21 17:00:30,711 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105014601110&origin=inward
+2025-10-21 17:00:36,934 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:00:36,936 [INFO] [2/199] ------------------------------------------------------------
+2025-10-21 17:00:36,938 [INFO] PROCESSING: Unraveling Genetic Markers in Breast Cancer: Bioinformatics Perspectives
+2025-10-21 17:00:36,938 [INFO]   DOI: 10.1142/S2737416525300019
+2025-10-21 17:00:36,939 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105010953929&origin=inward
+2025-10-21 17:00:38,837 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:00:38,839 [INFO] [3/199] ------------------------------------------------------------
+2025-10-21 17:00:38,840 [INFO] PROCESSING: REX: Causal discovery based on machine learning and explainability techniques
+2025-10-21 17:00:38,841 [INFO]   DOI: 10.1016/j.patcog.2025.112491
+2025-10-21 17:00:38,841 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105018297330&origin=inward
+2025-10-21 17:00:40,143 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:00:40,143 [INFO] [4/199] ------------------------------------------------------------
+2025-10-21 17:00:40,144 [INFO] PROCESSING: Structural equation modeling for causal effect estimation with machine learning
+2025-10-21 17:00:40,145 [INFO]   DOI: 10.1016/j.cam.2025.117020
+2025-10-21 17:00:40,146 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105013337279&origin=inward
+2025-10-21 17:00:41,744 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:00:41,746 [INFO] [5/199] ------------------------------------------------------------
+2025-10-21 17:00:41,747 [INFO] PROCESSING: EEG augmentation for emotion classification using multi-branch Wasserstein condi
+2025-10-21 17:00:41,748 [INFO]   DOI: 10.1016/j.bspc.2025.108908
+2025-10-21 17:00:41,749 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105018169591&origin=inward
+2025-10-21 17:00:42,917 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:00:42,919 [INFO] [6/199] ------------------------------------------------------------
+2025-10-21 17:00:42,920 [INFO] PROCESSING: KANBalance: Kolmogorov–Arnold network mitigates class imbalance
+2025-10-21 17:00:42,921 [INFO]   DOI: 10.1016/j.patcog.2025.112325
+2025-10-21 17:00:42,921 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105014289282&origin=inward
+2025-10-21 17:00:44,138 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:00:44,138 [INFO] [7/199] ------------------------------------------------------------
+2025-10-21 17:00:44,139 [INFO] PROCESSING: Advancing biomaterial research with artificial intelligence
+2025-10-21 17:00:44,140 [INFO]   DOI: 10.1016/j.bioadv.2025.214535
+2025-10-21 17:00:44,141 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105018051320&origin=inward
+2025-10-21 17:00:47,804 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:00:47,805 [INFO] [8/199] ------------------------------------------------------------
+2025-10-21 17:00:47,806 [INFO] PROCESSING: AI-Driven Strategies for Supply Chain Resilience: A Review of Challenges and Sol
+2025-10-21 17:00:47,807 [INFO]   DOI: 10.5829/ije.2026.39.03c.03
+2025-10-21 17:00:47,807 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105009636125&origin=inward
+2025-10-21 17:00:49,920 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:00:49,921 [INFO] [9/199] ------------------------------------------------------------
+2025-10-21 17:00:49,922 [INFO] PROCESSING: Deep learning driven radiographic classification of primary bone tumors using at
+2025-10-21 17:00:49,923 [INFO]   DOI: 10.1016/j.bspc.2025.108888
+2025-10-21 17:00:49,924 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105018473285&origin=inward
+2025-10-21 17:00:51,201 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:00:51,202 [INFO] [10/199] ------------------------------------------------------------
+2025-10-21 17:00:51,204 [INFO] PROCESSING: EVA-S3PC: Efficient, verifiable, accurate secure matrix multiplication protocol 
+2025-10-21 17:00:51,205 [INFO]   DOI: 10.1016/j.inffus.2025.103803
+2025-10-21 17:00:51,205 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105018298446&origin=inward
+2025-10-21 17:00:52,986 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:00:52,987 [INFO] [11/199] ------------------------------------------------------------
+2025-10-21 17:00:52,988 [INFO] PROCESSING: Investigation of various validation and testing schemes for classification of cr
+2025-10-21 17:00:52,989 [INFO]   DOI: 10.1016/j.bspc.2025.108523
+2025-10-21 17:00:52,989 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105013629740&origin=inward
+2025-10-21 17:00:54,563 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:00:54,564 [INFO] [12/199] ------------------------------------------------------------
+2025-10-21 17:00:54,566 [INFO] PROCESSING: Generative Adversarial Networks: A Systematic Review of Characteristics, Applica
+2025-10-21 17:00:54,566 [INFO]   DOI: 10.5829/IJE.2026.39.02B.09
+2025-10-21 17:00:54,567 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105007139742&origin=inward
+2025-10-21 17:00:56,053 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:00:56,054 [INFO] [13/199] ------------------------------------------------------------
+2025-10-21 17:00:56,055 [INFO] PROCESSING: Tianyi: A traditional Chinese medicine all-rounder language model and its real-w
+2025-10-21 17:00:56,068 [INFO]   DOI: 10.1016/j.inffus.2025.103663
+2025-10-21 17:00:56,069 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105014920965&origin=inward
+2025-10-21 17:00:57,307 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:00:57,308 [INFO] [14/199] ------------------------------------------------------------
+2025-10-21 17:00:57,309 [INFO] PROCESSING: A cross-task fNIRS framework for multi-class mental health classification using 
+2025-10-21 17:00:57,310 [INFO]   DOI: 10.1016/j.bspc.2025.108559
+2025-10-21 17:00:57,310 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105013672380&origin=inward
+2025-10-21 17:00:59,107 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:00:59,108 [INFO] [15/199] ------------------------------------------------------------
+2025-10-21 17:00:59,109 [INFO] PROCESSING: Prognosis models for nasopharyngeal carcinoma recurrences by using tabu search a
+2025-10-21 17:00:59,109 [INFO]   DOI: 10.1016/j.compbiolchem.2025.108687
+2025-10-21 17:00:59,110 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105017231291&origin=inward
+2025-10-21 17:01:00,381 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:01:00,382 [INFO] [16/199] ------------------------------------------------------------
+2025-10-21 17:01:00,384 [INFO] PROCESSING: Self-DenseMobileNet: A robust framework for lung nodule classification using Sel
+2025-10-21 17:01:00,385 [INFO]   DOI: 10.1016/j.bspc.2025.108588
+2025-10-21 17:01:00,386 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105015140194&origin=inward
+2025-10-21 17:01:02,517 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:01:02,518 [INFO] [17/199] ------------------------------------------------------------
+2025-10-21 17:01:02,520 [INFO] PROCESSING: Stacked ensembles for one-step and multi-step ahead BGL forecasting
+2025-10-21 17:01:02,520 [INFO]   DOI: 10.1016/j.bspc.2025.108536
+2025-10-21 17:01:02,521 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105013508960&origin=inward
+2025-10-21 17:01:05,565 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:01:05,566 [INFO] [18/199] ------------------------------------------------------------
+2025-10-21 17:01:05,568 [INFO] PROCESSING: AI-driven diagnosis of Lassa fever: Evidence from Nigerian clinical records
+2025-10-21 17:01:05,568 [INFO]   DOI: 10.1016/j.compbiolchem.2025.108627
+2025-10-21 17:01:05,569 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105012817302&origin=inward
+2025-10-21 17:01:07,528 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:01:07,529 [INFO] [19/199] ------------------------------------------------------------
+2025-10-21 17:01:07,531 [INFO] PROCESSING: Smart healthcare: A novel deep learning based OptGPDCNN framework for heart dise
+2025-10-21 17:01:07,532 [INFO]   DOI: 10.1016/j.bspc.2025.108594
+2025-10-21 17:01:07,532 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105013381800&origin=inward
+2025-10-21 17:01:09,555 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:01:09,556 [INFO] [20/199] ------------------------------------------------------------
+2025-10-21 17:01:09,557 [INFO] PROCESSING: Enhancing patient treatment classification in healthcare: A comparative analysis
+2025-10-21 17:01:09,558 [INFO]   DOI: 10.1016/j.bspc.2025.108543
+2025-10-21 17:01:09,558 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105014721234&origin=inward
+2025-10-21 17:01:11,134 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:01:11,135 [INFO] [21/199] ------------------------------------------------------------
+2025-10-21 17:01:11,137 [INFO] PROCESSING: Interpretable deep learning framework for multi-label ECG classification: Enhanc
+2025-10-21 17:01:11,138 [INFO]   DOI: 10.1016/j.bspc.2025.108447
+2025-10-21 17:01:11,139 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105015620943&origin=inward
+2025-10-21 17:01:12,808 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:01:12,810 [INFO] [22/199] ------------------------------------------------------------
+2025-10-21 17:01:12,811 [INFO] PROCESSING: Effect of artificial intelligence in extracorporeal membrane oxygenation: a syst
+2025-10-21 17:01:12,812 [INFO]   DOI: 10.1016/j.iccn.2025.104165
+2025-10-21 17:01:12,812 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105011968024&origin=inward
+2025-10-21 17:01:15,548 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:01:15,549 [INFO] [23/199] ------------------------------------------------------------
+2025-10-21 17:01:15,551 [INFO] PROCESSING: Deep-learning-driven spectral image analysis for intelligent monitoring of multi
+2025-10-21 17:01:15,552 [INFO]   DOI: 10.1016/j.talanta.2025.128942
+2025-10-21 17:01:15,552 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105017540778&origin=inward
+2025-10-21 17:01:17,077 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:01:17,079 [INFO] [24/199] ------------------------------------------------------------
+2025-10-21 17:01:17,088 [INFO] PROCESSING: DWTFrTV-DEAL: Denoising and deep ensemble learning for arrhythmia classification
+2025-10-21 17:01:17,089 [INFO]   DOI: 10.1016/j.bspc.2025.108751
+2025-10-21 17:01:17,090 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105017961240&origin=inward
+2025-10-21 17:01:19,795 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:01:19,797 [INFO] [25/199] ------------------------------------------------------------
+2025-10-21 17:01:19,797 [INFO] PROCESSING: An interpretable deep learning approach for hypertension risk assessment in the 
+2025-10-21 17:01:19,798 [INFO]   DOI: 10.1016/j.bspc.2025.108479
+2025-10-21 17:01:19,798 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105013852074&origin=inward
+2025-10-21 17:01:21,312 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:01:21,314 [INFO] [26/199] ------------------------------------------------------------
+2025-10-21 17:01:21,315 [INFO] PROCESSING: Quantum-enhanced predictive analytics in healthcare: benchmarking QSVM and QNN o
+2025-10-21 17:01:21,315 [INFO]   DOI: 10.1016/j.measurement.2025.119099
+2025-10-21 17:01:21,316 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105017233109&origin=inward
+2025-10-21 17:01:23,203 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:01:23,204 [INFO] [27/199] ------------------------------------------------------------
+2025-10-21 17:01:23,205 [INFO] PROCESSING: Quantum Metabolic Avatar: A digital replica of metabolism enhanced by quantum al
+2025-10-21 17:01:23,206 [INFO]   DOI: 10.1016/j.eswa.2025.129045
+2025-10-21 17:01:23,206 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105010839325&origin=inward
+2025-10-21 17:01:24,675 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:01:24,676 [INFO] [28/199] ------------------------------------------------------------
+2025-10-21 17:01:24,677 [INFO] PROCESSING: AI-enhanced diagnosis of atrial arrhythmia using 3D-printed origami ECG sensors
+2025-10-21 17:01:24,678 [INFO]   DOI: 10.1016/j.bios.2025.118069
+2025-10-21 17:01:24,678 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105017574342&origin=inward
+2025-10-21 17:01:26,119 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:01:26,121 [INFO] [29/199] ------------------------------------------------------------
+2025-10-21 17:01:26,122 [INFO] PROCESSING: Generative adversarial networks-enabled anomaly detection systems: A survey
+2025-10-21 17:01:26,123 [INFO]   DOI: 10.1016/j.eswa.2025.128978
+2025-10-21 17:01:26,124 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105010701193&origin=inward
+2025-10-21 17:01:28,163 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:01:28,165 [INFO] [30/199] ------------------------------------------------------------
+2025-10-21 17:01:28,167 [INFO] PROCESSING: Capsule networks for intelligent fault diagnosis: a roadmap of recent advancemen
+2025-10-21 17:01:28,168 [INFO]   DOI: 10.1016/j.eswa.2025.128814
+2025-10-21 17:01:28,169 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105010944777&origin=inward
+2025-10-21 17:01:29,786 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:01:29,787 [INFO] [31/199] ------------------------------------------------------------
+2025-10-21 17:01:29,789 [INFO] PROCESSING: A hybrid layer-fusion convolutional neural network and machine learning framewor
+2025-10-21 17:01:29,790 [INFO]   DOI: 10.1016/j.eswa.2025.129176
+2025-10-21 17:01:29,790 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105012282442&origin=inward
+2025-10-21 17:01:31,556 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:01:31,557 [INFO] [32/199] ------------------------------------------------------------
+2025-10-21 17:01:31,559 [INFO] PROCESSING: Design and application of flexible wearable sensors based on optical fibers
+2025-10-21 17:01:31,559 [INFO]   DOI: 10.1016/j.talanta.2025.128576
+2025-10-21 17:01:31,560 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105010313793&origin=inward
+2025-10-21 17:01:33,381 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:01:33,382 [INFO] [33/199] ------------------------------------------------------------
+2025-10-21 17:01:33,602 [INFO]   → Crossref DOI: 10.1007/978-3-032-01589-1_2
+2025-10-21 17:01:33,604 [INFO] PROCESSING: 24th IFIP WG 8.5 International Conference on Electronic Government, EGOV 2025
+2025-10-21 17:01:33,604 [INFO]   DOI: 10.1007/978-3-032-01589-1_2
+2025-10-21 17:01:33,605 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105017369692&origin=inward
+2025-10-21 17:01:35,894 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:01:35,895 [INFO] [34/199] ------------------------------------------------------------
+2025-10-21 17:01:35,897 [INFO] PROCESSING: Healthcare Effective Diabetes Disease Prediction Using AI Based Techniques
+2025-10-21 17:01:35,897 [INFO]   DOI: 10.1007/978-3-032-00793-3_6
+2025-10-21 17:01:35,898 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105015740090&origin=inward
+2025-10-21 17:01:38,057 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:01:38,058 [INFO] [35/199] ------------------------------------------------------------
+2025-10-21 17:01:38,059 [INFO] PROCESSING: Preprocessing Techniques for Heart Disease Prediction Using Machine Learning
+2025-10-21 17:01:38,060 [INFO]   DOI: 10.1007/978-3-031-95540-2_27
+2025-10-21 17:01:38,060 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105014148492&origin=inward
+2025-10-21 17:01:40,216 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:01:40,217 [INFO] [36/199] ------------------------------------------------------------
+2025-10-21 17:01:46,864 [INFO]   → Crossref DOI: 10.1007/978-3-032-04288-0_17
+2025-10-21 17:01:46,867 [INFO] PROCESSING: 32nd European Conference on Systems, Software and Services Process Improvement, 
+2025-10-21 17:01:46,868 [INFO]   DOI: 10.1007/978-3-032-04288-0_17
+2025-10-21 17:01:46,868 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105015737161&origin=inward
+2025-10-21 17:01:48,765 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:01:48,766 [INFO] [37/199] ------------------------------------------------------------
+2025-10-21 17:01:49,133 [INFO]   → Crossref DOI: 10.1109/cisim.2007.22
+2025-10-21 17:01:49,135 [INFO] PROCESSING: 24th International Conference on Computer Information Systems and Industrial Man
+2025-10-21 17:01:49,136 [INFO]   DOI: 10.1109/cisim.2007.22
+2025-10-21 17:01:49,137 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105014495065&origin=inward
+2025-10-21 17:01:51,657 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:01:51,658 [INFO] [38/199] ------------------------------------------------------------
+2025-10-21 17:01:51,660 [INFO] PROCESSING: Machine Learning Based Depression Prediction Using Gradient Boosting Algorithm
+2025-10-21 17:01:51,660 [INFO]   DOI: 10.1007/978-3-032-00793-3_3
+2025-10-21 17:01:51,661 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105015604916&origin=inward
+2025-10-21 17:01:54,328 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:01:54,329 [INFO] [39/199] ------------------------------------------------------------
+2025-10-21 17:01:54,331 [INFO] PROCESSING: Predicting Diseases from Symptoms Using Machine Learning Models and Open AI
+2025-10-21 17:01:54,331 [INFO]   DOI: 10.1007/978-3-031-98360-3_23
+2025-10-21 17:01:54,332 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105015686745&origin=inward
+2025-10-21 17:01:56,511 [ERROR]   ✗ FAILED: no source yielded a PDF
+2025-10-21 17:01:56,512 [INFO] [40/199] ------------------------------------------------------------
+2025-10-21 17:01:56,513 [INFO] PROCESSING: A Beginner’s Guide to Generative AI: An Introductory Path to Diffusion Models, C
+2025-10-21 17:01:56,514 [INFO]   DOI: 10.1007/978-3-031-84724-0
+2025-10-21 17:01:56,515 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105012898868&origin=inward

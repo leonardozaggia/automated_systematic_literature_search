@@ -1,0 +1,1110 @@
+2025-10-20 19:19:50,207 [INFO] ================================================================================
+2025-10-20 19:19:50,208 [INFO] NEW DOWNLOAD SESSION STARTED
+2025-10-20 19:19:50,209 [INFO] Input file: test_results\bibliographies\combined_results.bib
+2025-10-20 19:19:50,210 [INFO] Output directory: test_results\pdfs
+2025-10-20 19:19:50,211 [INFO] Unpaywall enabled: True
+2025-10-20 19:19:50,212 [INFO] Sci-Hub enabled: False
+2025-10-20 19:19:50,213 [INFO] ================================================================================
+2025-10-20 19:19:50,225 [INFO] Loaded 0 papers from test_results\bibliographies\combined_results.bib
+2025-10-20 19:19:50,226 [INFO] 
+2025-10-20 19:19:50,227 [INFO] 
+2025-10-20 19:19:50,228 [INFO] ================================================================================
+2025-10-20 19:19:50,229 [INFO] DOWNLOAD SESSION SUMMARY
+2025-10-20 19:19:50,230 [INFO] ================================================================================
+2025-10-20 19:19:50,230 [INFO] Total papers: 0
+2025-10-20 19:19:50,231 [INFO] Successfully downloaded: 0 (0.0%)
+2025-10-20 19:19:50,232 [INFO] Already downloaded (skipped): 0
+2025-10-20 19:19:50,233 [INFO] Failed to download: 0 (0.0%)
+2025-10-20 19:19:50,234 [INFO] 
+2025-10-20 19:19:50,235 [INFO] Downloads by method:
+2025-10-20 19:19:50,236 [INFO] ================================================================================
+2025-10-20 19:19:50,237 [INFO] 
+2025-10-20 19:21:36,132 [INFO] ================================================================================
+2025-10-20 19:21:36,133 [INFO] NEW DOWNLOAD SESSION STARTED
+2025-10-20 19:21:36,133 [INFO] Input file: test_results\bibliographies\combined_results.bib
+2025-10-20 19:21:36,134 [INFO] Output directory: test_results\pdfs
+2025-10-20 19:21:36,135 [INFO] Unpaywall enabled: True
+2025-10-20 19:21:36,135 [INFO] Sci-Hub enabled: False
+2025-10-20 19:21:36,136 [INFO] ================================================================================
+2025-10-20 19:21:36,148 [INFO] Loaded 0 papers from test_results\bibliographies\combined_results.bib
+2025-10-20 19:21:36,150 [INFO] 
+2025-10-20 19:21:36,150 [INFO] 
+2025-10-20 19:21:36,151 [INFO] ================================================================================
+2025-10-20 19:21:36,152 [INFO] DOWNLOAD SESSION SUMMARY
+2025-10-20 19:21:36,153 [INFO] ================================================================================
+2025-10-20 19:21:36,153 [INFO] Total papers: 0
+2025-10-20 19:21:36,154 [INFO] Successfully downloaded: 0 (0.0%)
+2025-10-20 19:21:36,154 [INFO] Already downloaded (skipped): 0
+2025-10-20 19:21:36,155 [INFO] Failed to download: 0 (0.0%)
+2025-10-20 19:21:36,156 [INFO] 
+2025-10-20 19:21:36,156 [INFO] Downloads by method:
+2025-10-20 19:21:36,157 [INFO] ================================================================================
+2025-10-20 19:21:36,158 [INFO] 
+2025-10-20 19:24:31,774 [INFO] ================================================================================
+2025-10-20 19:24:31,775 [INFO] NEW DOWNLOAD SESSION STARTED
+2025-10-20 19:24:31,776 [INFO] Input file: test_results\bibliographies\combined_results.bib
+2025-10-20 19:24:31,777 [INFO] Output directory: test_results\pdfs
+2025-10-20 19:24:31,778 [INFO] Unpaywall enabled: True
+2025-10-20 19:24:31,779 [INFO] Sci-Hub enabled: False
+2025-10-20 19:24:31,780 [INFO] ================================================================================
+2025-10-20 19:24:31,792 [INFO] Loaded 0 papers from test_results\bibliographies\combined_results.bib
+2025-10-20 19:24:31,793 [INFO] 
+2025-10-20 19:24:31,794 [INFO] 
+2025-10-20 19:24:31,795 [INFO] ================================================================================
+2025-10-20 19:24:31,796 [INFO] DOWNLOAD SESSION SUMMARY
+2025-10-20 19:24:31,796 [INFO] ================================================================================
+2025-10-20 19:24:31,798 [INFO] Total papers: 0
+2025-10-20 19:24:31,798 [INFO] Successfully downloaded: 0 (0.0%)
+2025-10-20 19:24:31,799 [INFO] Already downloaded (skipped): 0
+2025-10-20 19:24:31,800 [INFO] Failed to download: 0 (0.0%)
+2025-10-20 19:24:31,800 [INFO] 
+2025-10-20 19:24:31,801 [INFO] Downloads by method:
+2025-10-20 19:24:31,801 [INFO] ================================================================================
+2025-10-20 19:24:31,802 [INFO] 
+2025-10-20 19:26:24,874 [INFO] ================================================================================
+2025-10-20 19:26:24,875 [INFO] NEW DOWNLOAD SESSION STARTED
+2025-10-20 19:26:24,876 [INFO] Input file: test_results\bibliographies\combined_results.bib
+2025-10-20 19:26:24,877 [INFO] Output directory: test_results\pdfs
+2025-10-20 19:26:24,877 [INFO] Unpaywall enabled: True
+2025-10-20 19:26:24,878 [INFO] Sci-Hub enabled: False
+2025-10-20 19:26:24,879 [INFO] ================================================================================
+2025-10-20 19:26:24,982 [INFO] Loaded 40 papers from test_results\bibliographies\combined_results.bib
+2025-10-20 19:26:24,983 [INFO] 
+2025-10-20 19:26:24,985 [INFO] [1/40] ------------------------------------------------------------
+2025-10-20 19:26:24,987 [INFO] PROCESSING: Pixel Map-Based Hybrid AI Framework for Early and Accurate Cardiovascular Diseas
+2025-10-20 19:26:24,988 [INFO]   DOI: 10.1016/j.cam.2025.117095
+2025-10-20 19:26:24,989 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105018169964&origin=inward
+2025-10-20 19:26:24,989 [INFO]   → Checking Unpaywall...
+2025-10-20 19:26:25,445 [INFO]   → No open access version found
+2025-10-20 19:26:25,446 [INFO]   → Trying publisher-specific patterns...
+2025-10-20 19:26:25,448 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:26:28,968 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:26:28,970 [INFO] [2/40] ------------------------------------------------------------
+2025-10-20 19:26:28,971 [INFO] PROCESSING: SUPER-Net: Trustworthy image segmentation via uncertainty propagation in encoder
+2025-10-20 19:26:28,972 [INFO]   DOI: 10.1016/j.patcog.2025.112503
+2025-10-20 19:26:28,973 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105017689354&origin=inward
+2025-10-20 19:26:28,973 [INFO]   → Checking Unpaywall...
+2025-10-20 19:26:29,327 [INFO]   → Found OA version: https://arxiv.org/pdf/2111.05978
+2025-10-20 19:26:29,328 [INFO] Downloading from: https://arxiv.org/pdf/2111.05978
+2025-10-20 19:26:29,419 [WARNING] Downloaded content is not a PDF (content-type: text/html)
+2025-10-20 19:26:29,421 [INFO]   → Trying publisher-specific patterns...
+2025-10-20 19:26:29,422 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:26:32,885 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:26:32,887 [INFO] [3/40] ------------------------------------------------------------
+2025-10-20 19:26:32,888 [INFO] PROCESSING: Multi-AD: cross-domain unsupervised anomaly detection for medical and industrial
+2025-10-20 19:26:32,889 [INFO]   DOI: 10.1016/j.patcog.2025.112486
+2025-10-20 19:26:32,890 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105017550258&origin=inward
+2025-10-20 19:26:32,891 [INFO]   → Checking Unpaywall...
+2025-10-20 19:26:33,273 [INFO]   → No open access version found
+2025-10-20 19:26:33,274 [INFO]   → Trying publisher-specific patterns...
+2025-10-20 19:26:33,275 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:26:36,414 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:26:36,415 [INFO] [4/40] ------------------------------------------------------------
+2025-10-20 19:26:36,418 [INFO] PROCESSING: Unsupervised attention-based framework for cancerous region segmentation with ex
+2025-10-20 19:26:36,419 [INFO]   DOI: 10.1016/j.bspc.2025.108815
+2025-10-20 19:26:36,420 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105018172923&origin=inward
+2025-10-20 19:26:36,420 [INFO]   → Checking Unpaywall...
+2025-10-20 19:26:36,767 [INFO]   → No open access version found
+2025-10-20 19:26:36,769 [INFO]   → Trying publisher-specific patterns...
+2025-10-20 19:26:36,770 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:26:39,821 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:26:39,822 [INFO] [5/40] ------------------------------------------------------------
+2025-10-20 19:26:39,824 [INFO] PROCESSING: KANBalance: Kolmogorov–Arnold network mitigates class imbalance
+2025-10-20 19:26:39,825 [INFO]   DOI: 10.1016/j.patcog.2025.112325
+2025-10-20 19:26:39,825 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105014289282&origin=inward
+2025-10-20 19:26:39,826 [INFO]   → Checking Unpaywall...
+2025-10-20 19:26:40,177 [INFO]   → No open access version found
+2025-10-20 19:26:40,179 [INFO]   → Trying publisher-specific patterns...
+2025-10-20 19:26:40,180 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:26:54,272 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:26:54,274 [INFO] [6/40] ------------------------------------------------------------
+2025-10-20 19:26:54,276 [INFO] PROCESSING: Deep learning-based automated segmentation of brain tumors using synthetic MR im
+2025-10-20 19:26:54,277 [INFO]   DOI: 10.1016/j.csi.2025.104054
+2025-10-20 19:26:54,277 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105014614814&origin=inward
+2025-10-20 19:26:54,278 [INFO]   → Checking Unpaywall...
+2025-10-20 19:26:54,630 [INFO]   → No open access version found
+2025-10-20 19:26:54,631 [INFO]   → Trying publisher-specific patterns...
+2025-10-20 19:26:54,632 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:26:57,832 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:26:57,834 [INFO] [7/40] ------------------------------------------------------------
+2025-10-20 19:26:57,835 [INFO] PROCESSING: Federated unlearning using diffusive noise injection
+2025-10-20 19:26:57,836 [INFO]   DOI: 10.1016/j.inffus.2025.103796
+2025-10-20 19:26:57,837 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105018066195&origin=inward
+2025-10-20 19:26:57,838 [INFO]   → Checking Unpaywall...
+2025-10-20 19:26:58,189 [INFO]   → No open access version found
+2025-10-20 19:26:58,190 [INFO]   → Trying publisher-specific patterns...
+2025-10-20 19:26:58,191 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:27:01,677 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:27:01,678 [INFO] [8/40] ------------------------------------------------------------
+2025-10-20 19:27:01,680 [INFO] PROCESSING: Development of a new method M2LC for few-slice-annotated MRI image segmentation 
+2025-10-20 19:27:01,681 [INFO]   DOI: 10.1016/j.bspc.2025.108907
+2025-10-20 19:27:01,682 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105018581212&origin=inward
+2025-10-20 19:27:01,682 [INFO]   → Checking Unpaywall...
+2025-10-20 19:27:02,035 [INFO]   → No open access version found
+2025-10-20 19:27:02,037 [INFO]   → Trying publisher-specific patterns...
+2025-10-20 19:27:02,037 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:27:04,912 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:27:04,914 [INFO] [9/40] ------------------------------------------------------------
+2025-10-20 19:27:04,916 [INFO] PROCESSING: A review of facial and gait analysis for auxiliary stroke care: Computer vision-
+2025-10-20 19:27:04,917 [INFO]   DOI: 10.1016/j.bspc.2025.108840
+2025-10-20 19:27:04,918 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105018580537&origin=inward
+2025-10-20 19:27:04,918 [INFO]   → Checking Unpaywall...
+2025-10-20 19:27:05,294 [INFO]   → No open access version found
+2025-10-20 19:27:05,296 [INFO]   → Trying publisher-specific patterns...
+2025-10-20 19:27:05,297 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:27:08,768 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:27:08,769 [INFO] [10/40] ------------------------------------------------------------
+2025-10-20 19:27:08,772 [INFO] PROCESSING: Three-dimensional spine reconstruction from a single X-ray image based on deep l
+2025-10-20 19:27:08,773 [INFO]   DOI: 10.1016/j.bspc.2025.108912
+2025-10-20 19:27:08,774 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105018333694&origin=inward
+2025-10-20 19:27:08,774 [INFO]   → Checking Unpaywall...
+2025-10-20 19:27:09,130 [INFO]   → No open access version found
+2025-10-20 19:27:09,132 [INFO]   → Trying publisher-specific patterns...
+2025-10-20 19:27:09,133 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:27:12,181 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:27:12,184 [INFO] [11/40] ------------------------------------------------------------
+2025-10-20 19:27:12,186 [INFO] PROCESSING: SCEA-Net: A hybrid framework from spatial-channel-aware external attention for a
+2025-10-20 19:27:12,187 [INFO]   DOI: 10.1016/j.bspc.2025.108807
+2025-10-20 19:27:12,188 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105018168345&origin=inward
+2025-10-20 19:27:12,188 [INFO]   → Checking Unpaywall...
+2025-10-20 19:27:12,561 [INFO]   → No open access version found
+2025-10-20 19:27:12,562 [INFO]   → Trying publisher-specific patterns...
+2025-10-20 19:27:12,563 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:27:15,151 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:27:15,153 [INFO] [12/40] ------------------------------------------------------------
+2025-10-20 19:27:15,155 [INFO] PROCESSING: FEQIN: A feature-enhanced query interaction network for breast ultrasound segmen
+2025-10-20 19:27:15,156 [INFO]   DOI: 10.1016/j.patcog.2025.112168
+2025-10-20 19:27:15,156 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105011750439&origin=inward
+2025-10-20 19:27:15,157 [INFO]   → Checking Unpaywall...
+2025-10-20 19:27:15,516 [INFO]   → No open access version found
+2025-10-20 19:27:15,517 [INFO]   → Trying publisher-specific patterns...
+2025-10-20 19:27:15,518 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:27:18,097 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:27:18,098 [INFO] [13/40] ------------------------------------------------------------
+2025-10-20 19:27:18,101 [INFO] PROCESSING: MedViA: Empowering medical time series classification with vision augmentation a
+2025-10-20 19:27:18,102 [INFO]   DOI: 10.1016/j.inffus.2025.103659
+2025-10-20 19:27:18,102 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105016995038&origin=inward
+2025-10-20 19:27:18,103 [INFO]   → Checking Unpaywall...
+2025-10-20 19:27:18,457 [INFO]   → No open access version found
+2025-10-20 19:27:18,458 [INFO]   → Trying publisher-specific patterns...
+2025-10-20 19:27:18,459 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:27:21,214 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:27:21,216 [INFO] [14/40] ------------------------------------------------------------
+2025-10-20 19:27:21,218 [INFO] PROCESSING: DLPP-UL: Dose-level parameter prompted unpaired learning for low-dose CT image r
+2025-10-20 19:27:21,219 [INFO]   DOI: 10.1016/j.patcog.2025.112272
+2025-10-20 19:27:21,221 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105013496665&origin=inward
+2025-10-20 19:27:21,222 [INFO]   → Checking Unpaywall...
+2025-10-20 19:27:21,613 [INFO]   → No open access version found
+2025-10-20 19:27:21,614 [INFO]   → Trying publisher-specific patterns...
+2025-10-20 19:27:21,615 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:27:24,249 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:27:24,252 [INFO] [15/40] ------------------------------------------------------------
+2025-10-20 19:27:24,253 [INFO] PROCESSING: BrainDx: a dual-transformer framework using PVT and SegFormer for tumor diagnosi
+2025-10-20 19:27:24,254 [INFO]   DOI: 10.1016/j.bspc.2025.108917
+2025-10-20 19:27:24,255 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105018580279&origin=inward
+2025-10-20 19:27:24,255 [INFO]   → Checking Unpaywall...
+2025-10-20 19:27:24,635 [INFO]   → No open access version found
+2025-10-20 19:27:24,636 [INFO]   → Trying publisher-specific patterns...
+2025-10-20 19:27:24,637 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:27:27,080 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:27:27,081 [INFO] [16/40] ------------------------------------------------------------
+2025-10-20 19:27:27,083 [INFO] PROCESSING: Brain tumor segmentation via cross-modality semi-supervised transfer learning wi
+2025-10-20 19:27:27,083 [INFO]   DOI: 10.1016/j.inffus.2025.103757
+2025-10-20 19:27:27,084 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105016484874&origin=inward
+2025-10-20 19:27:27,084 [INFO]   → Checking Unpaywall...
+2025-10-20 19:27:27,447 [INFO]   → No open access version found
+2025-10-20 19:27:27,448 [INFO]   → Trying publisher-specific patterns...
+2025-10-20 19:27:27,449 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:27:30,025 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:27:30,026 [INFO] [17/40] ------------------------------------------------------------
+2025-10-20 19:27:30,029 [INFO] PROCESSING: Cascaded neural memory ODEs for predicting fluence maps in rectal cancer IMRT
+2025-10-20 19:27:30,030 [INFO]   DOI: 10.1016/j.patcog.2025.112301
+2025-10-20 19:27:30,031 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105014442583&origin=inward
+2025-10-20 19:27:30,032 [INFO]   → Checking Unpaywall...
+2025-10-20 19:27:30,455 [INFO]   → No open access version found
+2025-10-20 19:27:30,457 [INFO]   → Trying publisher-specific patterns...
+2025-10-20 19:27:30,458 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:27:33,577 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:27:33,579 [INFO] [18/40] ------------------------------------------------------------
+2025-10-20 19:27:33,581 [INFO] PROCESSING: Integrating blockchain and deep learning: a novel ensemble model for secure IoMT
+2025-10-20 19:27:33,582 [INFO]   DOI: 10.1016/j.csi.2025.104076
+2025-10-20 19:27:33,583 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105016317734&origin=inward
+2025-10-20 19:27:33,583 [INFO]   → Checking Unpaywall...
+2025-10-20 19:27:33,953 [INFO]   → No open access version found
+2025-10-20 19:27:33,954 [INFO]   → Trying publisher-specific patterns...
+2025-10-20 19:27:33,955 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:27:37,261 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:27:37,263 [INFO] [19/40] ------------------------------------------------------------
+2025-10-20 19:27:37,265 [INFO] PROCESSING: A novel approach for grading renal cell carcinoma using wavelet-aided nuclei seg
+2025-10-20 19:27:37,266 [INFO]   DOI: 10.1016/j.bspc.2025.108878
+2025-10-20 19:27:37,267 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105018580738&origin=inward
+2025-10-20 19:27:37,268 [INFO]   → Checking Unpaywall...
+2025-10-20 19:27:37,624 [INFO]   → No open access version found
+2025-10-20 19:27:37,627 [INFO]   → Trying publisher-specific patterns...
+2025-10-20 19:27:37,628 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:27:40,497 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:27:40,498 [INFO] [20/40] ------------------------------------------------------------
+2025-10-20 19:27:40,500 [INFO] PROCESSING: A recurrent-attention mechanism for medical image segmentation
+2025-10-20 19:27:40,500 [INFO]   DOI: 10.1016/j.patcog.2025.112252
+2025-10-20 19:27:40,501 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105013589388&origin=inward
+2025-10-20 19:27:40,502 [INFO]   → Checking Unpaywall...
+2025-10-20 19:27:40,873 [INFO]   → No open access version found
+2025-10-20 19:27:40,875 [INFO]   → Trying publisher-specific patterns...
+2025-10-20 19:27:40,877 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:27:44,046 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:27:44,048 [INFO] [21/40] ------------------------------------------------------------
+2025-10-20 19:27:44,050 [INFO] PROCESSING: Probabilistic smooth attention for deep multiple instance learning in medical im
+2025-10-20 19:27:44,052 [INFO]   DOI: 10.1016/j.patcog.2025.112097
+2025-10-20 19:27:44,052 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105010696063&origin=inward
+2025-10-20 19:27:44,052 [INFO]   → Checking Unpaywall...
+2025-10-20 19:27:44,427 [INFO]   → Found OA version: https://arxiv.org/pdf/2507.14932
+2025-10-20 19:27:44,428 [INFO] Downloading from: https://arxiv.org/pdf/2507.14932
+2025-10-20 19:27:44,543 [WARNING] Downloaded content is not a PDF (content-type: text/html)
+2025-10-20 19:27:44,546 [INFO]   → Trying publisher-specific patterns...
+2025-10-20 19:27:44,547 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:27:44,771 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:27:44,773 [INFO] [22/40] ------------------------------------------------------------
+2025-10-20 19:27:44,775 [INFO] PROCESSING: D-Net: Dynamic large kernel with dynamic feature fusion for volumetric medical i
+2025-10-20 19:27:44,776 [INFO]   DOI: 10.1016/j.bspc.2025.108837
+2025-10-20 19:27:44,777 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105018175696&origin=inward
+2025-10-20 19:27:44,777 [INFO]   → Checking Unpaywall...
+2025-10-20 19:27:45,161 [INFO]   → No open access version found
+2025-10-20 19:27:45,163 [INFO]   → Trying publisher-specific patterns...
+2025-10-20 19:27:45,164 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:27:45,246 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:27:45,247 [INFO] [23/40] ------------------------------------------------------------
+2025-10-20 19:27:45,249 [INFO] PROCESSING: MSSAFN: A multiscale structure-aware spatial fusion network for Alzheimer's dise
+2025-10-20 19:27:45,250 [INFO]   DOI: 10.1016/j.bspc.2025.108889
+2025-10-20 19:27:45,251 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105018574813&origin=inward
+2025-10-20 19:27:45,251 [INFO]   → Checking Unpaywall...
+2025-10-20 19:27:45,602 [INFO]   → No open access version found
+2025-10-20 19:27:45,604 [INFO]   → Trying publisher-specific patterns...
+2025-10-20 19:27:45,605 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:27:45,693 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:27:45,694 [INFO] [24/40] ------------------------------------------------------------
+2025-10-20 19:27:45,698 [INFO] PROCESSING: Ultrasound image segmentation: A systematic review of deformable models from cla
+2025-10-20 19:27:45,699 [INFO]   DOI: 10.1016/j.inffus.2025.103768
+2025-10-20 19:27:45,699 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105017226932&origin=inward
+2025-10-20 19:27:45,700 [INFO]   → Checking Unpaywall...
+2025-10-20 19:27:46,047 [INFO]   → No open access version found
+2025-10-20 19:27:46,050 [INFO]   → Trying publisher-specific patterns...
+2025-10-20 19:27:46,051 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:27:46,108 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:27:46,109 [INFO] [25/40] ------------------------------------------------------------
+2025-10-20 19:27:46,111 [INFO] PROCESSING: Token pyramid pooling-driven style adapter learning with dual-view balanced loss
+2025-10-20 19:27:46,112 [INFO]   DOI: 10.1016/j.patcog.2025.112194
+2025-10-20 19:27:46,113 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105011972915&origin=inward
+2025-10-20 19:27:46,113 [INFO]   → Checking Unpaywall...
+2025-10-20 19:27:46,471 [INFO]   → No open access version found
+2025-10-20 19:27:46,472 [INFO]   → Trying publisher-specific patterns...
+2025-10-20 19:27:46,473 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:27:46,530 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:27:46,531 [INFO] [26/40] ------------------------------------------------------------
+2025-10-20 19:27:46,533 [INFO] PROCESSING: SH-StNN: prognostication of Alzheimer's disease based on search and hunt-based s
+2025-10-20 19:27:46,534 [INFO]   DOI: 10.1007/s11571-025-10329-8
+2025-10-20 19:27:46,534 [INFO]   URL: https://pubmed.ncbi.nlm.nih.gov/41114389/
+2025-10-20 19:27:46,535 [INFO]   → Checking Unpaywall...
+2025-10-20 19:27:46,896 [INFO]   → No open access version found
+2025-10-20 19:27:46,897 [INFO]   → Checking PubMed Central...
+2025-10-20 19:27:47,466 [INFO]   → Paper not available in PMC
+2025-10-20 19:27:47,469 [INFO]   → Trying publisher-specific patterns...
+2025-10-20 19:27:47,471 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:27:47,892 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:27:47,893 [INFO] [27/40] ------------------------------------------------------------
+2025-10-20 19:27:47,896 [INFO] PROCESSING: Early detection of pancreatic cancer on computed tomography: advancements with d
+2025-10-20 19:27:47,897 [INFO]   DOI: 10.1093/radadv/umaf028
+2025-10-20 19:27:47,898 [INFO]   URL: https://pubmed.ncbi.nlm.nih.gov/41113902/
+2025-10-20 19:27:47,899 [INFO]   → Checking Unpaywall...
+2025-10-20 19:27:48,250 [INFO]   → Found OA version: https://academic.oup.com/radadv/advance-article-pdf/doi/10.1093/radadv/umaf028/6
+2025-10-20 19:27:48,251 [INFO] Downloading from: https://academic.oup.com/radadv/advance-article-pdf/doi/10.1093/radadv/umaf028/64084983/umaf028.pdf
+2025-10-20 19:27:48,366 [WARNING] HTTP 403 for URL: https://academic.oup.com/radadv/advance-article-pdf/doi/10.1093/radadv/umaf028/64084983/umaf028.pdf
+2025-10-20 19:27:48,369 [INFO]   → Checking PubMed Central...
+2025-10-20 19:27:48,885 [INFO]   → Paper not available in PMC
+2025-10-20 19:27:48,887 [INFO]   → Trying publisher-specific patterns...
+2025-10-20 19:27:48,888 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:27:49,328 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:27:49,329 [INFO] [28/40] ------------------------------------------------------------
+2025-10-20 19:27:49,332 [INFO] PROCESSING: [Current Landscape and Commercialization of AI Models in Musculoskeletal Imaging
+2025-10-20 19:27:49,334 [INFO]   DOI: 10.3348/jksr.2025.0058
+2025-10-20 19:27:49,334 [INFO]   URL: https://pubmed.ncbi.nlm.nih.gov/41113373/
+2025-10-20 19:27:49,335 [INFO]   → Checking Unpaywall...
+2025-10-20 19:27:49,740 [INFO]   → Found OA version: http://jksronline.org/Synapse/Data/PDFData/3016JKSR/jksr-86-624.pdf
+2025-10-20 19:27:49,741 [INFO] Downloading from: http://jksronline.org/Synapse/Data/PDFData/3016JKSR/jksr-86-624.pdf
+2025-10-20 19:28:00,486 [INFO] Successfully saved PDF (2914242 bytes)
+2025-10-20 19:28:00,490 [INFO]   ✓ SUCCESS via Unpaywall
+2025-10-20 19:28:00,491 [INFO] [29/40] ------------------------------------------------------------
+2025-10-20 19:28:00,494 [INFO] PROCESSING: Deep Learning-Based Image Reconstruction in Musculoskeletal MRI.
+2025-10-20 19:28:00,495 [INFO]   DOI: 10.3348/jksr.2025.0015
+2025-10-20 19:28:00,496 [INFO]   URL: https://pubmed.ncbi.nlm.nih.gov/41113364/
+2025-10-20 19:28:00,496 [INFO]   → Checking Unpaywall...
+2025-10-20 19:28:00,893 [INFO]   → Found OA version: http://jksronline.org/Synapse/Data/PDFData/3016JKSR/jksr-86-567.pdf
+2025-10-20 19:28:00,895 [INFO] Downloading from: http://jksronline.org/Synapse/Data/PDFData/3016JKSR/jksr-86-567.pdf
+2025-10-20 19:28:16,087 [INFO] Successfully saved PDF (4708900 bytes)
+2025-10-20 19:28:16,089 [INFO]   ✓ SUCCESS via Unpaywall
+2025-10-20 19:28:16,089 [INFO] [30/40] ------------------------------------------------------------
+2025-10-20 19:28:16,091 [INFO] PROCESSING: Deep reinforcement learning for automatic defocus correction using OCT image int
+2025-10-20 19:28:16,092 [INFO]   DOI: 10.1364/BOE.572077
+2025-10-20 19:28:16,092 [INFO]   URL: https://pubmed.ncbi.nlm.nih.gov/41112801/
+2025-10-20 19:28:16,093 [INFO]   → Checking Unpaywall...
+2025-10-20 19:28:16,487 [INFO]   → No open access version found
+2025-10-20 19:28:16,488 [INFO]   → Checking PubMed Central...
+2025-10-20 19:28:17,014 [INFO]   → Paper not available in PMC
+2025-10-20 19:28:17,018 [INFO]   → Trying publisher-specific patterns...
+2025-10-20 19:28:17,019 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:28:17,494 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:28:17,495 [INFO] [31/40] ------------------------------------------------------------
+2025-10-20 19:28:17,498 [INFO] PROCESSING: OmniVinci: Enhancing Architecture and Data for Omni-Modal Understanding   LLM
+2025-10-20 19:28:17,499 [INFO]   arXiv ID: 2510.15870
+2025-10-20 19:28:17,499 [INFO]   → Trying arXiv...
+2025-10-20 19:28:17,500 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2510.15870.pdf
+2025-10-20 19:28:17,501 [INFO] Downloading from: https://arxiv.org/pdf/2510.15870.pdf
+2025-10-20 19:28:17,580 [WARNING] Downloaded content is not a PDF (content-type: text/html)
+2025-10-20 19:28:17,582 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:28:17,661 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:28:17,662 [INFO] [32/40] ------------------------------------------------------------
+2025-10-20 19:28:17,664 [INFO] PROCESSING: LightsOut: Diffusion-based Outpainting for Enhanced Lens Flare Removal
+2025-10-20 19:28:17,665 [INFO]   arXiv ID: 2510.15868
+2025-10-20 19:28:17,665 [INFO]   → Trying arXiv...
+2025-10-20 19:28:17,666 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2510.15868.pdf
+2025-10-20 19:28:17,667 [INFO] Downloading from: https://arxiv.org/pdf/2510.15868.pdf
+2025-10-20 19:28:17,752 [WARNING] Downloaded content is not a PDF (content-type: text/html)
+2025-10-20 19:28:17,754 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:28:17,829 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:28:17,830 [INFO] [33/40] ------------------------------------------------------------
+2025-10-20 19:28:17,832 [INFO] PROCESSING: A merger within a merger: Chandra pinpoints the short GRB 230906A in a   peculia
+2025-10-20 19:28:17,833 [INFO]   arXiv ID: 2510.15867
+2025-10-20 19:28:17,834 [INFO]   → Trying arXiv...
+2025-10-20 19:28:17,835 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2510.15867.pdf
+2025-10-20 19:28:17,835 [INFO] Downloading from: https://arxiv.org/pdf/2510.15867.pdf
+2025-10-20 19:28:17,901 [WARNING] Downloaded content is not a PDF (content-type: text/html)
+2025-10-20 19:28:17,903 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:28:17,987 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:28:17,988 [INFO] [34/40] ------------------------------------------------------------
+2025-10-20 19:28:17,991 [INFO] PROCESSING: Sound Clouds: Exploring ambient intelligence in public spaces to elicit   deep h
+2025-10-20 19:28:17,991 [INFO]   arXiv ID: 2510.15865
+2025-10-20 19:28:17,992 [INFO]   → Trying arXiv...
+2025-10-20 19:28:17,993 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2510.15865.pdf
+2025-10-20 19:28:17,993 [INFO] Downloading from: https://arxiv.org/pdf/2510.15865.pdf
+2025-10-20 19:28:18,082 [WARNING] Downloaded content is not a PDF (content-type: text/html)
+2025-10-20 19:28:18,084 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:28:18,161 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:28:18,163 [INFO] [35/40] ------------------------------------------------------------
+2025-10-20 19:28:18,165 [INFO] PROCESSING: PolySkill: Learning Generalizable Skills Through Polymorphic Abstraction
+2025-10-20 19:28:18,165 [INFO]   arXiv ID: 2510.15863
+2025-10-20 19:28:18,166 [INFO]   → Trying arXiv...
+2025-10-20 19:28:18,167 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2510.15863.pdf
+2025-10-20 19:28:18,167 [INFO] Downloading from: https://arxiv.org/pdf/2510.15863.pdf
+2025-10-20 19:28:18,229 [WARNING] Downloaded content is not a PDF (content-type: text/html)
+2025-10-20 19:28:18,232 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:28:18,299 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:28:18,300 [INFO] [36/40] ------------------------------------------------------------
+2025-10-20 19:28:18,850 [INFO] PROCESSING: Overview of deep learning in medical imaging
+2025-10-20 19:28:18,851 [INFO]   URL: https://link.springer.com/article/10.1007/S12194-017-0406-5
+2025-10-20 19:28:18,852 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:28:19,712 [INFO]   → Found PDF link: https://link.springer.com/content/pdf/10.1007/s12194-017-0406-5.pdf
+2025-10-20 19:28:19,713 [INFO] Downloading from: https://link.springer.com/content/pdf/10.1007/s12194-017-0406-5.pdf
+2025-10-20 19:28:20,718 [INFO] Successfully saved PDF (4285132 bytes)
+2025-10-20 19:28:20,720 [INFO]   ✓ SUCCESS via HTML scraping
+2025-10-20 19:28:20,720 [INFO] [37/40] ------------------------------------------------------------
+2025-10-20 19:28:21,372 [INFO] PROCESSING: Deep learning in medical image analysis
+2025-10-20 19:28:21,373 [INFO]   URL: https://www.annualreviews.org/content/journals/10.1146/annurev-bioeng-071516-044442
+2025-10-20 19:28:21,373 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:28:23,273 [INFO]   → Found PDF link: http://www.cs.ubc.ca/~lowe/papers/iccv99.pdf
+2025-10-20 19:28:23,274 [INFO] Downloading from: http://www.cs.ubc.ca/~lowe/papers/iccv99.pdf
+2025-10-20 19:28:25,544 [INFO] Successfully saved PDF (577941 bytes)
+2025-10-20 19:28:25,546 [INFO]   ✓ SUCCESS via HTML scraping
+2025-10-20 19:28:25,547 [INFO] [38/40] ------------------------------------------------------------
+2025-10-20 19:28:26,251 [INFO] PROCESSING: Deep learning in medical imaging
+2025-10-20 19:28:26,252 [INFO]   URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC6945006/
+2025-10-20 19:28:26,253 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:28:26,531 [INFO]   → Found PDF link: https://pmc.ncbi.nlm.nih.gov/articles/PMC6945006/pdf/ns-1938396-198.pdf
+2025-10-20 19:28:26,533 [INFO] Downloading from: https://pmc.ncbi.nlm.nih.gov/articles/PMC6945006/pdf/ns-1938396-198.pdf
+2025-10-20 19:28:26,683 [WARNING] Downloaded content is not a PDF (content-type: text/html; charset=utf-8)
+2025-10-20 19:28:26,686 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:28:26,687 [ERROR]   → No DOI or arXiv ID available
+2025-10-20 19:28:26,688 [INFO] [39/40] ------------------------------------------------------------
+2025-10-20 19:28:27,282 [INFO] PROCESSING: Deep learning in medical imaging: general overview
+2025-10-20 19:28:27,284 [INFO]   URL: https://synapse.koreamed.org/articles/1027354
+2025-10-20 19:28:27,284 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:28:34,479 [INFO]   → Found PDF link: https://arxiv.org/pdf/1606.05718.pdf
+2025-10-20 19:28:34,481 [INFO] Downloading from: https://arxiv.org/pdf/1606.05718.pdf
+2025-10-20 19:28:34,560 [WARNING] Downloaded content is not a PDF (content-type: text/html)
+2025-10-20 19:28:34,563 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:28:34,565 [ERROR]   → No DOI or arXiv ID available
+2025-10-20 19:28:34,565 [INFO] [40/40] ------------------------------------------------------------
+2025-10-20 19:28:35,071 [INFO] PROCESSING: Deep learning and medical imaging
+2025-10-20 19:28:35,072 [INFO]   URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC5906243/
+2025-10-20 19:28:35,072 [INFO]   → Trying to scrape PDF link from page...
+2025-10-20 19:28:35,336 [INFO]   → Found PDF link: https://pmc.ncbi.nlm.nih.gov/articles/PMC5906243/pdf/jtd-10-03-1325.pdf
+2025-10-20 19:28:35,337 [INFO] Downloading from: https://pmc.ncbi.nlm.nih.gov/articles/PMC5906243/pdf/jtd-10-03-1325.pdf
+2025-10-20 19:28:35,487 [WARNING] Downloaded content is not a PDF (content-type: text/html; charset=utf-8)
+2025-10-20 19:28:35,490 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-20 19:28:35,491 [ERROR]   → No DOI or arXiv ID available
+2025-10-20 19:28:35,492 [INFO] 
+2025-10-20 19:28:35,492 [INFO] ================================================================================
+2025-10-20 19:28:35,493 [INFO] DOWNLOAD SESSION SUMMARY
+2025-10-20 19:28:35,493 [INFO] ================================================================================
+2025-10-20 19:28:35,494 [INFO] Total papers: 40
+2025-10-20 19:28:35,495 [INFO] Successfully downloaded: 4 (10.0%)
+2025-10-20 19:28:35,496 [INFO] Already downloaded (skipped): 0
+2025-10-20 19:28:35,496 [INFO] Failed to download: 36 (90.0%)
+2025-10-20 19:28:35,497 [INFO] 
+2025-10-20 19:28:35,497 [INFO] Downloads by method:
+2025-10-20 19:28:35,498 [INFO]   Unpaywall: 2
+2025-10-20 19:28:35,498 [INFO]   Scraping: 2
+2025-10-20 19:28:35,499 [INFO] ================================================================================
+2025-10-20 19:28:35,499 [INFO] 
+2025-10-21 10:12:33,030 [INFO] ================================================================================
+2025-10-21 10:12:33,034 [INFO] NEW DOWNLOAD SESSION STARTED
+2025-10-21 10:12:33,034 [INFO] Input file: test_results\bibliographies\combined_results.bib
+2025-10-21 10:12:33,035 [INFO] Output directory: test_results\pdfs
+2025-10-21 10:12:33,036 [INFO] Unpaywall enabled: True
+2025-10-21 10:12:33,037 [INFO] Sci-Hub enabled: False
+2025-10-21 10:12:33,038 [INFO] ================================================================================
+2025-10-21 10:12:33,127 [INFO] Loaded 34 papers from test_results\bibliographies\combined_results.bib
+2025-10-21 10:12:33,127 [INFO] 
+2025-10-21 10:12:33,128 [INFO] [1/34] ------------------------------------------------------------
+2025-10-21 10:12:33,129 [INFO] PROCESSING: Investigating the bugs in reinforcement learning programs: Insights from Stack O
+2025-10-21 10:12:33,130 [INFO]   DOI: 10.1007/s10515-025-00555-z
+2025-10-21 10:12:33,130 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105016824461&origin=inward
+2025-10-21 10:12:33,131 [INFO]   → Checking Unpaywall...
+2025-10-21 10:12:33,532 [INFO]   → No open access version found
+2025-10-21 10:12:33,534 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:12:33,535 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:12:33,677 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:12:33,678 [INFO] [2/34] ------------------------------------------------------------
+2025-10-21 10:12:33,679 [INFO] PROCESSING: Digital twin and AI-driven robotic embodied control system: a novel adaptive lea
+2025-10-21 10:12:33,679 [INFO]   DOI: 10.1016/j.rcim.2025.103138
+2025-10-21 10:12:33,680 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105016094152&origin=inward
+2025-10-21 10:12:33,681 [INFO]   → Checking Unpaywall...
+2025-10-21 10:12:34,048 [INFO]   → No open access version found
+2025-10-21 10:12:34,050 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:12:34,051 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:12:34,104 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:12:34,105 [INFO] [3/34] ------------------------------------------------------------
+2025-10-21 10:12:34,106 [INFO] PROCESSING: Digital twin-empowered robotic arm manipulation with reinforcement learning: A c
+2025-10-21 10:12:34,107 [INFO]   DOI: 10.1016/j.rcim.2025.103151
+2025-10-21 10:12:34,108 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105017231135&origin=inward
+2025-10-21 10:12:34,109 [INFO]   → Checking Unpaywall...
+2025-10-21 10:12:34,462 [INFO]   → No open access version found
+2025-10-21 10:12:34,464 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:12:34,465 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:12:34,559 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:12:34,560 [INFO] [4/34] ------------------------------------------------------------
+2025-10-21 10:12:34,561 [INFO] PROCESSING: IRIS: An information path planning method based on reinforcement learning and in
+2025-10-21 10:12:34,562 [INFO]   DOI: 10.1016/j.patcog.2025.112400
+2025-10-21 10:12:34,562 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105015512884&origin=inward
+2025-10-21 10:12:34,563 [INFO]   → Checking Unpaywall...
+2025-10-21 10:12:34,943 [INFO]   → No open access version found
+2025-10-21 10:12:34,944 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:12:34,945 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:12:34,998 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:12:34,999 [INFO] [5/34] ------------------------------------------------------------
+2025-10-21 10:12:35,000 [INFO] PROCESSING: Long short term robot safe control framework based on hidden action space heuris
+2025-10-21 10:12:35,000 [INFO]   DOI: 10.1016/j.rcim.2025.103107
+2025-10-21 10:12:35,001 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105015544863&origin=inward
+2025-10-21 10:12:35,002 [INFO]   → Checking Unpaywall...
+2025-10-21 10:12:35,408 [INFO]   → No open access version found
+2025-10-21 10:12:35,408 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:12:35,409 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:12:35,499 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:12:35,500 [INFO] [6/34] ------------------------------------------------------------
+2025-10-21 10:12:35,501 [INFO] PROCESSING: Deep reinforcement learning driven by heuristics with Petri nets for enhancing r
+2025-10-21 10:12:35,502 [INFO]   DOI: 10.1016/j.rcim.2025.103097
+2025-10-21 10:12:35,503 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105012261333&origin=inward
+2025-10-21 10:12:35,503 [INFO]   → Checking Unpaywall...
+2025-10-21 10:12:35,869 [INFO]   → No open access version found
+2025-10-21 10:12:35,870 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:12:35,871 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:12:35,949 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:12:35,951 [INFO] [7/34] ------------------------------------------------------------
+2025-10-21 10:12:35,952 [INFO] PROCESSING: Turbo-IRL: Enhancing multi-agent systems using turbo decoding-inspired deep maxi
+2025-10-21 10:12:35,953 [INFO]   DOI: 10.1016/j.eswa.2025.128754
+2025-10-21 10:12:35,954 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105010148879&origin=inward
+2025-10-21 10:12:35,954 [INFO]   → Checking Unpaywall...
+2025-10-21 10:12:36,324 [INFO]   → No open access version found
+2025-10-21 10:12:36,325 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:12:36,326 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:12:36,373 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:12:36,375 [INFO] [8/34] ------------------------------------------------------------
+2025-10-21 10:12:36,376 [INFO] PROCESSING: Weight vector selection methods by hypervolume maximization in the Pareto front 
+2025-10-21 10:12:36,377 [INFO]   DOI: 10.1016/j.eswa.2025.129070
+2025-10-21 10:12:36,377 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105011500225&origin=inward
+2025-10-21 10:12:36,378 [INFO]   → Checking Unpaywall...
+2025-10-21 10:12:36,762 [INFO]   → No open access version found
+2025-10-21 10:12:36,763 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:12:36,764 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:12:36,857 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:12:36,858 [INFO] [9/34] ------------------------------------------------------------
+2025-10-21 10:12:36,859 [INFO] PROCESSING: Intelligent docking control of autonomous underwater vehicles using deep reinfor
+2025-10-21 10:12:36,859 [INFO]   DOI: 10.1016/j.eswa.2025.129085
+2025-10-21 10:12:36,860 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105011413872&origin=inward
+2025-10-21 10:12:36,861 [INFO]   → Checking Unpaywall...
+2025-10-21 10:12:37,216 [INFO]   → No open access version found
+2025-10-21 10:12:37,217 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:12:37,218 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:12:37,286 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:12:37,287 [INFO] [10/34] ------------------------------------------------------------
+2025-10-21 10:12:39,185 [INFO]   → Found DOI via Crossref: 10.1007/978-3-032-03515-8_1
+2025-10-21 10:12:39,187 [INFO] PROCESSING: 44th IFIP WG 5.7 International Conference on Advances in Production Management S
+2025-10-21 10:12:39,188 [INFO]   DOI: 10.1007/978-3-032-03515-8_1
+2025-10-21 10:12:39,189 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105015494436&origin=inward
+2025-10-21 10:12:39,189 [INFO]   → Checking Unpaywall...
+2025-10-21 10:12:39,606 [INFO]   → No open access version found
+2025-10-21 10:12:39,607 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:12:39,608 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:12:39,668 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:12:39,669 [INFO] [11/34] ------------------------------------------------------------
+2025-10-21 10:12:39,670 [INFO] PROCESSING: Integrative AI framework for robotics: LLM-enabled reinforcement learning in obj
+2025-10-21 10:12:39,671 [INFO]   DOI: 10.1016/j.robot.2025.105197
+2025-10-21 10:12:39,672 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105016890756&origin=inward
+2025-10-21 10:12:39,672 [INFO]   → Checking Unpaywall...
+2025-10-21 10:12:40,028 [INFO]   → No open access version found
+2025-10-21 10:12:40,029 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:12:40,031 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:12:40,109 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:12:40,110 [INFO] [12/34] ------------------------------------------------------------
+2025-10-21 10:12:40,111 [INFO] PROCESSING: Comparative Evaluation of Reinforcement Learning and Model Predictive Control fo
+2025-10-21 10:12:40,112 [INFO]   DOI: 10.1007/978-3-032-01486-3_29
+2025-10-21 10:12:40,112 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105017374263&origin=inward
+2025-10-21 10:12:40,113 [INFO]   → Checking Unpaywall...
+2025-10-21 10:12:40,490 [INFO]   → No open access version found
+2025-10-21 10:12:40,491 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:12:40,492 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:12:40,550 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:12:40,551 [INFO] [13/34] ------------------------------------------------------------
+2025-10-21 10:12:40,552 [INFO] PROCESSING: Embodied Intelligence Robotics Technology for Safety Operation and Maintenance i
+2025-10-21 10:12:40,553 [INFO]   DOI: 10.1007/978-981-95-1337-6_36
+2025-10-21 10:12:40,553 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105014868795&origin=inward
+2025-10-21 10:12:40,554 [INFO]   → Checking Unpaywall...
+2025-10-21 10:12:40,928 [INFO]   → No open access version found
+2025-10-21 10:12:40,930 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:12:40,931 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:12:40,994 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:12:40,995 [INFO] [14/34] ------------------------------------------------------------
+2025-10-21 10:12:40,996 [INFO] PROCESSING: Adaptive Trust Region Radius for Robust Policy Optimization
+2025-10-21 10:12:40,997 [INFO]   DOI: 10.1007/978-981-96-6951-6_27
+2025-10-21 10:12:40,997 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105010817551&origin=inward
+2025-10-21 10:12:40,998 [INFO]   → Checking Unpaywall...
+2025-10-21 10:12:41,361 [INFO]   → No open access version found
+2025-10-21 10:12:41,363 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:12:41,364 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:12:41,424 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:12:41,425 [INFO] [15/34] ------------------------------------------------------------
+2025-10-21 10:12:42,160 [INFO]   → Found DOI via Crossref: 10.1007/978-3-032-01486-3_30
+2025-10-21 10:12:42,163 [INFO] PROCESSING: 26th Annual Conference on Towards Autonomous Robotic Systems, TAROS 2025
+2025-10-21 10:12:42,164 [INFO]   DOI: 10.1007/978-3-032-01486-3_30
+2025-10-21 10:12:42,165 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105017367815&origin=inward
+2025-10-21 10:12:42,165 [INFO]   → Checking Unpaywall...
+2025-10-21 10:12:42,515 [INFO]   → No open access version found
+2025-10-21 10:12:42,516 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:12:42,517 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:12:42,572 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:12:42,574 [INFO] [16/34] ------------------------------------------------------------
+2025-10-21 10:12:43,853 [INFO]   → Found DOI via Crossref: 10.1007/978-3-032-03515-8_1
+2025-10-21 10:12:43,856 [INFO] PROCESSING: 44th IFIP WG 5.7 International Conference on Advances in Production Management S
+2025-10-21 10:12:43,857 [INFO]   DOI: 10.1007/978-3-032-03515-8_1
+2025-10-21 10:12:43,858 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105015502830&origin=inward
+2025-10-21 10:12:43,859 [INFO]   → Checking Unpaywall...
+2025-10-21 10:12:44,233 [INFO]   → No open access version found
+2025-10-21 10:12:44,234 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:12:44,234 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:12:44,301 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:12:44,302 [INFO] [17/34] ------------------------------------------------------------
+2025-10-21 10:12:44,303 [INFO] PROCESSING: AI4Green: A Framework for AI-Based Resource Optimizations for Reliable Applicati
+2025-10-21 10:12:44,304 [INFO]   DOI: 10.1007/978-3-032-05073-1_21
+2025-10-21 10:12:44,305 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105017965969&origin=inward
+2025-10-21 10:12:44,306 [INFO]   → Checking Unpaywall...
+2025-10-21 10:12:44,653 [INFO]   → No open access version found
+2025-10-21 10:12:44,655 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:12:44,655 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:12:44,747 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:12:44,748 [INFO] [18/34] ------------------------------------------------------------
+2025-10-21 10:12:46,054 [INFO]   → Found DOI via Crossref: 10.1109/dexa.1996.558607
+2025-10-21 10:12:46,057 [INFO] PROCESSING: 5th International Workshop on AI System Engineering: Math, Modelling and Softwar
+2025-10-21 10:12:46,058 [INFO]   DOI: 10.1109/dexa.1996.558607
+2025-10-21 10:12:46,059 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105014401548&origin=inward
+2025-10-21 10:12:46,060 [INFO]   → Checking Unpaywall...
+2025-10-21 10:12:46,436 [INFO]   → No open access version found
+2025-10-21 10:12:46,437 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:12:46,438 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:12:46,528 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:12:46,530 [INFO] [19/34] ------------------------------------------------------------
+2025-10-21 10:12:46,531 [INFO] PROCESSING: World Model for AI Autonomous Navigation in Mechanical Thrombectomy
+2025-10-21 10:12:46,532 [INFO]   DOI: 10.1007/978-3-032-05114-1_65
+2025-10-21 10:12:46,532 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105017963571&origin=inward
+2025-10-21 10:12:46,533 [INFO]   → Checking Unpaywall...
+2025-10-21 10:12:46,886 [INFO]   → No open access version found
+2025-10-21 10:12:46,888 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:12:46,889 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:12:46,968 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:12:46,970 [INFO] [20/34] ------------------------------------------------------------
+2025-10-21 10:12:46,971 [INFO] PROCESSING: Dialogue Style Transfer with Reinforcement Learning and Parameter Efficient Fine
+2025-10-21 10:12:46,972 [INFO]   DOI: 10.1007/978-3-032-05607-8_22
+2025-10-21 10:12:46,973 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105016177892&origin=inward
+2025-10-21 10:12:46,973 [INFO]   → Checking Unpaywall...
+2025-10-21 10:12:47,332 [INFO]   → No open access version found
+2025-10-21 10:12:47,333 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:12:47,335 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:12:47,414 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:12:47,415 [INFO] [21/34] ------------------------------------------------------------
+2025-10-21 10:12:47,416 [INFO] PROCESSING: A review of multi-motor coordinated control technologies: advanced strategies, i
+2025-10-21 10:12:47,417 [INFO]   DOI: 10.1016/j.rser.2025.116188
+2025-10-21 10:12:47,418 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105012757070&origin=inward
+2025-10-21 10:12:47,418 [INFO]   → Checking Unpaywall...
+2025-10-21 10:12:47,793 [INFO]   → No open access version found
+2025-10-21 10:12:47,794 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:12:47,796 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:12:47,922 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:12:47,923 [INFO] [22/34] ------------------------------------------------------------
+2025-10-21 10:12:47,925 [INFO] PROCESSING: Hierarchical Multi-agent Reinforcement Learning with Epistemic Priors for Scalab
+2025-10-21 10:12:47,926 [INFO]   DOI: 10.1007/978-981-96-8889-0_15
+2025-10-21 10:12:47,926 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105010816171&origin=inward
+2025-10-21 10:12:47,927 [INFO]   → Checking Unpaywall...
+2025-10-21 10:12:48,308 [INFO]   → No open access version found
+2025-10-21 10:12:48,310 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:12:48,311 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:12:48,389 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:12:48,390 [INFO] [23/34] ------------------------------------------------------------
+2025-10-21 10:12:50,234 [INFO]   → Found DOI via Crossref: 10.1007/978-3-032-03515-8_1
+2025-10-21 10:12:50,237 [INFO] PROCESSING: 44th IFIP WG 5.7 International Conference on Advances in Production Management S
+2025-10-21 10:12:50,238 [INFO]   DOI: 10.1007/978-3-032-03515-8_1
+2025-10-21 10:12:50,239 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105015464905&origin=inward
+2025-10-21 10:12:50,239 [INFO]   → Checking Unpaywall...
+2025-10-21 10:12:50,578 [INFO]   → No open access version found
+2025-10-21 10:12:50,580 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:12:50,581 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:12:50,648 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:12:50,649 [INFO] [24/34] ------------------------------------------------------------
+2025-10-21 10:12:50,650 [INFO] PROCESSING: Proactive Depot Discovery: A Generative DRL Framework for Adaptive Location-Rout
+2025-10-21 10:12:50,651 [INFO]   DOI: 10.1007/978-3-032-04555-3_12
+2025-10-21 10:12:50,652 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105016576892&origin=inward
+2025-10-21 10:12:50,652 [INFO]   → Checking Unpaywall...
+2025-10-21 10:12:51,012 [INFO]   → No open access version found
+2025-10-21 10:12:51,013 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:12:51,014 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:12:51,084 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:12:51,085 [INFO] [25/34] ------------------------------------------------------------
+2025-10-21 10:12:51,087 [INFO] PROCESSING: Transformer-based dynamics model for sim-to-real reinforcement learning control 
+2025-10-21 10:12:51,088 [INFO]   DOI: 10.1016/j.asoc.2025.114024
+2025-10-21 10:12:51,088 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105018581371&origin=inward
+2025-10-21 10:12:51,089 [INFO]   → Checking Unpaywall...
+2025-10-21 10:12:51,459 [INFO]   → No open access version found
+2025-10-21 10:12:51,461 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:12:51,462 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:12:51,547 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:12:51,548 [INFO] [26/34] ------------------------------------------------------------
+2025-10-21 10:12:51,550 [INFO] PROCESSING: Personalized sports recommendation systems using robotic-assisted techniques in 
+2025-10-21 10:12:51,550 [INFO]   DOI: 10.3389/fonc.2025.1604041
+2025-10-21 10:12:51,551 [INFO]   URL: https://pubmed.ncbi.nlm.nih.gov/41103951/
+2025-10-21 10:12:51,552 [INFO]   → Checking Unpaywall...
+2025-10-21 10:12:51,922 [INFO]   → Found OA version: https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2025.1604041
+2025-10-21 10:12:51,923 [INFO] Downloading from: https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2025.1604041/pdf
+2025-10-21 10:12:52,918 [INFO] Successfully saved PDF (5165835 bytes)
+2025-10-21 10:12:52,920 [INFO]   ✓ SUCCESS via Unpaywall
+2025-10-21 10:12:52,921 [INFO] [27/34] ------------------------------------------------------------
+2025-10-21 10:12:52,922 [INFO] PROCESSING: 2025 Delphi consensus on robotic ventral mesh rectopexy.
+2025-10-21 10:12:52,922 [INFO]   DOI: 10.1007/s00384-025-05003-8
+2025-10-21 10:12:52,922 [INFO]   URL: https://pubmed.ncbi.nlm.nih.gov/41099852/
+2025-10-21 10:12:52,923 [INFO]   → Checking Unpaywall...
+2025-10-21 10:12:53,279 [INFO]   → No open access version found
+2025-10-21 10:12:53,280 [INFO]   → Checking PubMed Central...
+2025-10-21 10:12:53,834 [INFO]   → Found PMC ID: PMC12532664
+2025-10-21 10:12:53,838 [INFO] Downloading from: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12532664/pdf/
+2025-10-21 10:12:54,425 [WARNING] Downloaded content is not a PDF (content-type: text/html; charset=utf-8)
+2025-10-21 10:12:54,427 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:12:54,428 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:12:55,311 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:12:55,312 [INFO] [28/34] ------------------------------------------------------------
+2025-10-21 10:12:55,313 [INFO] PROCESSING: Bioinspired Stimulus Selection Under Multisensory Overload in Social Robots Usin
+2025-10-21 10:12:55,314 [INFO]   DOI: 10.3390/s25196152
+2025-10-21 10:12:55,315 [INFO]   URL: https://pubmed.ncbi.nlm.nih.gov/41094974/
+2025-10-21 10:12:55,316 [INFO]   → Checking Unpaywall...
+2025-10-21 10:12:55,673 [INFO]   → Found OA version: https://www.mdpi.com/1424-8220/25/19/6152/pdf?version=1759576608
+2025-10-21 10:12:55,674 [INFO] Downloading from: https://www.mdpi.com/1424-8220/25/19/6152/pdf?version=1759576608
+2025-10-21 10:12:56,398 [INFO] Successfully saved PDF (2224391 bytes)
+2025-10-21 10:12:56,400 [INFO]   ✓ SUCCESS via Unpaywall
+2025-10-21 10:12:56,401 [INFO] [29/34] ------------------------------------------------------------
+2025-10-21 10:12:56,403 [INFO] PROCESSING: Unbiased Gradient Low-Rank Projection
+2025-10-21 10:12:56,403 [INFO]   arXiv ID: 2510.17802
+2025-10-21 10:12:56,404 [INFO]   → Trying arXiv...
+2025-10-21 10:12:56,404 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2510.17802.pdf
+2025-10-21 10:12:56,405 [INFO] Downloading from: https://arxiv.org/pdf/2510.17802.pdf
+2025-10-21 10:12:57,160 [INFO] Successfully saved PDF (5583405 bytes)
+2025-10-21 10:12:57,162 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:12:57,163 [INFO] [30/34] ------------------------------------------------------------
+2025-10-21 10:12:57,165 [INFO] PROCESSING: Robobench: A Comprehensive Evaluation Benchmark for Multimodal Large   Language 
+2025-10-21 10:12:57,165 [INFO]   arXiv ID: 2510.17801
+2025-10-21 10:12:57,166 [INFO]   → Trying arXiv...
+2025-10-21 10:12:57,167 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2510.17801.pdf
+2025-10-21 10:12:57,167 [INFO] Downloading from: https://arxiv.org/pdf/2510.17801.pdf
+2025-10-21 10:12:58,265 [INFO] Successfully saved PDF (9765313 bytes)
+2025-10-21 10:12:58,268 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:12:58,268 [INFO] [31/34] ------------------------------------------------------------
+2025-10-21 10:12:58,269 [INFO] PROCESSING: Glyph: Scaling Context Windows via Visual-Text Compression
+2025-10-21 10:12:58,270 [INFO]   arXiv ID: 2510.17800
+2025-10-21 10:12:58,270 [INFO]   → Trying arXiv...
+2025-10-21 10:12:58,271 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2510.17800.pdf
+2025-10-21 10:12:58,272 [INFO] Downloading from: https://arxiv.org/pdf/2510.17800.pdf
+2025-10-21 10:12:58,878 [INFO] Successfully saved PDF (4993154 bytes)
+2025-10-21 10:12:58,880 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:12:58,880 [INFO] [32/34] ------------------------------------------------------------
+2025-10-21 10:12:59,418 [INFO] PROCESSING: Reinforcement learning in robotics: A survey
+2025-10-21 10:12:59,420 [INFO]   URL: https://journals.sagepub.com/doi/abs/10.1177/0278364913495721
+2025-10-21 10:12:59,420 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:12:59,540 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:12:59,541 [ERROR]   → No DOI or arXiv ID available
+2025-10-21 10:12:59,541 [INFO] [33/34] ------------------------------------------------------------
+2025-10-21 10:13:00,160 [INFO] PROCESSING: Reinforcement learning in robotics: Applications and real-world challenges
+2025-10-21 10:13:00,161 [INFO]   URL: https://www.mdpi.com/2218-6581/2/3/122
+2025-10-21 10:13:00,162 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:13:00,585 [INFO]   → Found PDF link: https://www.mdpi.com/2218-6581/2/3/122/pdf?version=1373014977
+2025-10-21 10:13:00,586 [INFO] Downloading from: https://www.mdpi.com/2218-6581/2/3/122/pdf?version=1373014977
+2025-10-21 10:13:01,273 [INFO] Successfully saved PDF (1987279 bytes)
+2025-10-21 10:13:01,276 [INFO]   ✓ SUCCESS via HTML scraping
+2025-10-21 10:13:01,277 [INFO] [34/34] ------------------------------------------------------------
+2025-10-21 10:13:02,200 [INFO] PROCESSING: Survey of model-based reinforcement learning: Applications on robotics
+2025-10-21 10:13:02,201 [INFO]   URL: https://link.springer.com/article/10.1007/s10846-017-0468-y
+2025-10-21 10:13:02,202 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:13:02,958 [INFO]   → Found PDF link: https://link.springer.com/content/pdf/10.1007/s10846-017-0468-y.pdf
+2025-10-21 10:13:02,959 [INFO] Downloading from: https://link.springer.com/content/pdf/10.1007/s10846-017-0468-y.pdf
+2025-10-21 10:13:03,720 [INFO] Successfully saved PDF (1468233 bytes)
+2025-10-21 10:13:03,722 [INFO]   ✓ SUCCESS via HTML scraping
+2025-10-21 10:13:03,723 [INFO] 
+2025-10-21 10:13:03,724 [INFO] ================================================================================
+2025-10-21 10:13:03,724 [INFO] DOWNLOAD SESSION SUMMARY
+2025-10-21 10:13:03,725 [INFO] ================================================================================
+2025-10-21 10:13:03,726 [INFO] Total papers: 34
+2025-10-21 10:13:03,726 [INFO] Successfully downloaded: 7 (20.6%)
+2025-10-21 10:13:03,727 [INFO] Already downloaded (skipped): 0
+2025-10-21 10:13:03,727 [INFO] Failed to download: 27 (79.4%)
+2025-10-21 10:13:03,728 [INFO] DOIs found via Crossref: 5
+2025-10-21 10:13:03,728 [INFO] 
+2025-10-21 10:13:03,729 [INFO] Downloads by method:
+2025-10-21 10:13:03,730 [INFO]   Arxiv: 3
+2025-10-21 10:13:03,730 [INFO]   Unpaywall: 2
+2025-10-21 10:13:03,730 [INFO]   Scraping: 2
+2025-10-21 10:13:03,730 [INFO] ================================================================================
+2025-10-21 10:13:03,731 [INFO] 
+2025-10-21 10:18:56,097 [INFO] ================================================================================
+2025-10-21 10:18:56,098 [INFO] NEW DOWNLOAD SESSION STARTED
+2025-10-21 10:18:56,099 [INFO] Input file: test_results\bibliographies\combined_results.bib
+2025-10-21 10:18:56,099 [INFO] Output directory: test_results\pdfs
+2025-10-21 10:18:56,100 [INFO] Unpaywall enabled: True
+2025-10-21 10:18:56,100 [INFO] Sci-Hub enabled: False
+2025-10-21 10:18:56,101 [INFO] ================================================================================
+2025-10-21 10:18:56,182 [INFO] Loaded 34 papers from test_results\bibliographies\combined_results.bib
+2025-10-21 10:18:56,183 [INFO] 
+2025-10-21 10:18:56,184 [INFO] [1/34] ------------------------------------------------------------
+2025-10-21 10:18:56,186 [INFO] PROCESSING: Integrating artificial intelligence and quantum computing: A systematic literatu
+2025-10-21 10:18:56,186 [INFO]   DOI: 10.1016/j.ijcce.2025.08.002
+2025-10-21 10:18:56,187 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105014601110&origin=inward
+2025-10-21 10:18:56,188 [INFO]   → Checking Unpaywall...
+2025-10-21 10:18:56,606 [INFO]   → No open access version found
+2025-10-21 10:18:56,607 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:18:56,607 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:18:59,225 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:18:59,226 [INFO] [2/34] ------------------------------------------------------------
+2025-10-21 10:18:59,227 [INFO] PROCESSING: Hierarchical feature distillation model via dual-stage projections and graph emb
+2025-10-21 10:18:59,228 [INFO]   DOI: 10.1016/j.patcog.2025.112143
+2025-10-21 10:18:59,229 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105010839514&origin=inward
+2025-10-21 10:18:59,229 [INFO]   → Checking Unpaywall...
+2025-10-21 10:18:59,604 [INFO]   → No open access version found
+2025-10-21 10:18:59,605 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:18:59,605 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:19:02,420 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:19:02,421 [INFO] [3/34] ------------------------------------------------------------
+2025-10-21 10:19:02,422 [INFO] PROCESSING: Lattice-based blockchain platform for IoT: Privacy-enhanced application with lat
+2025-10-21 10:19:02,423 [INFO]   DOI: 10.1016/j.csi.2025.104077
+2025-10-21 10:19:02,423 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105016879783&origin=inward
+2025-10-21 10:19:02,424 [INFO]   → Checking Unpaywall...
+2025-10-21 10:19:02,765 [INFO]   → No open access version found
+2025-10-21 10:19:02,766 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:19:02,767 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:19:05,091 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:19:05,092 [INFO] [4/34] ------------------------------------------------------------
+2025-10-21 10:19:05,093 [INFO] PROCESSING: A survey on secure multi-party computation techniques based on private set inter
+2025-10-21 10:19:05,094 [INFO]   DOI: 10.1016/j.csi.2025.104067
+2025-10-21 10:19:05,094 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105014813541&origin=inward
+2025-10-21 10:19:05,095 [INFO]   → Checking Unpaywall...
+2025-10-21 10:19:05,470 [INFO]   → No open access version found
+2025-10-21 10:19:05,471 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:19:05,471 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:19:07,872 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:19:07,873 [INFO] [5/34] ------------------------------------------------------------
+2025-10-21 10:19:07,875 [INFO] PROCESSING: Solving linear and nonlinear Caputo fractional differential equations with a qua
+2025-10-21 10:19:07,876 [INFO]   DOI: 10.1016/j.amc.2025.129726
+2025-10-21 10:19:07,876 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105017120807&origin=inward
+2025-10-21 10:19:07,877 [INFO]   → Checking Unpaywall...
+2025-10-21 10:19:08,235 [INFO]   → No open access version found
+2025-10-21 10:19:08,236 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:19:08,237 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:19:11,269 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:19:11,270 [INFO] [6/34] ------------------------------------------------------------
+2025-10-21 10:19:11,272 [INFO] PROCESSING: A hybrid quantum-classical particle-in-cell method for plasma simulations
+2025-10-21 10:19:11,273 [INFO]   DOI: 10.1016/j.future.2025.108087
+2025-10-21 10:19:11,274 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105013835560&origin=inward
+2025-10-21 10:19:11,275 [INFO]   → Checking Unpaywall...
+2025-10-21 10:19:11,975 [INFO]   → No open access version found
+2025-10-21 10:19:11,976 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:19:11,977 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:19:14,359 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:19:14,360 [INFO] [7/34] ------------------------------------------------------------
+2025-10-21 10:19:14,362 [INFO] PROCESSING: Two-dimensional perovskite PrNb2O7 for multifunctional electronic and optoelectr
+2025-10-21 10:19:14,363 [INFO]   DOI: 10.1016/j.jcis.2025.139135
+2025-10-21 10:19:14,364 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105017418774&origin=inward
+2025-10-21 10:19:14,364 [INFO]   → Checking Unpaywall...
+2025-10-21 10:19:14,889 [INFO]   → No open access version found
+2025-10-21 10:19:14,889 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:19:14,890 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:19:17,182 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:19:17,182 [INFO] [8/34] ------------------------------------------------------------
+2025-10-21 10:19:17,184 [INFO] PROCESSING: Factors influencing the adoption intent of quantum computing in enterprises: An 
+2025-10-21 10:19:17,185 [INFO]   DOI: 10.1016/j.ijinfomgt.2025.102978
+2025-10-21 10:19:17,185 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105017419522&origin=inward
+2025-10-21 10:19:17,186 [INFO]   → Checking Unpaywall...
+2025-10-21 10:19:17,870 [INFO]   → No open access version found
+2025-10-21 10:19:17,871 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:19:17,872 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:19:21,785 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:19:21,786 [INFO] [9/34] ------------------------------------------------------------
+2025-10-21 10:19:21,788 [INFO] PROCESSING: A quantum-inspired medical scalable convolutional neural network for Intelligent
+2025-10-21 10:19:21,789 [INFO]   DOI: 10.1016/j.bspc.2025.108440
+2025-10-21 10:19:21,790 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105014368230&origin=inward
+2025-10-21 10:19:21,790 [INFO]   → Checking Unpaywall...
+2025-10-21 10:19:22,171 [INFO]   → No open access version found
+2025-10-21 10:19:22,172 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:19:22,173 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:19:24,561 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:19:24,563 [INFO] [10/34] ------------------------------------------------------------
+2025-10-21 10:19:24,564 [INFO] PROCESSING: Quantum-inspired complex spiking neural network for multi-source data joint clas
+2025-10-21 10:19:24,565 [INFO]   DOI: 10.1016/j.inffus.2025.103526
+2025-10-21 10:19:24,566 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105011724068&origin=inward
+2025-10-21 10:19:24,567 [INFO]   → Checking Unpaywall...
+2025-10-21 10:19:24,938 [INFO]   → No open access version found
+2025-10-21 10:19:24,939 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:19:24,940 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:19:27,529 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:19:27,530 [INFO] [11/34] ------------------------------------------------------------
+2025-10-21 10:19:27,531 [INFO] PROCESSING: Cost-efficient quantum cloud task offloading with quantum-inspired particle swar
+2025-10-21 10:19:27,532 [INFO]   DOI: 10.1016/j.future.2025.108095
+2025-10-21 10:19:27,533 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105014538443&origin=inward
+2025-10-21 10:19:27,533 [INFO]   → Checking Unpaywall...
+2025-10-21 10:19:27,963 [INFO]   → No open access version found
+2025-10-21 10:19:27,964 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:19:27,965 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:19:30,262 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:19:30,264 [INFO] [12/34] ------------------------------------------------------------
+2025-10-21 10:19:30,266 [INFO] PROCESSING: From molecular nanoarchitectonics to device integration: Coordination chemistry 
+2025-10-21 10:19:30,267 [INFO]   DOI: 10.1016/j.ccr.2025.217187
+2025-10-21 10:19:30,267 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105016640378&origin=inward
+2025-10-21 10:19:30,268 [INFO]   → Checking Unpaywall...
+2025-10-21 10:19:30,614 [INFO]   → No open access version found
+2025-10-21 10:19:30,615 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:19:30,616 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:19:33,097 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:19:33,098 [INFO] [13/34] ------------------------------------------------------------
+2025-10-21 10:19:33,100 [INFO] PROCESSING: Anomaly-aware quantum convolutional neural network for carbon-efficient job arri
+2025-10-21 10:19:33,100 [INFO]   DOI: 10.1016/j.future.2025.108096
+2025-10-21 10:19:33,101 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105014542942&origin=inward
+2025-10-21 10:19:33,102 [INFO]   → Checking Unpaywall...
+2025-10-21 10:19:33,567 [INFO]   → No open access version found
+2025-10-21 10:19:33,569 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:19:33,570 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:19:35,927 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:19:35,928 [INFO] [14/34] ------------------------------------------------------------
+2025-10-21 10:19:35,930 [INFO] PROCESSING: Quantum-accelerated post-event restoration through quantum surrogate absolute-va
+2025-10-21 10:19:35,931 [INFO]   DOI: 10.1016/j.ress.2025.111656
+2025-10-21 10:19:35,931 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105015037197&origin=inward
+2025-10-21 10:19:35,932 [INFO]   → Checking Unpaywall...
+2025-10-21 10:19:36,401 [INFO]   → No open access version found
+2025-10-21 10:19:36,402 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:19:36,403 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:19:38,962 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:19:39,004 [INFO] [15/34] ------------------------------------------------------------
+2025-10-21 10:19:39,006 [INFO] PROCESSING: Distributed machine learning based on quantum cloud with quantum homomorphic enc
+2025-10-21 10:19:39,007 [INFO]   DOI: 10.1016/j.future.2025.108053
+2025-10-21 10:19:39,008 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105012994428&origin=inward
+2025-10-21 10:19:39,009 [INFO]   → Checking Unpaywall...
+2025-10-21 10:19:39,365 [INFO]   → No open access version found
+2025-10-21 10:19:39,366 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:19:39,367 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:19:41,682 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:19:41,683 [INFO] [16/34] ------------------------------------------------------------
+2025-10-21 10:19:41,684 [INFO] PROCESSING: The GoldStepTrigger function and the spectral behavior of Goldbach decomposition
+2025-10-21 10:19:41,685 [INFO]   DOI: 10.1016/j.measurement.2025.119199
+2025-10-21 10:19:41,686 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105018580513&origin=inward
+2025-10-21 10:19:41,687 [INFO]   → Checking Unpaywall...
+2025-10-21 10:19:42,038 [INFO]   → No open access version found
+2025-10-21 10:19:42,039 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:19:42,040 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:19:43,081 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:19:43,082 [INFO] [17/34] ------------------------------------------------------------
+2025-10-21 10:19:43,084 [INFO] PROCESSING: Quantum-enhanced predictive analytics in healthcare: benchmarking QSVM and QNN o
+2025-10-21 10:19:43,085 [INFO]   DOI: 10.1016/j.measurement.2025.119099
+2025-10-21 10:19:43,085 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105017233109&origin=inward
+2025-10-21 10:19:43,086 [INFO]   → Checking Unpaywall...
+2025-10-21 10:19:43,709 [INFO]   → No open access version found
+2025-10-21 10:19:43,711 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:19:43,712 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:19:43,786 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:19:43,787 [INFO] [18/34] ------------------------------------------------------------
+2025-10-21 10:19:43,789 [INFO] PROCESSING: Quantum Metabolic Avatar: A digital replica of metabolism enhanced by quantum al
+2025-10-21 10:19:43,789 [INFO]   DOI: 10.1016/j.eswa.2025.129045
+2025-10-21 10:19:43,790 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105010839325&origin=inward
+2025-10-21 10:19:43,791 [INFO]   → Checking Unpaywall...
+2025-10-21 10:19:44,146 [INFO]   → No open access version found
+2025-10-21 10:19:44,147 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:19:44,148 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:19:44,221 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:19:44,222 [INFO] [19/34] ------------------------------------------------------------
+2025-10-21 10:19:44,225 [INFO] PROCESSING: iHQGAN: A lightweight invertible hybrid quantum-classical generative adversarial
+2025-10-21 10:19:44,225 [INFO]   DOI: 10.1016/j.eswa.2025.128865
+2025-10-21 10:19:44,226 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105010428604&origin=inward
+2025-10-21 10:19:44,226 [INFO]   → Checking Unpaywall...
+2025-10-21 10:19:44,830 [INFO]   → No open access version found
+2025-10-21 10:19:44,831 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:19:44,832 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:19:44,923 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:19:44,924 [INFO] [20/34] ------------------------------------------------------------
+2025-10-21 10:19:44,926 [INFO] PROCESSING: Unraveling the defect-induced resistance mechanism of MoS2 memristors at the ato
+2025-10-21 10:19:44,927 [INFO]   DOI: 10.1016/j.apsusc.2025.164614
+2025-10-21 10:19:44,927 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105015614630&origin=inward
+2025-10-21 10:19:44,928 [INFO]   → Checking Unpaywall...
+2025-10-21 10:19:45,290 [INFO]   → No open access version found
+2025-10-21 10:19:45,291 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:19:45,292 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:19:45,397 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:19:45,398 [INFO] [21/34] ------------------------------------------------------------
+2025-10-21 10:19:45,399 [INFO] PROCESSING: Modulating circularly polarized luminescent and thermally activated delayed fluo
+2025-10-21 10:19:45,400 [INFO]   DOI: 10.1016/j.saa.2025.126710
+2025-10-21 10:19:45,400 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105011079152&origin=inward
+2025-10-21 10:19:45,401 [INFO]   → Checking Unpaywall...
+2025-10-21 10:19:45,770 [INFO]   → No open access version found
+2025-10-21 10:19:45,771 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:19:45,773 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:19:45,843 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:19:45,844 [INFO] [22/34] ------------------------------------------------------------
+2025-10-21 10:19:45,846 [INFO] PROCESSING: AI for Intelligent Data Retrieval
+2025-10-21 10:19:45,847 [INFO]   DOI: 10.1007/978-3-032-00350-8_17
+2025-10-21 10:19:45,848 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105014372352&origin=inward
+2025-10-21 10:19:45,849 [INFO]   → Checking Unpaywall...
+2025-10-21 10:19:46,218 [INFO]   → No open access version found
+2025-10-21 10:19:46,219 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:19:46,219 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:19:46,276 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:19:46,277 [INFO] [23/34] ------------------------------------------------------------
+2025-10-21 10:19:46,279 [INFO] PROCESSING: Q-TEE: A Service-Oriented Tool for Assessing the Trainability and Expressivity o
+2025-10-21 10:19:46,280 [INFO]   DOI: 10.1007/978-981-96-7423-7_3
+2025-10-21 10:19:46,281 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105013050238&origin=inward
+2025-10-21 10:19:46,281 [INFO]   → Checking Unpaywall...
+2025-10-21 10:19:46,631 [INFO]   → No open access version found
+2025-10-21 10:19:46,632 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:19:46,633 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:19:46,727 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:19:46,728 [INFO] [24/34] ------------------------------------------------------------
+2025-10-21 10:19:46,729 [INFO] PROCESSING: Hybrid (Quantum-Classical) Service Applications Deployment Configuration System
+2025-10-21 10:19:46,730 [INFO]   DOI: 10.1007/978-981-96-7423-7_1
+2025-10-21 10:19:46,731 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105013047426&origin=inward
+2025-10-21 10:19:46,731 [INFO]   → Checking Unpaywall...
+2025-10-21 10:19:47,087 [INFO]   → No open access version found
+2025-10-21 10:19:47,088 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:19:47,089 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:19:47,163 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:19:47,165 [INFO] [25/34] ------------------------------------------------------------
+2025-10-21 10:19:47,167 [INFO] PROCESSING: Near-Optimal Contraction Strategies for the Scalar Product in the Tensor-Train F
+2025-10-21 10:19:47,167 [INFO]   DOI: 10.1007/978-3-031-99872-0_5
+2025-10-21 10:19:47,168 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105014495599&origin=inward
+2025-10-21 10:19:47,169 [INFO]   → Checking Unpaywall...
+2025-10-21 10:19:47,517 [INFO]   → No open access version found
+2025-10-21 10:19:47,518 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:19:47,518 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:19:47,591 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:19:47,593 [INFO] [26/34] ------------------------------------------------------------
+2025-10-21 10:19:47,594 [INFO] PROCESSING: A Review of Global Optimization Methods for Molecular Structures: Algorithms, Ap
+2025-10-21 10:19:47,595 [INFO]   DOI: 10.1002/jcc.70243
+2025-10-21 10:19:47,596 [INFO]   URL: https://pubmed.ncbi.nlm.nih.gov/41116211/
+2025-10-21 10:19:47,597 [INFO]   → Checking Unpaywall...
+2025-10-21 10:19:47,955 [INFO]   → No open access version found
+2025-10-21 10:19:47,957 [INFO]   → Checking PubMed Central...
+2025-10-21 10:19:48,707 [INFO]   → Paper not available in PMC
+2025-10-21 10:19:48,710 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:19:48,711 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:19:49,111 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:19:49,113 [INFO] [27/34] ------------------------------------------------------------
+2025-10-21 10:19:49,115 [INFO] PROCESSING: A dataset of chemical reaction pathways incorporating halogen chemistry.
+2025-10-21 10:19:49,116 [INFO]   DOI: 10.1038/s41597-025-05944-3
+2025-10-21 10:19:49,116 [INFO]   URL: https://pubmed.ncbi.nlm.nih.gov/41115886/
+2025-10-21 10:19:49,117 [INFO]   → Checking Unpaywall...
+2025-10-21 10:19:49,477 [INFO]   → No open access version found
+2025-10-21 10:19:49,478 [INFO]   → Checking PubMed Central...
+2025-10-21 10:19:50,108 [INFO]   → Paper not available in PMC
+2025-10-21 10:19:50,111 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:19:50,112 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:19:50,464 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:19:50,465 [INFO] [28/34] ------------------------------------------------------------
+2025-10-21 10:19:50,467 [INFO] PROCESSING: Laccase Employing Water-Mediated Double-Proton-Coupled Electron Transfer To Achi
+2025-10-21 10:19:50,468 [INFO]   DOI: 10.1021/acs.inorgchem.5c03970
+2025-10-21 10:19:50,469 [INFO]   URL: https://pubmed.ncbi.nlm.nih.gov/41115833/
+2025-10-21 10:19:50,469 [INFO]   → Checking Unpaywall...
+2025-10-21 10:19:51,003 [INFO]   → No open access version found
+2025-10-21 10:19:51,004 [INFO]   → Checking PubMed Central...
+2025-10-21 10:19:51,519 [INFO]   → Paper not available in PMC
+2025-10-21 10:19:51,522 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:19:51,522 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:19:52,057 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:19:52,058 [INFO] [29/34] ------------------------------------------------------------
+2025-10-21 10:19:52,060 [INFO] PROCESSING: ConsistEdit: Highly Consistent and Precise Training-free Visual Editing
+2025-10-21 10:19:52,060 [INFO]   arXiv ID: 2510.17803
+2025-10-21 10:19:52,061 [INFO]   → Trying arXiv...
+2025-10-21 10:19:52,061 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2510.17803.pdf
+2025-10-21 10:19:52,061 [INFO] Downloading from: https://arxiv.org/pdf/2510.17803.pdf
+2025-10-21 10:19:55,741 [INFO] Successfully saved PDF (38214818 bytes)
+2025-10-21 10:19:55,747 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:19:55,748 [INFO] [30/34] ------------------------------------------------------------
+2025-10-21 10:19:55,750 [INFO] SKIP: Glyph: Scaling Context Windows via Visual-Text Compression
+2025-10-21 10:19:55,751 [INFO]   → Already downloaded: 2510_17800.pdf
+2025-10-21 10:19:55,751 [INFO] [31/34] ------------------------------------------------------------
+2025-10-21 10:19:55,752 [INFO] PROCESSING: Enterprise Deep Research: Steerable Multi-Agent Deep Research for   Enterprise A
+2025-10-21 10:19:55,753 [INFO]   arXiv ID: 2510.17797
+2025-10-21 10:19:55,754 [INFO]   → Trying arXiv...
+2025-10-21 10:19:55,754 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2510.17797.pdf
+2025-10-21 10:19:55,755 [INFO] Downloading from: https://arxiv.org/pdf/2510.17797.pdf
+2025-10-21 10:19:56,181 [INFO] Successfully saved PDF (4226603 bytes)
+2025-10-21 10:19:56,183 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:19:56,183 [INFO] [32/34] ------------------------------------------------------------
+2025-10-21 10:19:58,609 [INFO] PROCESSING: Quantum computing
+2025-10-21 10:19:58,610 [INFO]   URL: https://iopscience.iop.org/article/10.1088/0034-4885/61/2/002/meta
+2025-10-21 10:19:58,611 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:19:59,953 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:19:59,953 [ERROR]   → No DOI or arXiv ID available
+2025-10-21 10:19:59,954 [INFO] [33/34] ------------------------------------------------------------
+2025-10-21 10:20:00,450 [INFO] PROCESSING: Optical quantum computing
+2025-10-21 10:20:00,451 [INFO]   URL: https://www.science.org/doi/abs/10.1126/science.1142892
+2025-10-21 10:20:00,452 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:20:02,902 [INFO]   → Found PDF link: https://www.science.org/doi/pdf/10.1126/science.1142892?download=true
+2025-10-21 10:20:02,903 [INFO] Downloading from: https://www.science.org/doi/pdf/10.1126/science.1142892?download=true
+2025-10-21 10:20:02,992 [WARNING] HTTP 403 for URL: https://www.science.org/doi/pdf/10.1126/science.1142892?download=true
+2025-10-21 10:20:02,994 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:20:02,995 [ERROR]   → No DOI or arXiv ID available
+2025-10-21 10:20:02,995 [INFO] [34/34] ------------------------------------------------------------
+2025-10-21 10:20:04,445 [INFO] PROCESSING: Quantum computing
+2025-10-21 10:20:04,447 [INFO]   URL: https://www.fi.muni.cz/usr/gruska/quantum13f/qc1309.pdf
+2025-10-21 10:20:04,448 [INFO]   → Trying direct PDF link...
+2025-10-21 10:20:04,449 [INFO] Downloading from: https://www.fi.muni.cz/usr/gruska/quantum13f/qc1309.pdf
+2025-10-21 10:20:05,039 [INFO] Successfully saved PDF (294839 bytes)
+2025-10-21 10:20:05,040 [INFO]   ✓ SUCCESS via direct PDF link
+2025-10-21 10:20:05,041 [INFO] 
+2025-10-21 10:20:05,042 [INFO] ================================================================================
+2025-10-21 10:20:05,042 [INFO] DOWNLOAD SESSION SUMMARY
+2025-10-21 10:20:05,043 [INFO] ================================================================================
+2025-10-21 10:20:05,043 [INFO] Total papers: 34
+2025-10-21 10:20:05,044 [INFO] Successfully downloaded: 3 (8.8%)
+2025-10-21 10:20:05,044 [INFO] Already downloaded (skipped): 1
+2025-10-21 10:20:05,045 [INFO] Failed to download: 30 (88.2%)
+2025-10-21 10:20:05,046 [INFO] 
+2025-10-21 10:20:05,047 [INFO] Downloads by method:
+2025-10-21 10:20:05,048 [INFO]   Direct Pdf: 1
+2025-10-21 10:20:05,048 [INFO]   Arxiv: 2
+2025-10-21 10:20:05,049 [INFO] ================================================================================
+2025-10-21 10:20:05,050 [INFO] 

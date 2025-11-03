@@ -1,0 +1,27 @@
+================================================================================
+SEARCHER TEST REPORT
+================================================================================
+Generated: 2025-10-20 19:24:31
+Papers per source: 5
+
+--------------------------------------------------------------------------------
+Source          Found      Downloaded   Failed     Success Rate
+--------------------------------------------------------------------------------
+Scopus          25         0            0          0.0%
+Pubmed          0          N/A          N/A        N/A
+Arxiv           5          0            0          0.0%
+Scholar         5          0            0          0.0%
+--------------------------------------------------------------------------------
+TOTAL           35         0            0          0.0%
+
+ERRORS:
+--------------------------------------------------------------------------------
+
+SCOPUS:
+  • Scopus search error: 'Paper' object has no attribute 'year'
+
+ARXIV:
+  • arXiv search error: 'Paper' object has no attribute 'year'
+
+SCHOLAR:
+  • Google Scholar search error: 'Paper' object has no attribute 'year'

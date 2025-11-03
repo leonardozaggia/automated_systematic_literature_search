@@ -1,0 +1,962 @@
+2025-10-21 10:26:41,152 [INFO] ================================================================================
+2025-10-21 10:26:41,153 [INFO] NEW DOWNLOAD SESSION STARTED
+2025-10-21 10:26:41,154 [INFO] Input file: L:\Desktop\Main\Projects\automated_systematic_literature_search\z_testing\results\references.bib
+2025-10-21 10:26:41,155 [INFO] Output directory: L:\Desktop\Main\Projects\automated_systematic_literature_search\z_testing\test_downloads
+2025-10-21 10:26:41,156 [INFO] Unpaywall enabled: False
+2025-10-21 10:26:41,157 [INFO] Sci-Hub enabled: False
+2025-10-21 10:26:41,157 [INFO] ================================================================================
+2025-10-21 10:26:41,230 [INFO] Loaded 50 papers from L:\Desktop\Main\Projects\automated_systematic_literature_search\z_testing\results\references.bib
+2025-10-21 10:26:41,231 [INFO] 
+2025-10-21 10:26:41,231 [INFO] [1/50] ------------------------------------------------------------
+2025-10-21 10:26:41,233 [INFO] PROCESSING: Neural Codecs as Biosignal Tokenizers
+2025-10-21 10:26:41,233 [INFO]   arXiv ID: 2510.09095
+2025-10-21 10:26:41,234 [INFO]   → Trying arXiv...
+2025-10-21 10:26:41,234 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2510.09095.pdf
+2025-10-21 10:26:41,430 [INFO] Downloading from: https://arxiv.org/pdf/2510.09095.pdf
+2025-10-21 10:26:42,241 [INFO] Successfully saved PDF (4088356 bytes)
+2025-10-21 10:26:42,246 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:26:42,247 [INFO] [2/50] ------------------------------------------------------------
+2025-10-21 10:26:42,248 [INFO] PROCESSING: FedL2T: Personalized Federated Learning with Two-Teacher Distillation   for Seiz
+2025-10-21 10:26:42,249 [INFO]   arXiv ID: 2510.08984
+2025-10-21 10:26:42,250 [INFO]   → Trying arXiv...
+2025-10-21 10:26:42,251 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2510.08984.pdf
+2025-10-21 10:26:42,251 [INFO] Downloading from: https://arxiv.org/pdf/2510.08984.pdf
+2025-10-21 10:26:42,600 [INFO] Successfully saved PDF (1302051 bytes)
+2025-10-21 10:26:42,601 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:26:42,602 [INFO] [3/50] ------------------------------------------------------------
+2025-10-21 10:26:42,603 [INFO] PROCESSING: ELASTIQ: EEG-Language Alignment with Semantic Task Instruction and   Querying
+2025-10-21 10:26:42,604 [INFO]   arXiv ID: 2509.24302
+2025-10-21 10:26:42,606 [INFO]   → Trying arXiv...
+2025-10-21 10:26:42,607 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2509.24302.pdf
+2025-10-21 10:26:42,607 [INFO] Downloading from: https://arxiv.org/pdf/2509.24302.pdf
+2025-10-21 10:26:43,568 [INFO] Successfully saved PDF (5920674 bytes)
+2025-10-21 10:26:43,571 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:26:43,571 [INFO] [4/50] ------------------------------------------------------------
+2025-10-21 10:26:43,572 [INFO] PROCESSING: BrainPro: Towards Large-scale Brain State-aware EEG Representation   Learning
+2025-10-21 10:26:43,573 [INFO]   arXiv ID: 2509.22050
+2025-10-21 10:26:43,573 [INFO]   → Trying arXiv...
+2025-10-21 10:26:43,574 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2509.22050.pdf
+2025-10-21 10:26:43,576 [INFO] Downloading from: https://arxiv.org/pdf/2509.22050.pdf
+2025-10-21 10:26:44,411 [INFO] Successfully saved PDF (3903313 bytes)
+2025-10-21 10:26:44,413 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:26:44,413 [INFO] [5/50] ------------------------------------------------------------
+2025-10-21 10:26:44,414 [INFO] PROCESSING: Exploring the Relationships Between Physiological Signals During   Automated Fat
+2025-10-21 10:26:44,415 [INFO]   arXiv ID: 2509.21794
+2025-10-21 10:26:44,416 [INFO]   → Trying arXiv...
+2025-10-21 10:26:44,416 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2509.21794.pdf
+2025-10-21 10:26:44,417 [INFO] Downloading from: https://arxiv.org/pdf/2509.21794.pdf
+2025-10-21 10:26:44,735 [INFO] Successfully saved PDF (1099629 bytes)
+2025-10-21 10:26:44,737 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:26:44,738 [INFO] [6/50] ------------------------------------------------------------
+2025-10-21 10:26:44,739 [INFO] PROCESSING: ADHDeepNet From Raw EEG to Diagnosis: Improving ADHD Diagnosis through   Tempora
+2025-10-21 10:26:44,740 [INFO]   arXiv ID: 2509.08779
+2025-10-21 10:26:44,741 [INFO]   → Trying arXiv...
+2025-10-21 10:26:44,741 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2509.08779.pdf
+2025-10-21 10:26:44,742 [INFO] Downloading from: https://arxiv.org/pdf/2509.08779.pdf
+2025-10-21 10:26:45,127 [INFO] Successfully saved PDF (2055081 bytes)
+2025-10-21 10:26:45,129 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:26:45,130 [INFO] [7/50] ------------------------------------------------------------
+2025-10-21 10:26:45,131 [INFO] PROCESSING: CoMET: A Contrastive-Masked Brain Foundation Model for Universal EEG   Represent
+2025-10-21 10:26:45,132 [INFO]   arXiv ID: 2509.00314
+2025-10-21 10:26:45,132 [INFO]   → Trying arXiv...
+2025-10-21 10:26:45,133 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2509.00314.pdf
+2025-10-21 10:26:45,134 [INFO] Downloading from: https://arxiv.org/pdf/2509.00314.pdf
+2025-10-21 10:26:51,022 [INFO] Successfully saved PDF (15683512 bytes)
+2025-10-21 10:26:51,025 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:26:51,026 [INFO] [8/50] ------------------------------------------------------------
+2025-10-21 10:26:51,028 [INFO] PROCESSING: MMOC: Self-Supervised EEG Emotion Recognition Framework with Multi-Model   Onlin
+2025-10-21 10:26:51,029 [INFO]   arXiv ID: 2507.03977
+2025-10-21 10:26:51,029 [INFO]   → Trying arXiv...
+2025-10-21 10:26:51,030 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2507.03977.pdf
+2025-10-21 10:26:51,031 [INFO] Downloading from: https://arxiv.org/pdf/2507.03977.pdf
+2025-10-21 10:26:51,244 [WARNING] HTTP 404 for URL: https://arxiv.org/pdf/2507.03977.pdf
+2025-10-21 10:26:51,246 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:26:51,479 [INFO]   → Found PDF link: https://arxiv.org/pdf/2507.03977
+2025-10-21 10:26:51,480 [INFO] Downloading from: https://arxiv.org/pdf/2507.03977
+2025-10-21 10:26:51,538 [WARNING] HTTP 404 for URL: https://arxiv.org/pdf/2507.03977
+2025-10-21 10:26:51,540 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:26:51,541 [INFO] [9/50] ------------------------------------------------------------
+2025-10-21 10:26:51,542 [INFO] PROCESSING: Graph Convolutional Neural Networks to Model the Brain for Insomnia
+2025-10-21 10:26:51,543 [INFO]   arXiv ID: 2507.14147
+2025-10-21 10:26:51,543 [INFO]   → Trying arXiv...
+2025-10-21 10:26:51,544 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2507.14147.pdf
+2025-10-21 10:26:51,544 [INFO] Downloading from: https://arxiv.org/pdf/2507.14147.pdf
+2025-10-21 10:26:51,963 [INFO] Successfully saved PDF (1612676 bytes)
+2025-10-21 10:26:51,966 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:26:51,967 [INFO] [10/50] ------------------------------------------------------------
+2025-10-21 10:26:51,968 [INFO] PROCESSING: Multi-View Contrastive Learning for Robust Domain Adaptation in Medical   Time S
+2025-10-21 10:26:51,969 [INFO]   arXiv ID: 2506.22393
+2025-10-21 10:26:51,970 [INFO]   → Trying arXiv...
+2025-10-21 10:26:51,970 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2506.22393.pdf
+2025-10-21 10:26:51,971 [INFO] Downloading from: https://arxiv.org/pdf/2506.22393.pdf
+2025-10-21 10:26:52,813 [INFO] Successfully saved PDF (1525668 bytes)
+2025-10-21 10:26:52,816 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:26:52,817 [INFO] [11/50] ------------------------------------------------------------
+2025-10-21 10:26:52,818 [INFO] PROCESSING: Brain2Vec: A Deep Learning Framework for EEG-Based Stress Detection   Using CNN-
+2025-10-21 10:26:52,819 [INFO]   arXiv ID: 2506.11179
+2025-10-21 10:26:52,820 [INFO]   → Trying arXiv...
+2025-10-21 10:26:52,821 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2506.11179.pdf
+2025-10-21 10:26:52,821 [INFO] Downloading from: https://arxiv.org/pdf/2506.11179.pdf
+2025-10-21 10:26:53,345 [INFO] Successfully saved PDF (456247 bytes)
+2025-10-21 10:26:53,347 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:26:53,348 [INFO] [12/50] ------------------------------------------------------------
+2025-10-21 10:26:53,349 [INFO] PROCESSING: Decoding the Stressed Brain with Geometric Machine Learning
+2025-10-21 10:26:53,349 [INFO]   arXiv ID: 2506.00587
+2025-10-21 10:26:53,350 [INFO]   → Trying arXiv...
+2025-10-21 10:26:53,350 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2506.00587.pdf
+2025-10-21 10:26:53,351 [INFO] Downloading from: https://arxiv.org/pdf/2506.00587.pdf
+2025-10-21 10:26:54,591 [INFO] Successfully saved PDF (988891 bytes)
+2025-10-21 10:26:54,593 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:26:54,593 [INFO] [13/50] ------------------------------------------------------------
+2025-10-21 10:26:54,595 [INFO] PROCESSING: Advancing Brainwave Modeling with a Codebook-Based Foundation Model
+2025-10-21 10:26:54,596 [INFO]   arXiv ID: 2505.16724
+2025-10-21 10:26:54,597 [INFO]   → Trying arXiv...
+2025-10-21 10:26:54,597 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2505.16724.pdf
+2025-10-21 10:26:54,598 [INFO] Downloading from: https://arxiv.org/pdf/2505.16724.pdf
+2025-10-21 10:26:54,906 [INFO] Successfully saved PDF (1020046 bytes)
+2025-10-21 10:26:54,908 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:26:54,908 [INFO] [14/50] ------------------------------------------------------------
+2025-10-21 10:26:54,909 [INFO] PROCESSING: KnowEEG: Explainable Knowledge Driven EEG Classification
+2025-10-21 10:26:54,910 [INFO]   arXiv ID: 2505.00541
+2025-10-21 10:26:54,911 [INFO]   → Trying arXiv...
+2025-10-21 10:26:54,911 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2505.00541.pdf
+2025-10-21 10:26:54,912 [INFO] Downloading from: https://arxiv.org/pdf/2505.00541.pdf
+2025-10-21 10:26:56,037 [INFO] Successfully saved PDF (1430954 bytes)
+2025-10-21 10:26:56,039 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:26:56,040 [INFO] [15/50] ------------------------------------------------------------
+2025-10-21 10:26:56,042 [INFO] PROCESSING: Towards Robust Multimodal Physiological Foundation Models: Handling   Arbitrary 
+2025-10-21 10:26:56,042 [INFO]   arXiv ID: 2504.19596
+2025-10-21 10:26:56,043 [INFO]   → Trying arXiv...
+2025-10-21 10:26:56,043 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2504.19596.pdf
+2025-10-21 10:26:56,044 [INFO] Downloading from: https://arxiv.org/pdf/2504.19596.pdf
+2025-10-21 10:26:56,349 [INFO] Successfully saved PDF (660462 bytes)
+2025-10-21 10:26:56,350 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:26:56,351 [INFO] [16/50] ------------------------------------------------------------
+2025-10-21 10:26:56,352 [INFO] PROCESSING: Towards Practical Emotion Recognition: An Unsupervised Source-Free   Approach fo
+2025-10-21 10:26:56,353 [INFO]   arXiv ID: 2504.03707
+2025-10-21 10:26:56,353 [INFO]   → Trying arXiv...
+2025-10-21 10:26:56,354 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2504.03707.pdf
+2025-10-21 10:26:56,355 [INFO] Downloading from: https://arxiv.org/pdf/2504.03707.pdf
+2025-10-21 10:26:56,743 [INFO] Successfully saved PDF (949965 bytes)
+2025-10-21 10:26:56,745 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:26:56,746 [INFO] [17/50] ------------------------------------------------------------
+2025-10-21 10:26:56,747 [INFO] PROCESSING: Hypergraph Multi-Modal Learning for EEG-based Emotion Recognition in   Conversat
+2025-10-21 10:26:56,748 [INFO]   arXiv ID: 2502.21154
+2025-10-21 10:26:56,749 [INFO]   → Trying arXiv...
+2025-10-21 10:26:56,749 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2502.21154.pdf
+2025-10-21 10:26:56,750 [INFO] Downloading from: https://arxiv.org/pdf/2502.21154.pdf
+2025-10-21 10:26:59,340 [INFO] Successfully saved PDF (8142597 bytes)
+2025-10-21 10:26:59,342 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:26:59,343 [INFO] [18/50] ------------------------------------------------------------
+2025-10-21 10:26:59,344 [INFO] PROCESSING: Deep Learning-Powered Electrical Brain Signals Analysis: Advancing   Neurologica
+2025-10-21 10:26:59,345 [INFO]   arXiv ID: 2502.17213
+2025-10-21 10:26:59,346 [INFO]   → Trying arXiv...
+2025-10-21 10:26:59,346 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2502.17213.pdf
+2025-10-21 10:26:59,347 [INFO] Downloading from: https://arxiv.org/pdf/2502.17213.pdf
+2025-10-21 10:26:59,719 [INFO] Successfully saved PDF (1527946 bytes)
+2025-10-21 10:26:59,721 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:26:59,722 [INFO] [19/50] ------------------------------------------------------------
+2025-10-21 10:26:59,723 [INFO] PROCESSING: ZIA: A Theoretical Framework for Zero-Input AI
+2025-10-21 10:26:59,723 [INFO]   arXiv ID: 2502.16124
+2025-10-21 10:26:59,724 [INFO]   → Trying arXiv...
+2025-10-21 10:26:59,725 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2502.16124.pdf
+2025-10-21 10:26:59,725 [INFO] Downloading from: https://arxiv.org/pdf/2502.16124.pdf
+2025-10-21 10:27:00,210 [INFO] Successfully saved PDF (291694 bytes)
+2025-10-21 10:27:00,212 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:27:00,212 [INFO] [20/50] ------------------------------------------------------------
+2025-10-21 10:27:00,214 [INFO] PROCESSING: Protecting Intellectual Property of EEG-based Neural Networks with   Watermarkin
+2025-10-21 10:27:00,214 [INFO]   arXiv ID: 2502.05931
+2025-10-21 10:27:00,215 [INFO]   → Trying arXiv...
+2025-10-21 10:27:00,216 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2502.05931.pdf
+2025-10-21 10:27:00,216 [INFO] Downloading from: https://arxiv.org/pdf/2502.05931.pdf
+2025-10-21 10:27:00,868 [INFO] Successfully saved PDF (1311768 bytes)
+2025-10-21 10:27:00,870 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:27:00,871 [INFO] [21/50] ------------------------------------------------------------
+2025-10-21 10:27:00,872 [INFO] PROCESSING: Toward Foundation Model for Multivariate Wearable Sensing of   Physiological Sig
+2025-10-21 10:27:00,873 [INFO]   arXiv ID: 2412.09758
+2025-10-21 10:27:00,874 [INFO]   → Trying arXiv...
+2025-10-21 10:27:00,874 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2412.09758.pdf
+2025-10-21 10:27:00,876 [INFO] Downloading from: https://arxiv.org/pdf/2412.09758.pdf
+2025-10-21 10:27:01,987 [INFO] Successfully saved PDF (6421518 bytes)
+2025-10-21 10:27:01,990 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:27:01,990 [INFO] [22/50] ------------------------------------------------------------
+2025-10-21 10:27:01,992 [INFO] PROCESSING: CBraMod: A Criss-Cross Brain Foundation Model for EEG Decoding
+2025-10-21 10:27:01,992 [INFO]   arXiv ID: 2412.07236
+2025-10-21 10:27:01,993 [INFO]   → Trying arXiv...
+2025-10-21 10:27:01,993 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2412.07236.pdf
+2025-10-21 10:27:01,993 [INFO] Downloading from: https://arxiv.org/pdf/2412.07236.pdf
+2025-10-21 10:27:02,435 [INFO] Successfully saved PDF (2297411 bytes)
+2025-10-21 10:27:02,437 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:27:02,438 [INFO] [23/50] ------------------------------------------------------------
+2025-10-21 10:27:02,439 [INFO] PROCESSING: GEFM: Graph-Enhanced EEG Foundation Model
+2025-10-21 10:27:02,440 [INFO]   arXiv ID: 2411.19507
+2025-10-21 10:27:02,440 [INFO]   → Trying arXiv...
+2025-10-21 10:27:02,441 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2411.19507.pdf
+2025-10-21 10:27:02,442 [INFO] Downloading from: https://arxiv.org/pdf/2411.19507.pdf
+2025-10-21 10:27:03,107 [INFO] Successfully saved PDF (1601873 bytes)
+2025-10-21 10:27:03,109 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:27:03,110 [INFO] [24/50] ------------------------------------------------------------
+2025-10-21 10:27:03,111 [INFO] PROCESSING: Graph Adapter of EEG Foundation Models for Parameter Efficient Fine   Tuning
+2025-10-21 10:27:03,112 [INFO]   arXiv ID: 2411.16155
+2025-10-21 10:27:03,113 [INFO]   → Trying arXiv...
+2025-10-21 10:27:03,113 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2411.16155.pdf
+2025-10-21 10:27:03,114 [INFO] Downloading from: https://arxiv.org/pdf/2411.16155.pdf
+2025-10-21 10:27:03,562 [INFO] Successfully saved PDF (316628 bytes)
+2025-10-21 10:27:03,564 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:27:03,565 [INFO] [25/50] ------------------------------------------------------------
+2025-10-21 10:27:03,566 [INFO] PROCESSING: Federated GNNs for EEG-Based Stroke Assessment
+2025-10-21 10:27:03,567 [INFO]   arXiv ID: 2411.02286
+2025-10-21 10:27:03,567 [INFO]   → Trying arXiv...
+2025-10-21 10:27:03,568 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2411.02286.pdf
+2025-10-21 10:27:03,568 [INFO] Downloading from: https://arxiv.org/pdf/2411.02286.pdf
+2025-10-21 10:27:04,408 [INFO] Successfully saved PDF (954826 bytes)
+2025-10-21 10:27:04,410 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:27:04,411 [INFO] [26/50] ------------------------------------------------------------
+2025-10-21 10:27:04,412 [INFO] PROCESSING: How to evaluate your medical time series classification?
+2025-10-21 10:27:04,413 [INFO]   arXiv ID: 2410.03057
+2025-10-21 10:27:04,413 [INFO]   → Trying arXiv...
+2025-10-21 10:27:04,414 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2410.03057.pdf
+2025-10-21 10:27:04,414 [INFO] Downloading from: https://arxiv.org/pdf/2410.03057.pdf
+2025-10-21 10:27:04,716 [INFO] Successfully saved PDF (788143 bytes)
+2025-10-21 10:27:04,719 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:27:04,719 [INFO] [27/50] ------------------------------------------------------------
+2025-10-21 10:27:04,720 [INFO] PROCESSING: DREAMS: A python framework for Training Deep Learning Models on EEG Data   with 
+2025-10-21 10:27:04,721 [INFO]   DOI: 10.1016/j.softx.2025.102140
+2025-10-21 10:27:04,721 [INFO]   arXiv ID: 2409.17815
+2025-10-21 10:27:04,722 [INFO]   → Trying arXiv...
+2025-10-21 10:27:04,723 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2409.17815.pdf
+2025-10-21 10:27:04,723 [INFO] Downloading from: https://arxiv.org/pdf/2409.17815.pdf
+2025-10-21 10:27:05,390 [INFO] Successfully saved PDF (970598 bytes)
+2025-10-21 10:27:05,392 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:27:05,393 [INFO] [28/50] ------------------------------------------------------------
+2025-10-21 10:27:05,395 [INFO] PROCESSING: Towards Explainable Graph Neural Networks for Neurological Evaluation on   EEG S
+2025-10-21 10:27:05,396 [INFO]   arXiv ID: 2410.07199
+2025-10-21 10:27:05,397 [INFO]   → Trying arXiv...
+2025-10-21 10:27:05,397 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2410.07199.pdf
+2025-10-21 10:27:05,398 [INFO] Downloading from: https://arxiv.org/pdf/2410.07199.pdf
+2025-10-21 10:27:06,435 [INFO] Successfully saved PDF (1833450 bytes)
+2025-10-21 10:27:06,437 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:27:06,438 [INFO] [29/50] ------------------------------------------------------------
+2025-10-21 10:27:06,439 [INFO] PROCESSING: Hierarchical Hypercomplex Network for Multimodal Emotion Recognition
+2025-10-21 10:27:06,440 [INFO]   arXiv ID: 2409.09194
+2025-10-21 10:27:06,440 [INFO]   → Trying arXiv...
+2025-10-21 10:27:06,441 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2409.09194.pdf
+2025-10-21 10:27:06,441 [INFO] Downloading from: https://arxiv.org/pdf/2409.09194.pdf
+2025-10-21 10:27:06,963 [INFO] Successfully saved PDF (432890 bytes)
+2025-10-21 10:27:06,966 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:27:06,967 [INFO] [30/50] ------------------------------------------------------------
+2025-10-21 10:27:06,968 [INFO] PROCESSING: A Novel Audio-Visual Information Fusion System for Mental Disorders   Detection
+2025-10-21 10:27:06,968 [INFO]   arXiv ID: 2409.02243
+2025-10-21 10:27:06,969 [INFO]   → Trying arXiv...
+2025-10-21 10:27:06,969 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2409.02243.pdf
+2025-10-21 10:27:06,970 [INFO] Downloading from: https://arxiv.org/pdf/2409.02243.pdf
+2025-10-21 10:27:08,079 [INFO] Successfully saved PDF (2756022 bytes)
+2025-10-21 10:27:08,082 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:27:08,082 [INFO] [31/50] ------------------------------------------------------------
+2025-10-21 10:27:08,083 [INFO] PROCESSING: NeuroLM: A Universal Multi-task Foundation Model for Bridging the Gap   between 
+2025-10-21 10:27:08,083 [INFO]   arXiv ID: 2409.00101
+2025-10-21 10:27:08,084 [INFO]   → Trying arXiv...
+2025-10-21 10:27:08,084 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2409.00101.pdf
+2025-10-21 10:27:08,085 [INFO] Downloading from: https://arxiv.org/pdf/2409.00101.pdf
+2025-10-21 10:27:08,849 [INFO] Successfully saved PDF (1863248 bytes)
+2025-10-21 10:27:08,851 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:27:08,852 [INFO] [32/50] ------------------------------------------------------------
+2025-10-21 10:27:08,854 [INFO] PROCESSING: Parkinson's Disease Classification via EEG: All You Need is a Single   Convoluti
+2025-10-21 10:27:08,854 [INFO]   arXiv ID: 2408.10457
+2025-10-21 10:27:08,855 [INFO]   → Trying arXiv...
+2025-10-21 10:27:08,855 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2408.10457.pdf
+2025-10-21 10:27:08,856 [INFO] Downloading from: https://arxiv.org/pdf/2408.10457.pdf
+2025-10-21 10:27:12,021 [INFO] Successfully saved PDF (8393601 bytes)
+2025-10-21 10:27:12,023 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:27:12,024 [INFO] [33/50] ------------------------------------------------------------
+2025-10-21 10:27:12,025 [INFO] PROCESSING: Medformer: A Multi-Granularity Patching Transformer for Medical   Time-Series Cl
+2025-10-21 10:27:12,026 [INFO]   arXiv ID: 2405.19363
+2025-10-21 10:27:12,027 [INFO]   → Trying arXiv...
+2025-10-21 10:27:12,028 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2405.19363.pdf
+2025-10-21 10:27:12,028 [INFO] Downloading from: https://arxiv.org/pdf/2405.19363.pdf
+2025-10-21 10:27:12,790 [INFO] Successfully saved PDF (3781406 bytes)
+2025-10-21 10:27:12,792 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:27:12,793 [INFO] [34/50] ------------------------------------------------------------
+2025-10-21 10:27:12,794 [INFO] PROCESSING: Diagnosis of Parkinson's Disease Using EEG Signals and Machine Learning   Techni
+2025-10-21 10:27:12,795 [INFO]   arXiv ID: 2405.00741
+2025-10-21 10:27:12,796 [INFO]   → Trying arXiv...
+2025-10-21 10:27:12,797 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2405.00741.pdf
+2025-10-21 10:27:12,797 [INFO] Downloading from: https://arxiv.org/pdf/2405.00741.pdf
+2025-10-21 10:27:13,077 [INFO] Successfully saved PDF (372710 bytes)
+2025-10-21 10:27:13,079 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:27:13,080 [INFO] [35/50] ------------------------------------------------------------
+2025-10-21 10:27:13,082 [INFO] PROCESSING: Localising the Seizure Onset Zone from Single-Pulse Electrical   Stimulation Res
+2025-10-21 10:27:13,082 [INFO]   arXiv ID: 2403.20324
+2025-10-21 10:27:13,083 [INFO]   → Trying arXiv...
+2025-10-21 10:27:13,084 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2403.20324.pdf
+2025-10-21 10:27:13,084 [INFO] Downloading from: https://arxiv.org/pdf/2403.20324.pdf
+2025-10-21 10:27:14,006 [INFO] Successfully saved PDF (1887004 bytes)
+2025-10-21 10:27:14,008 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:27:14,009 [INFO] [36/50] ------------------------------------------------------------
+2025-10-21 10:27:14,010 [INFO] PROCESSING: Review of algorithms for predicting fatigue using EEG
+2025-10-21 10:27:14,011 [INFO]   arXiv ID: 2402.09443
+2025-10-21 10:27:14,011 [INFO]   → Trying arXiv...
+2025-10-21 10:27:14,012 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2402.09443.pdf
+2025-10-21 10:27:14,012 [INFO] Downloading from: https://arxiv.org/pdf/2402.09443.pdf
+2025-10-21 10:27:14,424 [INFO] Successfully saved PDF (734130 bytes)
+2025-10-21 10:27:14,426 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:27:14,427 [INFO] [37/50] ------------------------------------------------------------
+2025-10-21 10:27:14,428 [INFO] PROCESSING: Enhancing Healthcare with EOG: A Novel Approach to Sleep Stage   Classification
+2025-10-21 10:27:14,429 [INFO]   arXiv ID: 2310.03757
+2025-10-21 10:27:14,429 [INFO]   → Trying arXiv...
+2025-10-21 10:27:14,430 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2310.03757.pdf
+2025-10-21 10:27:14,430 [INFO] Downloading from: https://arxiv.org/pdf/2310.03757.pdf
+2025-10-21 10:27:15,868 [INFO] Successfully saved PDF (3915612 bytes)
+2025-10-21 10:27:15,870 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:27:15,870 [INFO] [38/50] ------------------------------------------------------------
+2025-10-21 10:27:15,871 [INFO] PROCESSING: Neurological Prognostication of Post-Cardiac-Arrest Coma Patients Using   EEG Da
+2025-10-21 10:27:15,872 [INFO]   arXiv ID: 2308.11645
+2025-10-21 10:27:15,872 [INFO]   → Trying arXiv...
+2025-10-21 10:27:15,873 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2308.11645.pdf
+2025-10-21 10:27:15,873 [INFO] Downloading from: https://arxiv.org/pdf/2308.11645.pdf
+2025-10-21 10:27:16,988 [INFO] Successfully saved PDF (1972624 bytes)
+2025-10-21 10:27:16,990 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:27:16,991 [INFO] [39/50] ------------------------------------------------------------
+2025-10-21 10:27:16,993 [INFO] PROCESSING: Towards trustworthy seizure onset detection using workflow notes
+2025-10-21 10:27:16,994 [INFO]   arXiv ID: 2306.08728
+2025-10-21 10:27:16,994 [INFO]   → Trying arXiv...
+2025-10-21 10:27:16,995 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2306.08728.pdf
+2025-10-21 10:27:16,996 [INFO] Downloading from: https://arxiv.org/pdf/2306.08728.pdf
+2025-10-21 10:27:17,716 [INFO] Successfully saved PDF (1278140 bytes)
+2025-10-21 10:27:17,718 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:27:17,720 [INFO] [40/50] ------------------------------------------------------------
+2025-10-21 10:27:17,721 [INFO] PROCESSING: A Survey on the Role of Artificial Intelligence in the Prediction and   Diagnosi
+2025-10-21 10:27:17,722 [INFO]   arXiv ID: 2305.14370
+2025-10-21 10:27:17,723 [INFO]   → Trying arXiv...
+2025-10-21 10:27:17,723 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2305.14370.pdf
+2025-10-21 10:27:17,724 [INFO] Downloading from: https://arxiv.org/pdf/2305.14370.pdf
+2025-10-21 10:27:18,443 [INFO] Successfully saved PDF (717252 bytes)
+2025-10-21 10:27:18,445 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:27:18,446 [INFO] [41/50] ------------------------------------------------------------
+2025-10-21 10:27:18,447 [INFO] PROCESSING: Towards Domain Generalization for ECG and EEG Classification: Algorithms   and B
+2025-10-21 10:27:18,448 [INFO]   DOI: 10.1109/TETCI.2023.3306253
+2025-10-21 10:27:18,448 [INFO]   arXiv ID: 2303.11338
+2025-10-21 10:27:18,449 [INFO]   → Trying arXiv...
+2025-10-21 10:27:18,450 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2303.11338.pdf
+2025-10-21 10:27:18,451 [INFO] Downloading from: https://arxiv.org/pdf/2303.11338.pdf
+2025-10-21 10:27:20,681 [INFO] Successfully saved PDF (5437433 bytes)
+2025-10-21 10:27:20,683 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:27:20,684 [INFO] [42/50] ------------------------------------------------------------
+2025-10-21 10:27:20,685 [INFO] PROCESSING: Challenges facing the explainability of age prediction models: case   study for 
+2025-10-21 10:27:20,686 [INFO]   arXiv ID: 2303.06640
+2025-10-21 10:27:20,687 [INFO]   → Trying arXiv...
+2025-10-21 10:27:20,687 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2303.06640.pdf
+2025-10-21 10:27:20,688 [INFO] Downloading from: https://arxiv.org/pdf/2303.06640.pdf
+2025-10-21 10:27:21,083 [INFO] Successfully saved PDF (832169 bytes)
+2025-10-21 10:27:21,085 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:27:21,086 [INFO] [43/50] ------------------------------------------------------------
+2025-10-21 10:27:21,087 [INFO] PROCESSING: MindBigData 2022 A Large Dataset of Brain Signals
+2025-10-21 10:27:21,088 [INFO]   arXiv ID: 2212.14746
+2025-10-21 10:27:21,089 [INFO]   → Trying arXiv...
+2025-10-21 10:27:21,089 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2212.14746.pdf
+2025-10-21 10:27:21,090 [INFO] Downloading from: https://arxiv.org/pdf/2212.14746.pdf
+2025-10-21 10:27:22,550 [INFO] Successfully saved PDF (695071 bytes)
+2025-10-21 10:27:22,552 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:27:22,553 [INFO] [44/50] ------------------------------------------------------------
+2025-10-21 10:27:22,554 [INFO] PROCESSING: Performance and utility trade-off in interpretable sleep staging
+2025-10-21 10:27:22,555 [INFO]   arXiv ID: 2211.03282
+2025-10-21 10:27:22,556 [INFO]   → Trying arXiv...
+2025-10-21 10:27:22,557 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2211.03282.pdf
+2025-10-21 10:27:22,557 [INFO] Downloading from: https://arxiv.org/pdf/2211.03282.pdf
+2025-10-21 10:27:25,653 [INFO] Successfully saved PDF (5716422 bytes)
+2025-10-21 10:27:25,655 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:27:25,656 [INFO] [45/50] ------------------------------------------------------------
+2025-10-21 10:27:25,657 [INFO] PROCESSING: Evaluating Latent Space Robustness and Uncertainty of EEG-ML Models   under Real
+2025-10-21 10:27:25,658 [INFO]   arXiv ID: 2209.11233
+2025-10-21 10:27:25,658 [INFO]   → Trying arXiv...
+2025-10-21 10:27:25,659 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2209.11233.pdf
+2025-10-21 10:27:25,660 [INFO] Downloading from: https://arxiv.org/pdf/2209.11233.pdf
+2025-10-21 10:27:25,958 [INFO] Successfully saved PDF (819082 bytes)
+2025-10-21 10:27:25,960 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:27:25,961 [INFO] [46/50] ------------------------------------------------------------
+2025-10-21 10:27:25,962 [INFO] PROCESSING: Decoding speech perception from non-invasive brain recordings
+2025-10-21 10:27:25,963 [INFO]   DOI: 10.1038/s42256-023-00714-5
+2025-10-21 10:27:25,963 [INFO]   arXiv ID: 2208.12266
+2025-10-21 10:27:25,964 [INFO]   → Trying arXiv...
+2025-10-21 10:27:25,965 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2208.12266.pdf
+2025-10-21 10:27:25,966 [INFO] Downloading from: https://arxiv.org/pdf/2208.12266.pdf
+2025-10-21 10:27:26,770 [INFO] Successfully saved PDF (2803586 bytes)
+2025-10-21 10:27:26,772 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:27:26,773 [INFO] [47/50] ------------------------------------------------------------
+2025-10-21 10:27:26,774 [INFO] PROCESSING: SPD domain-specific batch normalization to crack interpretable   unsupervised do
+2025-10-21 10:27:26,775 [INFO]   arXiv ID: 2206.01323
+2025-10-21 10:27:26,776 [INFO]   → Trying arXiv...
+2025-10-21 10:27:26,777 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2206.01323.pdf
+2025-10-21 10:27:26,778 [INFO] Downloading from: https://arxiv.org/pdf/2206.01323.pdf
+2025-10-21 10:27:28,764 [INFO] Successfully saved PDF (1667283 bytes)
+2025-10-21 10:27:28,767 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:27:28,768 [INFO] [48/50] ------------------------------------------------------------
+2025-10-21 10:27:28,769 [INFO] PROCESSING: Hyperdimensional computing encoding for feature selection on the use   case of e
+2025-10-21 10:27:28,770 [INFO]   arXiv ID: 2205.07654
+2025-10-21 10:27:28,771 [INFO]   → Trying arXiv...
+2025-10-21 10:27:28,771 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2205.07654.pdf
+2025-10-21 10:27:28,772 [INFO] Downloading from: https://arxiv.org/pdf/2205.07654.pdf
+2025-10-21 10:27:29,225 [INFO] Successfully saved PDF (2858692 bytes)
+2025-10-21 10:27:29,227 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:27:29,228 [INFO] [49/50] ------------------------------------------------------------
+2025-10-21 10:27:29,229 [INFO] PROCESSING: 2021 BEETL Competition: Advancing Transfer Learning for Subject   Independence &
+2025-10-21 10:27:29,230 [INFO]   arXiv ID: 2202.12950
+2025-10-21 10:27:29,231 [INFO]   → Trying arXiv...
+2025-10-21 10:27:29,231 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2202.12950.pdf
+2025-10-21 10:27:29,232 [INFO] Downloading from: https://arxiv.org/pdf/2202.12950.pdf
+2025-10-21 10:27:29,983 [INFO] Successfully saved PDF (1051561 bytes)
+2025-10-21 10:27:29,987 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:27:29,988 [INFO] [50/50] ------------------------------------------------------------
+2025-10-21 10:27:29,991 [INFO] PROCESSING: Automated Detection of Patients in Hospital Video Recordings
+2025-10-21 10:27:29,991 [INFO]   arXiv ID: 2111.14270
+2025-10-21 10:27:29,992 [INFO]   → Trying arXiv...
+2025-10-21 10:27:29,993 [INFO] Constructed arXiv PDF URL: https://arxiv.org/pdf/2111.14270.pdf
+2025-10-21 10:27:29,993 [INFO] Downloading from: https://arxiv.org/pdf/2111.14270.pdf
+2025-10-21 10:27:32,325 [INFO] Successfully saved PDF (4526709 bytes)
+2025-10-21 10:27:32,328 [INFO]   ✓ SUCCESS via arXiv
+2025-10-21 10:27:32,329 [INFO] 
+2025-10-21 10:27:32,330 [INFO] ================================================================================
+2025-10-21 10:27:32,331 [INFO] DOWNLOAD SESSION SUMMARY
+2025-10-21 10:27:32,332 [INFO] ================================================================================
+2025-10-21 10:27:32,333 [INFO] Total papers: 50
+2025-10-21 10:27:32,335 [INFO] Successfully downloaded: 49 (98.0%)
+2025-10-21 10:27:32,336 [INFO] Already downloaded (skipped): 0
+2025-10-21 10:27:32,337 [INFO] Failed to download: 1 (2.0%)
+2025-10-21 10:27:32,338 [INFO] 
+2025-10-21 10:27:32,339 [INFO] Downloads by method:
+2025-10-21 10:27:32,340 [INFO]   Arxiv: 49
+2025-10-21 10:27:32,341 [INFO] ================================================================================
+2025-10-21 10:27:32,342 [INFO] 
+2025-10-21 10:36:01,847 [INFO] ================================================================================
+2025-10-21 10:36:01,848 [INFO] NEW DOWNLOAD SESSION STARTED
+2025-10-21 10:36:01,849 [INFO] Input file: L:\Desktop\Main\Projects\automated_systematic_literature_search\z_testing\results\references.bib
+2025-10-21 10:36:01,850 [INFO] Output directory: L:\Desktop\Main\Projects\automated_systematic_literature_search\z_testing\test_downloads
+2025-10-21 10:36:01,851 [INFO] Unpaywall enabled: False
+2025-10-21 10:36:01,851 [INFO] Sci-Hub enabled: False
+2025-10-21 10:36:01,852 [INFO] ================================================================================
+2025-10-21 10:36:02,133 [INFO] Loaded 197 papers from L:\Desktop\Main\Projects\automated_systematic_literature_search\z_testing\results\references.bib
+2025-10-21 10:36:02,134 [INFO] 
+2025-10-21 10:36:02,135 [INFO] [1/197] ------------------------------------------------------------
+2025-10-21 10:36:02,137 [INFO] PROCESSING: EEG augmentation for emotion classification using multi-branch Wasserstein condi
+2025-10-21 10:36:02,137 [INFO]   DOI: 10.1016/j.bspc.2025.108908
+2025-10-21 10:36:02,138 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105018169591&origin=inward
+2025-10-21 10:36:02,138 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:02,139 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:02,139 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:05,454 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:05,456 [INFO] [2/197] ------------------------------------------------------------
+2025-10-21 10:36:05,458 [INFO] PROCESSING: Investigation of various validation and testing schemes for classification of cr
+2025-10-21 10:36:05,458 [INFO]   DOI: 10.1016/j.bspc.2025.108523
+2025-10-21 10:36:05,459 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105013629740&origin=inward
+2025-10-21 10:36:05,460 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:05,460 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:05,461 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:07,747 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:07,748 [INFO] [3/197] ------------------------------------------------------------
+2025-10-21 10:36:07,750 [INFO] PROCESSING: Computational intelligence for emotion recognition in autism spectrum disorder: 
+2025-10-21 10:36:07,751 [INFO]   DOI: 10.1016/j.bspc.2025.108367
+2025-10-21 10:36:07,751 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105012376258&origin=inward
+2025-10-21 10:36:07,752 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:07,753 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:07,754 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:10,285 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:10,286 [INFO] [4/197] ------------------------------------------------------------
+2025-10-21 10:36:10,288 [INFO] PROCESSING: Emotion analysis of EEG signals using proximity-conserving auto-encoder (PCAE) a
+2025-10-21 10:36:10,289 [INFO]   DOI: 10.1007/s11571-024-10187-w
+2025-10-21 10:36:10,290 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85217362456&origin=inward
+2025-10-21 10:36:10,290 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:10,291 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:10,291 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:12,738 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:12,739 [INFO] [5/197] ------------------------------------------------------------
+2025-10-21 10:36:12,742 [INFO] PROCESSING: Interpretability and accuracy of machine learning algorithms for biomedical time
+2025-10-21 10:36:12,742 [INFO]   DOI: 10.1016/j.bspc.2025.108153
+2025-10-21 10:36:12,742 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105006670678&origin=inward
+2025-10-21 10:36:12,743 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:12,744 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:12,744 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:15,119 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:15,120 [INFO] [6/197] ------------------------------------------------------------
+2025-10-21 10:36:15,121 [INFO] PROCESSING: Efficient clustering approach based on Gower distance for high-dimensional medic
+2025-10-21 10:36:15,122 [INFO]   DOI: 10.1007/s10586-025-05425-7
+2025-10-21 10:36:15,123 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105016684425&origin=inward
+2025-10-21 10:36:15,123 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:15,124 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:15,124 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:17,332 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:17,333 [INFO] [7/197] ------------------------------------------------------------
+2025-10-21 10:36:17,335 [INFO] PROCESSING: Advancing deep learning for automated stroke detection: a review
+2025-10-21 10:36:17,335 [INFO]   DOI: 10.1016/j.hest.2025.07.002
+2025-10-21 10:36:17,336 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105010886299&origin=inward
+2025-10-21 10:36:17,337 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:17,338 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:17,338 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:19,535 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:19,536 [INFO] [8/197] ------------------------------------------------------------
+2025-10-21 10:36:19,538 [INFO] PROCESSING: Emotion recognition in Virtual Reality using sensor fusion with eye tracking
+2025-10-21 10:36:19,539 [INFO]   DOI: 10.1016/j.compbiomed.2025.111070
+2025-10-21 10:36:19,539 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105016084903&origin=inward
+2025-10-21 10:36:19,540 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:19,540 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:19,541 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:21,618 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:21,619 [INFO] [9/197] ------------------------------------------------------------
+2025-10-21 10:36:21,621 [INFO] PROCESSING: Fatigue monitoring using wearables and AI: Trends, challenges, and future opport
+2025-10-21 10:36:21,621 [INFO]   DOI: 10.1016/j.compbiomed.2025.110461
+2025-10-21 10:36:21,622 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105009123884&origin=inward
+2025-10-21 10:36:21,623 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:21,623 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:21,624 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:24,024 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:24,025 [INFO] [10/197] ------------------------------------------------------------
+2025-10-21 10:36:24,027 [INFO] PROCESSING: NeuroFed-LightTCN: Federated Lightweight Temporal Convolutional Networks for Pri
+2025-10-21 10:36:24,027 [INFO]   DOI: 10.3390/app15179660
+2025-10-21 10:36:24,028 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105015427153&origin=inward
+2025-10-21 10:36:24,029 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:24,030 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:24,030 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:26,453 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:26,454 [INFO] [11/197] ------------------------------------------------------------
+2025-10-21 10:36:26,456 [INFO] PROCESSING: A Novel Hybrid Approach for Drowsiness Detection Using EEG Scalograms to Overcom
+2025-10-21 10:36:26,456 [INFO]   DOI: 10.3390/s25175530
+2025-10-21 10:36:26,457 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105015445595&origin=inward
+2025-10-21 10:36:26,457 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:26,457 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:26,458 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:28,877 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:29,708 [INFO] [12/197] ------------------------------------------------------------
+2025-10-21 10:36:29,710 [INFO] PROCESSING: A systematic review of artificial intelligence techniques based on electroenceph
+2025-10-21 10:36:29,711 [INFO]   DOI: 10.1016/j.eplepsyres.2025.107582
+2025-10-21 10:36:29,711 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105005262675&origin=inward
+2025-10-21 10:36:29,712 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:29,714 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:29,716 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:32,017 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:32,019 [INFO] [13/197] ------------------------------------------------------------
+2025-10-21 10:36:32,021 [INFO] PROCESSING: Advancing Precision Neurology and Wearable Electrophysiology: A Review on the Pi
+2025-10-21 10:36:32,022 [INFO]   DOI: 10.3390/biophysica5030040
+2025-10-21 10:36:32,023 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105017388807&origin=inward
+2025-10-21 10:36:32,023 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:32,024 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:32,024 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:34,617 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:34,619 [INFO] [14/197] ------------------------------------------------------------
+2025-10-21 10:36:34,621 [INFO] PROCESSING: AI-Driven Multimodal Brain-State Decoding for Personalized Closed-Loop TENS: A C
+2025-10-21 10:36:34,621 [INFO]   DOI: 10.3390/brainsci15090903
+2025-10-21 10:36:34,622 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105017482640&origin=inward
+2025-10-21 10:36:34,623 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:34,623 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:34,624 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:36,864 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:36,865 [INFO] [15/197] ------------------------------------------------------------
+2025-10-21 10:36:36,866 [INFO] PROCESSING: LG-TriCapsNet: A lightweight graph capsule framework with nearest neighbor graph
+2025-10-21 10:36:36,867 [INFO]   DOI: 10.1016/j.compbiomed.2025.110567
+2025-10-21 10:36:36,867 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105008671268&origin=inward
+2025-10-21 10:36:36,868 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:36,868 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:36,869 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:39,047 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:39,047 [INFO] [16/197] ------------------------------------------------------------
+2025-10-21 10:36:39,049 [INFO] PROCESSING: Novel feature selection and optimized classifier for disease detection from EEG 
+2025-10-21 10:36:39,050 [INFO]   DOI: 10.1007/s11760-025-04360-9
+2025-10-21 10:36:39,051 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105008710798&origin=inward
+2025-10-21 10:36:39,052 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:39,052 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:39,053 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:39,114 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:39,116 [INFO] [17/197] ------------------------------------------------------------
+2025-10-21 10:36:39,118 [INFO] PROCESSING: Smoothing filter impact on the classification accuracy of EEG signals
+2025-10-21 10:36:39,119 [INFO]   DOI: 10.1016/j.rineng.2025.106243
+2025-10-21 10:36:39,120 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105010701758&origin=inward
+2025-10-21 10:36:39,120 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:39,121 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:39,122 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:39,198 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:39,199 [INFO] [18/197] ------------------------------------------------------------
+2025-10-21 10:36:39,201 [INFO] PROCESSING: Deep learning model for patient emotion recognition using EEG-tNIRS data
+2025-10-21 10:36:39,201 [INFO]   DOI: 10.1016/j.neuri.2025.100219
+2025-10-21 10:36:39,202 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105011264171&origin=inward
+2025-10-21 10:36:39,202 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:39,203 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:39,203 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:39,275 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:39,276 [INFO] [19/197] ------------------------------------------------------------
+2025-10-21 10:36:39,278 [INFO] PROCESSING: Emotion recognition via affective EEG signals: State of the art
+2025-10-21 10:36:39,278 [INFO]   DOI: 10.1016/j.neucom.2025.130418
+2025-10-21 10:36:39,279 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105005290912&origin=inward
+2025-10-21 10:36:39,280 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:39,280 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:39,281 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:39,333 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:39,334 [INFO] [20/197] ------------------------------------------------------------
+2025-10-21 10:36:39,335 [INFO] PROCESSING: Personalization Techniques in HCI: Leveraging Multimodal Physiological and Behav
+2025-10-21 10:36:39,336 [INFO]   DOI: 10.4018/979-8-3373-1444-0.ch005
+2025-10-21 10:36:39,336 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105017942425&origin=inward
+2025-10-21 10:36:39,337 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:39,337 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:39,338 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:39,401 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:39,401 [INFO] [21/197] ------------------------------------------------------------
+2025-10-21 10:36:39,403 [INFO] PROCESSING: EEG-based emotion recognition: A state-of-the-art review of dataset and method
+2025-10-21 10:36:39,404 [INFO]   DOI: 10.1063/5.0267598
+2025-10-21 10:36:39,404 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105013344044&origin=inward
+2025-10-21 10:36:39,405 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:39,406 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:39,407 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:39,510 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:39,511 [INFO] [22/197] ------------------------------------------------------------
+2025-10-21 10:36:39,513 [INFO] PROCESSING: Models for Classifying Cognitive Load Using Physiological Data in Healthcare Con
+2025-10-21 10:36:39,514 [INFO]   DOI: 10.3390/app15169155
+2025-10-21 10:36:39,514 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105014340729&origin=inward
+2025-10-21 10:36:39,515 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:39,516 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:39,516 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:39,614 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:39,615 [INFO] [23/197] ------------------------------------------------------------
+2025-10-21 10:36:39,616 [INFO] PROCESSING: Fear Detection Using Electroencephalogram and Artificial Intelligence: A Systema
+2025-10-21 10:36:39,617 [INFO]   DOI: 10.3390/brainsci15080815
+2025-10-21 10:36:39,618 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105014393565&origin=inward
+2025-10-21 10:36:39,619 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:39,619 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:39,620 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:39,677 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:39,678 [INFO] [24/197] ------------------------------------------------------------
+2025-10-21 10:36:39,680 [INFO] PROCESSING: Empirical mode decomposition in clinical signal analysis: A systematic review
+2025-10-21 10:36:39,681 [INFO]   DOI: 10.1016/j.compbiomed.2025.110566
+2025-10-21 10:36:39,682 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105007970056&origin=inward
+2025-10-21 10:36:39,682 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:39,683 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:39,684 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:39,771 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:39,772 [INFO] [25/197] ------------------------------------------------------------
+2025-10-21 10:36:39,773 [INFO] PROCESSING: Multilayer Neural-Network-Based EEG Analysis for the Detection of Epilepsy, Migr
+2025-10-21 10:36:39,774 [INFO]   DOI: 10.3390/app15168983
+2025-10-21 10:36:39,774 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105014344707&origin=inward
+2025-10-21 10:36:39,775 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:39,776 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:39,776 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:39,858 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:39,859 [INFO] [26/197] ------------------------------------------------------------
+2025-10-21 10:36:39,861 [INFO] PROCESSING: Brain computer interface based emotion recognition with error analysis and chall
+2025-10-21 10:36:39,861 [INFO]   DOI: 10.1007/s42452-025-06692-0
+2025-10-21 10:36:39,861 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105012458982&origin=inward
+2025-10-21 10:36:39,862 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:39,862 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:39,863 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:39,924 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:39,925 [INFO] [27/197] ------------------------------------------------------------
+2025-10-21 10:36:39,927 [INFO] PROCESSING: Efficient Emotional State Classification based on Bayesian Quantile Regression a
+2025-10-21 10:36:39,927 [INFO]   DOI: 10.22266/ijies2025.0731.14
+2025-10-21 10:36:39,928 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105015475143&origin=inward
+2025-10-21 10:36:39,929 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:39,930 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:39,930 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:39,993 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:39,994 [INFO] [28/197] ------------------------------------------------------------
+2025-10-21 10:36:39,996 [INFO] PROCESSING: A Comparative Study on Machine Learning Methods for EEG-Based Human Emotion Reco
+2025-10-21 10:36:39,997 [INFO]   DOI: 10.3390/electronics14142744
+2025-10-21 10:36:39,997 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105011655206&origin=inward
+2025-10-21 10:36:39,998 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:39,998 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:39,999 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:40,078 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:40,079 [INFO] [29/197] ------------------------------------------------------------
+2025-10-21 10:36:40,080 [INFO] PROCESSING: Smart and Secure Healthcare with Digital Twins: A Deep Dive into Blockchain, Fed
+2025-10-21 10:36:40,081 [INFO]   DOI: 10.3390/a18070401
+2025-10-21 10:36:40,081 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105011616855&origin=inward
+2025-10-21 10:36:40,082 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:40,082 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:40,083 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:40,155 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:40,156 [INFO] [30/197] ------------------------------------------------------------
+2025-10-21 10:36:40,158 [INFO] PROCESSING: Enhancing generic cognitive workload recognition with a dynamic hierarchical 3-D
+2025-10-21 10:36:40,158 [INFO]   DOI: 10.1016/j.eswa.2025.127563
+2025-10-21 10:36:40,159 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105002034519&origin=inward
+2025-10-21 10:36:40,160 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:40,160 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:40,161 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:40,213 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:40,214 [INFO] [31/197] ------------------------------------------------------------
+2025-10-21 10:36:40,215 [INFO] PROCESSING: Comparative analysis of autism spectrum disorder was performed using an EEG sign
+2025-10-21 10:36:40,216 [INFO]   DOI: 10.1063/5.0270565
+2025-10-21 10:36:40,216 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105009815019&origin=inward
+2025-10-21 10:36:40,217 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:40,217 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:40,218 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:40,268 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:40,269 [INFO] [32/197] ------------------------------------------------------------
+2025-10-21 10:36:40,271 [INFO] PROCESSING: Enhancing seizure detection with hybrid XGBoost and recurrent neural networks
+2025-10-21 10:36:40,272 [INFO]   DOI: 10.1016/j.neuri.2025.100206
+2025-10-21 10:36:40,272 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105004386808&origin=inward
+2025-10-21 10:36:40,273 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:40,273 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:40,274 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:40,351 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:40,352 [INFO] [33/197] ------------------------------------------------------------
+2025-10-21 10:36:40,355 [INFO] PROCESSING: Preliminary Electroencephalography-Based Assessment of Anxiety Using Machine Lea
+2025-10-21 10:36:40,356 [INFO]   DOI: 10.3390/brainsci15060571
+2025-10-21 10:36:40,356 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105009060407&origin=inward
+2025-10-21 10:36:40,357 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:40,357 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:40,358 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:40,463 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:40,464 [INFO] [34/197] ------------------------------------------------------------
+2025-10-21 10:36:40,466 [INFO] PROCESSING: Explainable AI for epileptic seizure detection in Internet of Medical Things
+2025-10-21 10:36:40,466 [INFO]   DOI: 10.1016/j.dcan.2024.08.013
+2025-10-21 10:36:40,467 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105008511008&origin=inward
+2025-10-21 10:36:40,468 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:40,468 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:40,469 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:40,558 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:40,559 [INFO] [35/197] ------------------------------------------------------------
+2025-10-21 10:36:40,561 [INFO] PROCESSING: Development of a CNN-LSTM Deep Learning Model for Motor Imagery EEG Classificati
+2025-10-21 10:36:40,562 [INFO]   DOI: 10.48084/etasr.9945
+2025-10-21 10:36:40,562 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105007882000&origin=inward
+2025-10-21 10:36:40,563 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:40,563 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:40,565 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:40,625 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:40,626 [INFO] [36/197] ------------------------------------------------------------
+2025-10-21 10:36:40,627 [INFO] PROCESSING: Application of transfer learning for biomedical signals: A comprehensive review 
+2025-10-21 10:36:40,628 [INFO]   DOI: 10.1016/j.inffus.2025.102982
+2025-10-21 10:36:40,629 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85217089408&origin=inward
+2025-10-21 10:36:40,629 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:40,630 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:40,630 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:40,723 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:40,724 [INFO] [37/197] ------------------------------------------------------------
+2025-10-21 10:36:40,726 [INFO] PROCESSING: Electroencephalography estimates brain age in infants with high precision: Lever
+2025-10-21 10:36:40,726 [INFO]   DOI: 10.1016/j.neuroimage.2025.121200
+2025-10-21 10:36:40,727 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105002570359&origin=inward
+2025-10-21 10:36:40,727 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:40,727 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:40,728 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:40,801 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:40,803 [INFO] [38/197] ------------------------------------------------------------
+2025-10-21 10:36:40,804 [INFO] PROCESSING: Advanced Signal Processing and Machine/Deep Learning Approaches on a Preprocessi
+2025-10-21 10:36:40,805 [INFO]   DOI: 10.1007/s00034-024-02936-3
+2025-10-21 10:36:40,805 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105003422359&origin=inward
+2025-10-21 10:36:40,806 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:40,806 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:40,807 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:40,860 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:40,861 [INFO] [39/197] ------------------------------------------------------------
+2025-10-21 10:36:41,742 [INFO]   → Found DOI via Crossref: 10.1201/9788770047371-12
+2025-10-21 10:36:41,745 [INFO] PROCESSING: Interpreting electroencephalogram brain signals: Insights from AI-driven analysi
+2025-10-21 10:36:41,746 [INFO]   DOI: 10.1201/9788770047371-12
+2025-10-21 10:36:41,747 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105007829573&origin=inward
+2025-10-21 10:36:41,747 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:41,748 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:41,749 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:41,793 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:41,794 [INFO] [40/197] ------------------------------------------------------------
+2025-10-21 10:36:41,796 [INFO] PROCESSING: Stream-based Identification of Gender using Noninvasive Electroencephalographic 
+2025-10-21 10:36:41,797 [INFO]   DOI: 10.32985/ijeces.16.4.2
+2025-10-21 10:36:41,797 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105003190818&origin=inward
+2025-10-21 10:36:41,798 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:41,799 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:41,799 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:41,878 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:41,879 [INFO] [41/197] ------------------------------------------------------------
+2025-10-21 10:36:41,881 [INFO] PROCESSING: EEGConvNeXt: A novel convolutional neural network model for automated detection 
+2025-10-21 10:36:41,882 [INFO]   DOI: 10.1016/j.cmpb.2025.108652
+2025-10-21 10:36:41,883 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85217228476&origin=inward
+2025-10-21 10:36:41,883 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:41,884 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:41,885 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:41,959 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:41,961 [INFO] [42/197] ------------------------------------------------------------
+2025-10-21 10:36:41,962 [INFO] PROCESSING: EEG Based Sentiment Classification Using XGBoost: A Machine Learning Approach fo
+2025-10-21 10:36:41,963 [INFO]   DOI: 10.18280/jesa.580419
+2025-10-21 10:36:41,964 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105007327317&origin=inward
+2025-10-21 10:36:41,964 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:41,965 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:41,965 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:42,042 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:42,043 [INFO] [43/197] ------------------------------------------------------------
+2025-10-21 10:36:42,044 [INFO] PROCESSING: Pre-movement pattern decoding from motor evoked potentials for reducing interact
+2025-10-21 10:36:42,045 [INFO]   DOI: 10.1016/j.bspc.2024.107275
+2025-10-21 10:36:42,046 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85210769830&origin=inward
+2025-10-21 10:36:42,046 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:42,047 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:42,048 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:42,112 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:42,113 [INFO] [44/197] ------------------------------------------------------------
+2025-10-21 10:36:42,115 [INFO] PROCESSING: Specific feature selection in wearable EEG-based transducers for monitoring high
+2025-10-21 10:36:42,116 [INFO]   DOI: 10.1016/j.csi.2024.103896
+2025-10-21 10:36:42,116 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85200118134&origin=inward
+2025-10-21 10:36:42,117 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:42,118 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:42,118 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:42,162 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:42,163 [INFO] [45/197] ------------------------------------------------------------
+2025-10-21 10:36:42,165 [INFO] PROCESSING: High Accuracy of Epileptic Seizure Detection Using Tiny Machine Learning Technol
+2025-10-21 10:36:42,165 [INFO]   DOI: 10.3390/biomedinformatics5010014
+2025-10-21 10:36:42,166 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105000992371&origin=inward
+2025-10-21 10:36:42,166 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:42,167 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:42,167 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:42,239 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:42,240 [INFO] [46/197] ------------------------------------------------------------
+2025-10-21 10:36:42,242 [INFO] PROCESSING: From Neural Networks to Emotional Networks: A Systematic Review of EEG-Based Emo
+2025-10-21 10:36:42,243 [INFO]   DOI: 10.3390/brainsci15030220
+2025-10-21 10:36:42,243 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105001161163&origin=inward
+2025-10-21 10:36:42,244 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:42,244 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:42,245 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:42,333 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:42,334 [INFO] [47/197] ------------------------------------------------------------
+2025-10-21 10:36:42,336 [INFO] PROCESSING: The history, current state and future possibilities of the non-invasive brain co
+2025-10-21 10:36:42,337 [INFO]   DOI: 10.1016/j.medntd.2025.100353
+2025-10-21 10:36:42,337 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85216842667&origin=inward
+2025-10-21 10:36:42,338 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:42,339 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:42,339 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:42,407 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:42,409 [INFO] [48/197] ------------------------------------------------------------
+2025-10-21 10:36:42,411 [INFO] PROCESSING: Deep learning techniques for automated Alzheimer's and mild cognitive impairment
+2025-10-21 10:36:42,411 [INFO]   DOI: 10.1016/j.cmpb.2024.108506
+2025-10-21 10:36:42,412 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85209954263&origin=inward
+2025-10-21 10:36:42,413 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:42,413 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:42,414 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:42,483 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:42,483 [INFO] [49/197] ------------------------------------------------------------
+2025-10-21 10:36:42,485 [INFO] PROCESSING: Digital Twin for EEG seizure prediction using time reassigned Multisynchrosqueez
+2025-10-21 10:36:42,485 [INFO]   DOI: 10.1088/2057-1976/ad992c
+2025-10-21 10:36:42,486 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=85212586584&origin=inward
+2025-10-21 10:36:42,487 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:42,487 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:42,488 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:42,564 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:42,565 [INFO] [50/197] ------------------------------------------------------------
+2025-10-21 10:36:42,567 [INFO] PROCESSING: EEG-Based Emotion Detection Using Roberts Similarity and PSO Feature Selection
+2025-10-21 10:36:42,568 [INFO]   DOI: 10.1109/ACCESS.2025.3555526
+2025-10-21 10:36:42,569 [INFO]   URL: https://www.scopus.com/inward/record.uri?partnerID=HzOxMe3b&scp=105001529658&origin=inward
+2025-10-21 10:36:42,569 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:42,570 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:42,571 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:42,655 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:42,656 [INFO] [51/197] ------------------------------------------------------------
+2025-10-21 10:36:42,657 [INFO] PROCESSING: ACXNet hybrid deep learning model for cross task mental workload estimation usin
+2025-10-21 10:36:42,658 [INFO]   DOI: 10.1038/s41598-025-19144-x
+2025-10-21 10:36:42,658 [INFO]   URL: https://pubmed.ncbi.nlm.nih.gov/41062739/
+2025-10-21 10:36:42,659 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:42,660 [INFO]   → Checking PubMed Central...
+2025-10-21 10:36:43,162 [INFO]   → Found PMC ID: PMC12508140
+2025-10-21 10:36:43,166 [INFO] Downloading from: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12508140/pdf/
+2025-10-21 10:36:43,806 [WARNING] Downloaded content is not a PDF (content-type: text/html; charset=utf-8)
+2025-10-21 10:36:43,808 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:43,809 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:45,434 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:45,435 [INFO] [52/197] ------------------------------------------------------------
+2025-10-21 10:36:45,437 [INFO] PROCESSING: Diagnostic potential of near-infrared spectroscopy in mild cognitive impairment 
+2025-10-21 10:36:45,437 [INFO]   DOI: 10.1002/alz.70769
+2025-10-21 10:36:45,438 [INFO]   URL: https://pubmed.ncbi.nlm.nih.gov/41059738/
+2025-10-21 10:36:45,439 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:45,439 [INFO]   → Checking PubMed Central...
+2025-10-21 10:36:45,938 [INFO]   → Found PMC ID: PMC12505193
+2025-10-21 10:36:45,942 [INFO] Downloading from: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12505193/pdf/
+2025-10-21 10:36:46,574 [WARNING] Downloaded content is not a PDF (content-type: text/html; charset=utf-8)
+2025-10-21 10:36:46,575 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:46,576 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:47,199 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:47,200 [INFO] [53/197] ------------------------------------------------------------
+2025-10-21 10:36:47,202 [INFO] PROCESSING: AI-Driven Multimodal Brain-State Decoding for Personalized Closed-Loop TENS: A C
+2025-10-21 10:36:47,203 [INFO]   DOI: 10.3390/brainsci15090903
+2025-10-21 10:36:47,203 [INFO]   URL: https://pubmed.ncbi.nlm.nih.gov/41008264/
+2025-10-21 10:36:47,204 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:47,204 [INFO]   → Checking PubMed Central...
+2025-10-21 10:36:47,691 [INFO]   → Found PMC ID: PMC12467613
+2025-10-21 10:36:47,694 [INFO] Downloading from: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12467613/pdf/
+2025-10-21 10:36:48,310 [WARNING] Downloaded content is not a PDF (content-type: text/html; charset=utf-8)
+2025-10-21 10:36:48,312 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:48,313 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:48,854 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:48,856 [INFO] [54/197] ------------------------------------------------------------
+2025-10-21 10:36:48,857 [INFO] PROCESSING: Emotion recognition in Virtual Reality using sensor fusion with eye tracking.
+2025-10-21 10:36:48,858 [INFO]   DOI: 10.1016/j.compbiomed.2025.111070
+2025-10-21 10:36:48,859 [INFO]   URL: https://pubmed.ncbi.nlm.nih.gov/40967141/
+2025-10-21 10:36:48,860 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:48,861 [INFO]   → Checking PubMed Central...
+2025-10-21 10:36:49,355 [INFO]   → Paper not available in PMC
+2025-10-21 10:36:49,359 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:49,360 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:49,824 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:49,825 [INFO] [55/197] ------------------------------------------------------------
+2025-10-21 10:36:49,827 [INFO] PROCESSING: Detecting Diverse Seizure Types with Wrist-Worn Wearable Devices: A Comparison o
+2025-10-21 10:36:49,828 [INFO]   DOI: 10.3390/s25175562
+2025-10-21 10:36:49,828 [INFO]   URL: https://pubmed.ncbi.nlm.nih.gov/40942991/
+2025-10-21 10:36:49,829 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:49,829 [INFO]   → Checking PubMed Central...
+2025-10-21 10:36:50,344 [INFO]   → Found PMC ID: PMC12431448
+2025-10-21 10:36:50,348 [INFO] Downloading from: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12431448/pdf/
+2025-10-21 10:36:50,969 [WARNING] Downloaded content is not a PDF (content-type: text/html; charset=utf-8)
+2025-10-21 10:36:50,971 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:50,972 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:51,686 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:51,687 [INFO] [56/197] ------------------------------------------------------------
+2025-10-21 10:36:51,689 [INFO] PROCESSING: A Novel Hybrid Approach for Drowsiness Detection Using EEG Scalograms to Overcom
+2025-10-21 10:36:51,690 [INFO]   DOI: 10.3390/s25175530
+2025-10-21 10:36:51,690 [INFO]   URL: https://pubmed.ncbi.nlm.nih.gov/40942959/
+2025-10-21 10:36:51,691 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:51,691 [INFO]   → Checking PubMed Central...
+2025-10-21 10:36:52,200 [INFO]   → Found PMC ID: PMC12431132
+2025-10-21 10:36:52,204 [INFO] Downloading from: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12431132/pdf/
+2025-10-21 10:36:52,805 [WARNING] Downloaded content is not a PDF (content-type: text/html; charset=utf-8)
+2025-10-21 10:36:52,807 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:52,808 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:53,921 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:53,923 [INFO] [57/197] ------------------------------------------------------------
+2025-10-21 10:36:53,933 [INFO] PROCESSING: EEG-based characterization of auditory attention and meditation: an ERP and mach
+2025-10-21 10:36:53,934 [INFO]   DOI: 10.3389/fnhum.2025.1616456
+2025-10-21 10:36:53,934 [INFO]   URL: https://pubmed.ncbi.nlm.nih.gov/40932879/
+2025-10-21 10:36:53,935 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:53,936 [INFO]   → Checking PubMed Central...
+2025-10-21 10:36:54,409 [INFO]   → Found PMC ID: PMC12417730
+2025-10-21 10:36:54,412 [INFO] Downloading from: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12417730/pdf/
+2025-10-21 10:36:55,074 [WARNING] Downloaded content is not a PDF (content-type: text/html; charset=utf-8)
+2025-10-21 10:36:55,080 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:55,086 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:55,670 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:57,242 [INFO] [58/197] ------------------------------------------------------------
+2025-10-21 10:36:57,246 [INFO] PROCESSING: Can Machine Learning predict therapeutic outcomes in affective and not affective
+2025-10-21 10:36:57,246 [INFO]   DOI: 10.1016/j.neubiorev.2025.106357
+2025-10-21 10:36:57,249 [INFO]   URL: https://pubmed.ncbi.nlm.nih.gov/40914415/
+2025-10-21 10:36:57,257 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:57,264 [INFO]   → Checking PubMed Central...
+2025-10-21 10:36:57,765 [INFO]   → Paper not available in PMC
+2025-10-21 10:36:57,768 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:57,769 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:58,194 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:58,196 [INFO] [59/197] ------------------------------------------------------------
+2025-10-21 10:36:58,198 [INFO] PROCESSING: Fear Detection Using Electroencephalogram and Artificial Intelligence: A Systema
+2025-10-21 10:36:58,199 [INFO]   DOI: 10.3390/brainsci15080815
+2025-10-21 10:36:58,199 [INFO]   URL: https://pubmed.ncbi.nlm.nih.gov/40867148/
+2025-10-21 10:36:58,200 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:58,201 [INFO]   → Checking PubMed Central...
+2025-10-21 10:36:58,687 [INFO]   → Found PMC ID: PMC12384336
+2025-10-21 10:36:58,691 [INFO] Downloading from: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12384336/pdf/
+2025-10-21 10:36:59,313 [WARNING] Downloaded content is not a PDF (content-type: text/html; charset=utf-8)
+2025-10-21 10:36:59,315 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:36:59,315 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:36:59,778 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:36:59,779 [INFO] [60/197] ------------------------------------------------------------
+2025-10-21 10:36:59,781 [INFO] PROCESSING: Flexible wearable medical devices: from material innovations and data processing
+2025-10-21 10:36:59,781 [INFO]   DOI: 10.1016/j.jare.2025.08.036
+2025-10-21 10:36:59,782 [INFO]   URL: https://pubmed.ncbi.nlm.nih.gov/40850680/
+2025-10-21 10:36:59,782 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:36:59,783 [INFO]   → Checking PubMed Central...
+2025-10-21 10:37:00,288 [INFO]   → Paper not available in PMC
+2025-10-21 10:37:00,292 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:37:00,293 [INFO]   → Trying to scrape PDF link from page...
+2025-10-21 10:37:00,714 [ERROR]   ✗ FAILED: Could not download from any source
+2025-10-21 10:37:00,715 [INFO] [61/197] ------------------------------------------------------------
+2025-10-21 10:37:00,716 [INFO] PROCESSING: EEG microstates as indicators and predictors of response through 4 weeks of trea
+2025-10-21 10:37:00,718 [INFO]   DOI: 10.1016/j.jad.2025.119511
+2025-10-21 10:37:00,719 [INFO]   URL: https://pubmed.ncbi.nlm.nih.gov/40846578/
+2025-10-21 10:37:00,720 [WARNING]   ⚠ Unpaywall email not set, skipping OA check
+2025-10-21 10:37:00,721 [INFO]   → Checking PubMed Central...
+2025-10-21 10:37:01,233 [INFO]   → Paper not available in PMC
+2025-10-21 10:37:01,237 [INFO]   → Trying publisher-specific patterns...
+2025-10-21 10:37:01,238 [INFO]   → Trying to scrape PDF link from page...

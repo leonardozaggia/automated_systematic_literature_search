@@ -1,0 +1,30 @@
+================================================================================
+SEARCHER TEST REPORT
+================================================================================
+Generated: 2025-10-20 19:21:36
+Papers per source: 3
+
+--------------------------------------------------------------------------------
+Source          Found      Downloaded   Failed     Success Rate
+--------------------------------------------------------------------------------
+Scopus          25         0            0          0.0%
+Pubmed          3          0            0          0.0%
+Arxiv           3          0            0          0.0%
+Scholar         3          0            0          0.0%
+--------------------------------------------------------------------------------
+TOTAL           34         0            0          0.0%
+
+ERRORS:
+--------------------------------------------------------------------------------
+
+SCOPUS:
+  • Scopus search error: 'ScopusSearcher' object has no attribute 'save_to_bibtex'
+
+PUBMED:
+  • PubMed search error: 'PubMedSearcher' object has no attribute 'save_to_bibtex'
+
+ARXIV:
+  • arXiv search error: 'ArxivSearcher' object has no attribute 'save_to_bibtex'
+
+SCHOLAR:
+  • Google Scholar search error: 'ScholarSearcher' object has no attribute 'save_to_bibtex'

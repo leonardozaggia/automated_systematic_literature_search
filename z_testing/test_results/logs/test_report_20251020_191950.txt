@@ -1,0 +1,29 @@
+================================================================================
+SEARCHER TEST REPORT
+================================================================================
+Generated: 2025-10-20 19:19:50
+Papers per source: 5
+
+--------------------------------------------------------------------------------
+Source          Found      Downloaded   Failed     Success Rate
+--------------------------------------------------------------------------------
+Scopus          0          N/A          N/A        N/A
+Pubmed          0          N/A          N/A        N/A
+Arxiv           0          N/A          N/A        N/A
+Scholar         0          N/A          N/A        N/A
+--------------------------------------------------------------------------------
+
+ERRORS:
+--------------------------------------------------------------------------------
+
+SCOPUS:
+  • Scopus search error: ScopusSearcher.search() got an unexpected keyword argument 'max_results'
+
+PUBMED:
+  • PubMed search error: PubMedSearcher.__init__() missing 1 required positional argument: 'email'
+
+ARXIV:
+  • arXiv search error: ArxivSearcher.search() got an unexpected keyword argument 'max_results'
+
+SCHOLAR:
+  • Google Scholar search error: ScholarSearcher.search() got an unexpected keyword argument 'max_results'
