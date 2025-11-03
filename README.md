@@ -1,6 +1,6 @@
 # Automated Metanalysis & Systematic Reviews (AMSR)
 
-[![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://leonardozaggia.github.io/automated_systematic_literature_search/)
+[![Jupyter Book Badge](https://jupyterbook.org/_static/badge.svg)](https://leonardozaggia.github.io/automated_systematic_literature_search/)
 
 A comprehensive tutorial book teaching researchers how to automate systematic literature reviews and metanalyses using modern Python tools.
 
