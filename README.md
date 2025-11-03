@@ -1,6 +1,6 @@
 # Automated Systematic Literature Reviews
 
-**Click the badge to access the interactive tutorial book** -> [![Jupyter Book Badge](https://jupyterbook.org/_static/badge.svg)](https://leonardozaggia.github.io/automated_systematic_literature_search/)
+**Click the badge to access the interactive tutorial book** -> [![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://leonardozaggia.github.io/automated_systematic_literature_search/)
 
 ---
 
