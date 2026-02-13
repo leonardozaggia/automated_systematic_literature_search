@@ -18,9 +18,11 @@ parts:
   - caption: Additional Tools & Resources
     chapters:
       - file: book/additional_tools/0_Overview
+      - file: book/additional_tools/1_Paper_Finder
       - file: book/additional_tools/2_LitMaps
       - file: book/additional_tools/3_Consensus
       - file: book/additional_tools/4_Elicit
+      - file: book/additional_tools/5_Info_Extractor
 
   - caption: References
     chapters:

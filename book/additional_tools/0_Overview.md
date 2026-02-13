@@ -7,7 +7,21 @@ Beyond Review Buddy (the primary toolkit featured in this book), there are sever
 ::::{grid} 1 1 2 2
 :gutter: 3
 
-:::{grid-item-card} ️ LitMaps
+:::{grid-item-card} 🔍 Paper-Finder
+:link: 1_Paper_Finder
+:link-type: doc
+
+GUI-based tool for discovering and searching papers across multiple databases
+:::
+
+:::{grid-item-card} 📊 Info-Extractor
+:link: 5_Info_Extractor
+:link-type: doc
+
+Extract information from papers in a structured way for systematic analysis
+:::
+
+:::{grid-item-card} ️🗺️ LitMaps
 :link: 2_LitMaps
 :link-type: doc
 
@@ -36,8 +50,11 @@ Different tools excel at different stages of the literature review process:
 ```{mermaid}
 graph TD
     A[Research Question] --> B{Initial Search}
+    B -->|GUI Tool| PF[Paper-Finder]
     B -->|Primary Tool| C[Review Buddy]
-    C --> F{Enhancement Phase}
+    
+    PF --> F{Enhancement Phase}
+    C --> F
     
     F -->|Citation Discovery| G[LitMaps]
     F -->|Check Consensus| H[Consensus]
@@ -47,11 +64,17 @@ graph TD
     H --> J
     I --> J
     
+    J --> K[Info-Extractor]
+    K --> L[Structured Data]
+    
+    style PF fill:#e1f5fe
     style C fill:#e3f2fd
     style G fill:#fff3e0
     style H fill:#fff3e0
     style I fill:#fff3e0
     style J fill:#e8f5e9
+    style K fill:#f3e5f5
+    style L fill:#f1f8e9
 ```
 
 ## Complementary Workflows

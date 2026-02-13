@@ -77,7 +77,7 @@ Explore tutorial {fas}`arrow-right`
 :::{grid-item-card}
 :class-body: text-center
 :class-header: bg-light text-center
-:link: ./AMSR/paperscraper/0_Introduction
+:link: ./additional_tools/0_Overview
 :link-type: doc
 **Additional Tools** 🛠️
 ^^^
