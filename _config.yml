@@ -34,10 +34,6 @@ html:
   extra_css:
     - _static/custom.css
 
-# Google colab launch button
-launch_buttons:
-  colab_url: "https://colab.research.google.com"
-
 # Make the book's default style dark
 sphinx:
   extra_extensions:

@@ -63,7 +63,7 @@ Start here {fas}`arrow-right`
 :class-header: bg-light text-center
 :link: ./review_buddy/0_Overview
 :link-type: doc
-**Review Buddy** 🔎
+**Review Buddy** <i class="fa-brands fa-simplybuilt"></i>
 ^^^
 ```{image} ../_static/images/findpaper.png
 :height: 100
@@ -96,7 +96,7 @@ Explore tools {fas}`arrow-right`
 
 ### Useful Resources
 - 📖 [PRISMA Guidelines](http://www.prisma-statement.org/) - Standards for systematic reviews
-- 💾 [Review Buddy](https://github.com/leonardozaggia/review_buddy)
+- <i class="fa-brands fa-simplybuilt"></i> [Review Buddy](https://github.com/leonardozaggia/review_buddy)
 - 🎓 [Getting Started with Python & VS Code](https://www.youtube.com/watch?v=6i3e-j3wSf0)
 - 🔬 [PMUS Lab GitHub](https://github.com/pmus-lab)
 
