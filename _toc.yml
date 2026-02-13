@@ -21,8 +21,6 @@ parts:
       - file: book/additional_tools/2_LitMaps
       - file: book/additional_tools/3_Consensus
       - file: book/additional_tools/4_Elicit
-      - file: book/additional_tools/5_Findpapers
-      - file: book/additional_tools/1_PaperScraper
 
   - caption: References
     chapters:
