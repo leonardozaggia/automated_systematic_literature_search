@@ -120,7 +120,7 @@ This book focuses on powerful Python tools for automated literature review:
 ### 1. **Review Buddy** (Primary Tool)
 - **5-database search**: Scopus, PubMed, arXiv, Google Scholar, IEEE Xplore
 - **Smart filtering**: Keyword-based OR AI-powered (Ollama) abstract screening
-- **10+ download strategies**: 70-90% success rate including open access, arXiv, bioRxiv, PMC, publisher patterns
+- **10+ download strategies**: Multiple fall-back options to maximise pdf-retrieval success rate
 - **Simple 3-step workflow**: Fetch → Filter → Download
 - **Production-ready**: Comprehensive error handling, logging, and documentation
 - **Multiple exports**: BibTeX, RIS, CSV

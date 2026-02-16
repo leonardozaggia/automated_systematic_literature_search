@@ -18,7 +18,7 @@ This comprehensive tutorial teaches you how to **automate your literature review
 
 ## Why Automate Your Literature Review?
 
-📚 **Systematic reviews** and **metanalyses** are essential for evidence-based research, but they're traditionally time-consuming and error-prone. This book teaches you to:
+**Systematic reviews** and **metanalyses** are essential for evidence-based research, but they're traditionally time-consuming and error-prone. This book teaches you to:
 
 - **Search multiple databases simultaneously** (ACM, IEEE, Scopus, PubMed, arXiv, bioRxiv, medRxiv)
 - **Automate paper collection and deduplication**
