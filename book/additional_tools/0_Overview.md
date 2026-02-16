@@ -1,4 +1,4 @@
-# 🛠️ Additional Tools & Resources
+# <i class="fa-solid fa-screwdriver-wrench"></i> Additional Tools & Resources
 
 Beyond Review Buddy (the primary toolkit featured in this book), there are several excellent complementary tools that can enhance your literature review workflow. This section provides practical guides for:
 
@@ -7,28 +7,28 @@ Beyond Review Buddy (the primary toolkit featured in this book), there are sever
 ::::{grid} 1 1 2 2
 :gutter: 3
 
-:::{grid-item-card} 🔍 Paper-Finder
+:::{grid-item-card} <i class="fa-solid fa-user-secret"></i> Paper-Finder
 :link: 1_Paper_Finder
 :link-type: doc
 
 GUI-based tool for discovering and searching papers across multiple databases
 :::
 
-:::{grid-item-card} 📊 Info-Extractor
+:::{grid-item-card} <i class="fa-solid fa-file-code"></i> Info-Extractor
 :link: 5_Info_Extractor
 :link-type: doc
 
 Extract information from papers in a structured way for systematic analysis
 :::
 
-:::{grid-item-card} ️🗺️ LitMaps
+:::{grid-item-card} ️<i class="fa-solid fa-book-open"></i> LitMaps
 :link: 2_LitMaps
 :link-type: doc
 
 Visual citation mapping tool for discovering related papers through citation networks
 :::
 
-:::{grid-item-card} 💡 Consensus
+:::{grid-item-card} <i class="fa-solid fa-list-check"></i> Consensus
 :link: 3_Consensus
 :link-type: doc
 

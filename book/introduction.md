@@ -79,7 +79,7 @@ Explore tutorial {fas}`arrow-right`
 :class-header: bg-light text-center
 :link: ./additional_tools/0_Overview
 :link-type: doc
-**Additional Tools** 🛠️
+**Additional Tools** <i class="fa-solid fa-screwdriver-wrench"></i>
 ^^^
 ```{image} ../_static/images/other_tools.png
 :height: 100

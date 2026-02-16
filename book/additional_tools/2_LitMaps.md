@@ -1,4 +1,4 @@
-# 🗺️ LitMaps
+# <i class="fa-solid fa-book-open"></i> LitMaps
 ## Overview
 
 **LitMaps** is a free web-based tool that helps researchers discover literature through interactive citation network visualization. Instead of relying solely on keyword searches, LitMaps maps the connections between papers, making it easier to find influential works and trace research evolution.

@@ -1,4 +1,4 @@
-# ✅ Consensus
+# <i class="fa-solid fa-list-check"></i> Consensus
 
 ## Overview
 
