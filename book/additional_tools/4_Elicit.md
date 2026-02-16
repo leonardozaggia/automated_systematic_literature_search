@@ -1,4 +1,4 @@
-# 📊 Elicit
+# <i class="fa-solid fa-arrows-spin"></i> Elicit
 
 ## Overview
 
