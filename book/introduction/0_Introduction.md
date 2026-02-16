@@ -127,11 +127,12 @@ This book focuses on powerful Python tools for automated literature review:
 - **Open source**: Available at [github.com/leonardozaggia/review_buddy](https://github.com/leonardozaggia/review_buddy)
 
 ### 2. **Complementary Tools**
+- **Paper-finder**: Gui based discovering tool
+- **Info-extractor**: Convert unstructured PDFs into structured, machine-readable data
 - **LitMaps**: Visual citation network discovery
 - **Consensus**: AI-powered scientific consensus search
 - **Elicit**: AI data extraction and screening
-- **Findpapers**: command-line configuration-based search tool
-- **PaperScraper**: Preprint scraping (arXiv, bioRxiv, medRxiv)
+
 
 ## What You'll Need
 
