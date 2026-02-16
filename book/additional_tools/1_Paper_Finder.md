@@ -1,7 +1,7 @@
 # <i class="fa-solid fa-user-secret"></i> Paper-Finder
 
 GUI-based tool for discovering, reviewing, and exporting academic papers across multiple databases.
-![Paper-Finder Interface](figures/paper-finder.png)
+![Paper-Finder Interface](figures/paper-finder.jpeg)
 
 ---
 
@@ -84,8 +84,8 @@ CSV and ZIP exports can be version-controlled or shared with collaborators.
 
 Clone the repository:
 ```bash
-git clone https://github.com/your-username/Paper-Finder.git
-cd Paper-Finder
+git clone https://github.com/sanahassanimam/Automating-the-Information-Extraction
+cd Automating-the-Information-Extraction/Paper-Finder
 ```
 
 Install Python dependencies:

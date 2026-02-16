@@ -116,7 +116,7 @@ ollama serve
 
 ### Terminal 2 — Backend (FastAPI)
 ```bash
-cd C:\Users\imam\Documents\paper-extractor\info-extractor\backend
+cd Automating-the-Information-Extraction\info-extractor\backend
 conda activate paperextract
 uvicorn server:app --reload --port 8000
 ```
@@ -133,7 +133,7 @@ http://127.0.0.1:8000/docs
 
 ### Terminal 3 — Frontend (HTML UI)
 ```bash
-cd C:\Users\imam\Documents\paper-extractor\info-extractor\frontend
+cd Automating-the-Information-Extraction\info-extractor\frontend
 python -m http.server 5173
 ```
 
@@ -146,7 +146,7 @@ http://127.0.0.1:5173/extractor_ui.html
 
 ## Workflow Overview
 
-![Automating the Information Extraction workflow](figures/workflow.png)
+![Automating the Information Extraction workflow](images/info_extractor.jpeg)
 
 ---
 
