@@ -1,4 +1,4 @@
-# <i class="fa-solid fa-user-secret"></i> Paper-Finder
+# <i class="fa-solid fa-magnifying-glass"></i> Paper-Finder
 
 GUI-based tool for discovering, reviewing, and exporting academic papers across multiple databases.
 ![Paper-Finder Interface](figures/paper-finder.jpeg)
