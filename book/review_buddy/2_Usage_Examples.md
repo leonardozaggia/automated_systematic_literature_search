@@ -214,7 +214,7 @@ For more intelligent filtering, use the AI-powered option with Ollama:
 **Prerequisites**:
 1. Install Ollama: [https://ollama.ai](https://ollama.ai)
 2. Pull a model: `ollama pull llama3.1:8b`
-3. Configure in `.env`: `OLLAMA_MODEL=llama3.1:8b`
+3. Start Ollama server: `ollama serve` (in a separate terminal)
 
 Edit `02_abstract_filter_ai.py`:
 
@@ -288,7 +288,7 @@ Ollama Usage:
 ✓ Decision log: results/ai_filtering_log_*.json
 
 Next step: 
-  1. Review papers in manual_review_ai.csv (low confidence)
+  1. Review papers in manual_review_ai.csv (flagged due to low confidence or API failures)
   2. Run scripts/compare_filters.py to compare with keyword filtering
   3. Run 03_download_papers.py to download PDFs
 ```
@@ -315,14 +315,25 @@ The downloader automatically uses filtered results if available:
 python 03_download_papers.py
 ```
 
-**File Selection**: The script automatically checks for filtered results:
+**File Selection**: The script checks for files in this order:
 1. `references_filtered.bib` (keyword filtering) - checked first
-2. `references_filtered_ai.bib` (AI filtering) - not checked by default
-3. `references.bib` (unfiltered) - fallback
+2. `references.bib` (unfiltered) - fallback if no filtered file exists
 
-To use AI-filtered results, either:
-- Rename `references_filtered_ai.bib` to `references_filtered.bib`
-- Or edit the script to use: `filtered_ai = Path("results/references_filtered_ai.bib")`
+**Note**: AI-filtered results (`references_filtered_ai.bib`) are **not checked automatically**. To use them:
+- **Option 1**: Rename `references_filtered_ai.bib` to `references_filtered.bib`
+- **Option 2**: Edit `03_download_papers.py` lines 28-30 to check for AI-filtered file:
+  ```python
+  filtered_ai = Path("results/references_filtered_ai.bib")
+  filtered = Path("results/references_filtered.bib")
+  default = Path("results/references.bib")
+  
+  if filtered_ai.exists():
+      BIB_FILE = filtered_ai
+  elif filtered.exists():
+      BIB_FILE = filtered
+  else:
+      BIB_FILE = default
+  ```
 
 **Optional: Enable Sci-Hub** (use responsibly per your local laws):
 
@@ -428,7 +439,7 @@ FILTERS_ENABLED = {
     'non_english': True,
     'bci': True,            # Exclude BCI papers
     'non_human': True,      # Exclude animal studies
-    'non_empirical': False, # Deactivated filter -> Exclude reviews
+    'non_empirical': False, # Disabled - reviews will NOT be excluded (will be kept)
 }
 
 KEYWORD_FILTERS = {
@@ -511,8 +522,8 @@ results/
 ### Custom Filter Examples
 
 #### Exclude Pediatric Studies
-**Note**: Filter names describe what to exclude. Use positive names (e.g., `pediatric`) to filter out pediatric studies.
 
+**Important**: Filter names should describe what you want to **exclude**. Use positive/descriptive names (e.g., `pediatric` to exclude pediatric studies, `non_human` to exclude animal studies).
 
 ```python
 FILTERS_ENABLED = {

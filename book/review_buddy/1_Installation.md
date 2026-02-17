@@ -64,10 +64,9 @@ UNPAYWALL_EMAIL=your.email@example.com
 
 # IEEE Xplore (Optional - for engineering papers)
 IEEE_API_KEY=your_ieee_api_key_here
-
-# Ollama (Optional - for AI filtering)
-OLLAMA_MODEL=llama3.1:8b
 ```
+
+**Note**: Ollama configuration for AI filtering is done in `02_abstract_filter_ai.py` (see `AI_CONFIG`), not in `.env`.
 
 **Minimum setup**: Either `SCOPUS_API_KEY` OR `PUBMED_EMAIL` (both recommended)  
 **For best results**: Configure all available sources
@@ -100,9 +99,12 @@ OLLAMA_MODEL=llama3.1:8b
 #### Ollama (Optional - for AI Filtering)
 - **Website**: [https://ollama.ai/](https://ollama.ai/)
 - **How**: Download and install Ollama → Pull model: `ollama pull llama3.1:8b`
-- **Models**: llama3.1:8b (powerfull, yet small enough to be run locally), mistral, phi3, etc.
+- **Models**: llama3.1:8b (powerful, yet small enough to run locally), mistral, phi3, etc.
 - **Use**: Local LLM for intelligent abstract filtering
-- **Configuration**: Edit `AI_CONFIG` in `02_abstract_filter_ai.py` (not in `.env`)
+- **Configuration**: Edit `AI_CONFIG` dictionary in `02_abstract_filter_ai.py`
+  - Set model name: `'model': 'llama3.1:8b'`
+  - Set Ollama URL: `'ollama_url': 'http://localhost:11434'`
+  - Adjust confidence threshold: `'confidence_threshold': 0.5`
 
 ## Verify Installation
 

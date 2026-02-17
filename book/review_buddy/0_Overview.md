@@ -24,7 +24,8 @@ Perfect for:
 ### Smart Filtering
 - **Keyword-Based Filtering**: Rule-based abstract screening with customizable criteria
 - **AI-Powered Filtering** (NEW): Local LLM-based filtering using Ollama
-- **Built-in Filters**: Non-English, no abstract, animal studies, reviews, epilepsy, BCI
+- **Built-in Filters**: Non-English, No-abstract
+- **Example Filters**: Animal studies, Reviews, Epilepsy, BCI (easily customizable templates)
 - **Custom Filters**: Easy to add domain-specific exclusion criteria
 - **Manual Review Queue**: Papers flagged for manual verification (AI mode)
 
@@ -33,7 +34,7 @@ Perfect for:
 - **Priority Order**: Direct PDF → arXiv → bioRxiv/medRxiv → Unpaywall → PMC → Publisher patterns → Crossref → HTML scraping → Sci-Hub (optional)
 - **Open Access Focus**: Unpaywall, arXiv, PubMed Central (US & Europe)
 - **Publisher Patterns**: MDPI, Frontiers, Nature, IEEE, ScienceDirect, Springer, PLOS
-- **70-90% Success Rate** (depends on source mix and Sci-Hub usage)
+- **30-70% Success Rate** (depending on source mix) / **95-100%** (Pubmed/arXiv)
 
 ### Export Formats
 - **BibTeX**: For LaTeX and reference managers
@@ -45,6 +46,7 @@ Automatic removal of duplicate papers across sources:
 - Title matching with fuzzy logic
 - DOI comparison
 - **PubMed prioritization** (better download success)
+- **Recency prioritization** (newer publications preferred)
 - Source tracking for transparency
 
 ## Three-Step Workflow
@@ -108,6 +110,7 @@ review_buddy/
 ├── 02_abstract_filter.py        # Keyword-based filtering
 ├── 02_abstract_filter_ai.py     # AI-powered filtering (new!)
 ├── 03_download_papers.py        # PDF downloader
+├── 04_deduplicate_extra.py      # Advanced deduplication utility
 ├── .env.example                 # Configuration template
 ├── query.txt                    # Optional: External query file
 ├── src/
