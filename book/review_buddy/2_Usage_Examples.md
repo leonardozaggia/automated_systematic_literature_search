@@ -27,6 +27,7 @@ QUERY = Path("query.txt").read_text(encoding="utf-8").strip()
 
 YEAR_FROM = 2020                 # Starting year
 MAX_RESULTS_PER_SOURCE = 50      # Per database (use 999999 for unlimited)
+SOURCES = ['scopus', 'pubmed', 'arxiv', 'scholar']  # Choose sources to search
 OUTPUT_DIR = Path("results")
 ```
 
@@ -215,7 +216,7 @@ For more intelligent filtering, use the AI-powered option with Ollama:
 2. Pull a model: `ollama pull llama3.1:8b`
 3. Configure in `.env`: `OLLAMA_MODEL=llama3.1:8b`
 
-Edit `02_abstract_filter_AI.py`:
+Edit `02_abstract_filter_ai.py`:
 
 ```python
 # ============================================================================
@@ -255,7 +256,7 @@ FILTERS_CONFIG = {
 
 Run the AI filter:
 ```bash
-python 02_abstract_filter_AI.py
+python 02_abstract_filter_ai.py
 ```
 
 **Output**:
@@ -285,9 +286,20 @@ Ollama Usage:
 ✓ Filtered results: results/references_filtered_ai.bib
 ✓ Manual review: results/manual_review_ai.csv
 ✓ Decision log: results/ai_filtering_log_*.json
+
+Next step: 
+  1. Review papers in manual_review_ai.csv (low confidence)
+  2. Run scripts/compare_filters.py to compare with keyword filtering
+  3. Run 03_download_papers.py to download PDFs
 ```
 
 **Comparing Strategies**: See [docs/FILTER_WORKFLOW_EXAMPLE.md](https://github.com/leonardozaggia/review_buddy/blob/main/docs/FILTER_WORKFLOW_EXAMPLE.md) for a complete example.
+
+**Compare Results**: If you've run both filtering approaches, compare them:
+```bash
+python scripts/compare_filters.py
+```
+This analyzes agreement rates, identifies disagreements, and exports a detailed comparison report.
 
 ---
 
@@ -302,6 +314,15 @@ The downloader automatically uses filtered results if available:
 ```bash
 python 03_download_papers.py
 ```
+
+**File Selection**: The script automatically checks for filtered results:
+1. `references_filtered.bib` (keyword filtering) - checked first
+2. `references_filtered_ai.bib` (AI filtering) - not checked by default
+3. `references.bib` (unfiltered) - fallback
+
+To use AI-filtered results, either:
+- Rename `references_filtered_ai.bib` to `references_filtered.bib`
+- Or edit the script to use: `filtered_ai = Path("results/references_filtered_ai.bib")`
 
 **Optional: Enable Sci-Hub** (use responsibly per your local laws):
 
@@ -387,6 +408,7 @@ Edit `01_fetch_metadata.py`:
 QUERY = Path("query.txt").read_text(encoding="utf-8").strip()
 YEAR_FROM = 2018
 MAX_RESULTS_PER_SOURCE = 100
+SOURCES = ['scopus', 'pubmed', 'arxiv', 'scholar', 'ieee']  # All sources
 ```
 
 #### 2. Run Search
@@ -406,7 +428,7 @@ FILTERS_ENABLED = {
     'non_english': True,
     'bci': True,            # Exclude BCI papers
     'non_human': True,      # Exclude animal studies
-    'non_empirical': True,  # Exclude reviews
+    'non_empirical': False, # Deactivated filter -> Exclude reviews
 }
 
 KEYWORD_FILTERS = {
@@ -489,6 +511,8 @@ results/
 ### Custom Filter Examples
 
 #### Exclude Pediatric Studies
+**Note**: Filter names describe what to exclude. Use positive names (e.g., `pediatric`) to filter out pediatric studies.
+
 
 ```python
 FILTERS_ENABLED = {

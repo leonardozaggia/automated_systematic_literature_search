@@ -55,13 +55,13 @@ Review Buddy uses a simple, production-ready workflow:
 ```bash
 python 01_fetch_metadata.py
 ```
-Searches 5 databases, deduplicates, exports BibTeX/RIS/CSV.
+Searches up to 5 databases (configurable), deduplicates, exports BibTeX/RIS/CSV.
 
 ### 2️⃣ Filter Abstracts (Optional)
 ```bash
 python 02_abstract_filter.py        # Keyword-based
 # OR
-python 02_abstract_filter_AI.py     # AI-powered (Ollama)
+python 02_abstract_filter_ai.py     # AI-powered (Ollama)
 ```
 Excludes unwanted papers based on abstract content.
 
@@ -78,6 +78,7 @@ Tries 10+ strategies to download full-text papers.
 QUERY = "machine learning AND healthcare"
 YEAR_FROM = 2020
 MAX_RESULTS_PER_SOURCE = 50
+SOURCES = ['scopus', 'pubmed', 'arxiv', 'scholar']  # Choose sources
 ```
 
 **2. Set up API keys** (`.env`):
@@ -105,7 +106,7 @@ python 03_download_papers.py    # Download → results/pdfs/
 review_buddy/
 ├── 01_fetch_metadata.py         # Main search script
 ├── 02_abstract_filter.py        # Keyword-based filtering
-├── 02_abstract_filter_AI.py     # AI-powered filtering (new!)
+├── 02_abstract_filter_ai.py     # AI-powered filtering (new!)
 ├── 03_download_papers.py        # PDF downloader
 ├── .env.example                 # Configuration template
 ├── query.txt                    # Optional: External query file
@@ -129,11 +130,17 @@ review_buddy/
 │   ├── FILTER_WORKFLOW_EXAMPLE.md
 │   ├── DOWNLOADER_GUIDE.md
 │   └── DEDUPLICATION.md
+├── scripts/                     # Utility scripts
+│   └── compare_filters.py      # Compare AI vs keyword filtering
 └── results/                     # Output (auto-created)
     ├── papers.csv
     ├── references.bib
-    ├── papers_filtered.csv     # After filtering
-    ├── references_filtered.bib
+    ├── papers_filtered.csv     # After keyword filtering
+    ├── papers_filtered_ai.csv  # After AI filtering
+    ├── references_filtered.bib # After keyword filtering
+    ├── references_filtered_ai.bib  # After AI filtering
+    ├── manual_review_ai.csv    # Papers needing review (AI)
+    ├── ai_filtering_log_*.json # Detailed AI decisions
     ├── filtered_out/           # Papers removed by each filter
     └── pdfs/
 ```

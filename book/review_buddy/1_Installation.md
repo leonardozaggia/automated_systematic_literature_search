@@ -100,8 +100,9 @@ OLLAMA_MODEL=llama3.1:8b
 #### Ollama (Optional - for AI Filtering)
 - **Website**: [https://ollama.ai/](https://ollama.ai/)
 - **How**: Download and install Ollama → Pull model: `ollama pull llama3.1:8b`
-- **Models**: llama3.1:8b (recommended), mistral, etc.
+- **Models**: llama3.1:8b (powerfull, yet small enough to be run locally), mistral, phi3, etc.
 - **Use**: Local LLM for intelligent abstract filtering
+- **Configuration**: Edit `AI_CONFIG` in `02_abstract_filter_ai.py` (not in `.env`)
 
 ## Verify Installation
 
@@ -230,13 +231,14 @@ FILTERS_ENABLED = {
 ```
 
 ### Ollama Not Working (AI Filtering)
-**Error**: `Failed to initialize Ollama client`
+**Error**: `Cannot connect to Ollama server`
 
 **Solution**:
 1. Install Ollama: [https://ollama.ai](https://ollama.ai)
 2. Pull model: `ollama pull llama3.1:8b`
-3. Check Ollama is running: `ollama list`
-4. Verify URL in `.env`: `OLLAMA_URL=http://localhost:11434`
+3. Start Ollama server: `ollama serve`
+4. Check server is running: `ollama list`
+5. Verify configuration in `02_abstract_filter_ai.py`: `AI_CONFIG['ollama_url']`
 
 ## What's Next?
 
