@@ -4,12 +4,11 @@ logo: amsr_logo.png
 copyright: "2025 Leonardo Zaggia"
 # Useful reference for creating the config: https://jupyterbook.org/en/stable/customize/config.html
 
-# Do not execute notebooks
+# The book contains no executable code cells - never execute anything at build time
 execute:
-  execute_notebooks: "auto"
-  exclude_patterns: ["*.ipynb"]
+  execute_notebooks: "off"
 
-exclude_patterns: [".venv", "README.md", test.ipynb, test.py]
+exclude_patterns: [".venv", "README.md", "z_testing/*", test.ipynb, test.py]
 
 # Define the name of the latex output file for PDF builds
 latex:
@@ -30,9 +29,7 @@ html:
   home_page_in_navbar: false
   use_issues_button: true
   use_repository_button: true
-  baseurl: https://github.com/leonardozaggia/automated_systematic_literature_search
-  extra_css:
-    - _static/custom.css
+  baseurl: https://leonardozaggia.github.io/automated_systematic_literature_search/
 
 # Make the book's default style dark
 sphinx:
@@ -40,4 +37,3 @@ sphinx:
     - sphinxcontrib.mermaid
   html_context:
     default_mode: dark
-

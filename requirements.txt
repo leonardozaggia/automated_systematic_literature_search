@@ -1,12 +1,2 @@
 jupyter-book==1.0.4
 sphinxcontrib-mermaid
-numpy
-pandas
-matplotlib
-seaborn
-nilearn
-scikit-learn
-jupyterquiz
-jupytercards
-ipywidgets
-

@@ -4,41 +4,50 @@ on:
   push:
     branches:
       - main
+  # Build (but never deploy) every pull request, so broken links, missing
+  # images and other Sphinx warnings are caught before they reach main.
+  pull_request:
 
 env:
   BASE_URL: /${{ github.event.repository.name }}
 
 concurrency:
-  group: "pages"
+  group: "pages-${{ github.ref }}"
   cancel-in-progress: false
 
 jobs:
-  deploy-book:
+  build-book:
     runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Set up Python 3.11
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: 3.11
+          python-version: "3.11"
 
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
 
-      - name: Build the book
+      - name: Build the book (warnings are errors)
         run: |
-          jupyter-book build .
+          jupyter-book build . --warningiserror --keep-going
 
       - name: Upload artifact
+        if: github.event_name == 'push'
         uses: actions/upload-pages-artifact@v3
         with:
           path: "_build/html"
 
+  deploy-book:
+    if: github.event_name == 'push'
+    needs: build-book
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
