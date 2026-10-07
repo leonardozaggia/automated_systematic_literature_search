@@ -1,17 +1,3 @@
----
-jupytext:
-  formats: md:myst
-  text_representation:
-    extension: .md
-    format_name: myst
-    format_version: 0.13
-    jupytext_version: 1.11.5
-kernelspec:
-  display_name: Python 3
-  language: python
-  name: python3
----
-
 # <i class="fa-solid fa-download"></i> Environment Setup
 
 This guide will walk you through setting up your environment for automated systematic literature searches.
@@ -24,17 +10,17 @@ Before we begin, let's check what you need:
 :gutter: 2
 
 :::{grid-item-card} ✅ Required
-- Python 3.7 or higher
+- Python 3.10 or 3.11 (3.9 at minimum)
 - Package manager (conda/pip)
 - Code editor (VS Code recommended)
 - Internet connection
 :::
 
 :::{grid-item-card} 📚 Optional but Helpful
-- Git (for version control)
-- API keys (Scopus, IEEE)
+- Git (for cloning and version control)
+- API keys (Scopus, IEEE) and an email for PubMed
 - Institutional database access
-
+- Ollama (for AI screening), Node.js (for more PDF downloads)
 :::
 
 ::::
@@ -67,10 +53,13 @@ wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge
 bash Miniforge3-Linux-x86_64.sh
 ```
 
+On macOS, download the `Miniforge3-MacOSX-arm64.sh` (Apple silicon) or `Miniforge3-MacOSX-x86_64.sh` (Intel) installer from the same [releases page](https://github.com/conda-forge/miniforge/releases/latest) instead.
+
 ### Option B: Anaconda (Alternative)
 
 Download from [anaconda.com/download](https://www.anaconda.com/download) and follow the installation wizard.
 
+(step-2-install-code-editor)=
 ## Step 2: Install Code Editor
 
 ### Visual Studio Code (Recommended)
@@ -81,6 +70,7 @@ Download from [anaconda.com/download](https://www.anaconda.com/download) and fol
    - **Python** (by Microsoft)
    - **Jupyter** (by Microsoft)
    - **Markdown All in One**
+   - **YAML** (by Red Hat) - helpful for editing `config.yaml`
 
 :::{admonition} Alternative Editors
 :class: note
@@ -124,11 +114,12 @@ You'll need to activate this environment every time you start a new terminal ses
 ```bash
 conda activate autosearch
 ```
+The name `autosearch` is not arbitrary: if you start Review Buddy's `main.py` from another environment that lacks its dependencies, it re-launches itself inside `autosearch` automatically.
 :::
 
 ## Step 4: Install Review Buddy
 
-Review Buddy is a production-ready toolkit for systematic reviews with a simple 3-step workflow.
+Review Buddy is a toolkit for systematic reviews: search, screen and download, run with one command.
 
 ### Clone the Repository
 
@@ -147,9 +138,7 @@ Or download the ZIP file from GitHub and extract it.
 pip install -r requirements.txt
 ```
 
-This installs:
-- Core dependencies (requests, lxml, beautifulsoup4, tqdm, bibtexparser)
-- Optional: scholarly (Google Scholar), langdetect (language filtering)
+This installs everything Review Buddy uses: the core packages (requests, pandas, PyYAML, bibtexparser, rispy, ...), `curl_cffi` for reliable downloads, `langdetect` for language filtering, `scholarly` for Google Scholar, and the optional real-browser fetcher (`camoufox`, `playwright`). The [Review Buddy Installation Guide](../review_buddy/1_Installation) explains what each one is for.
 
 ### Configure API Keys
 
@@ -158,30 +147,44 @@ This installs:
 cp .env.example .env
 ```
 
-The `.env` file is already added to `.gitignore` to keep your keys private!
+The `.env` file is already in Review Buddy's `.gitignore`, so your keys stay private.
 
-Edit `.env` file with your API keys (**at least one required**):
+Every line in `.env` starts commented out. Uncomment (remove the `#`) and fill in **only** the ones you have:
 
 ```bash
 # Recommended: Scopus (best coverage)
-SCOPUS_API_KEY=your_scopus_key_here
+SCOPUS_API_KEY=<your real key>
 
-# Recommended: PubMed (biomedical papers)
-PUBMED_EMAIL=your.email@example.com
+# Recommended: PubMed (biomedical papers) - any valid email
+PUBMED_EMAIL=<your real email>
 
-# Optional but helpful
-UNPAYWALL_EMAIL=your.email@example.com
-IEEE_API_KEY=your_ieee_key_here
+# Optional - leave commented out unless you have a value
+#UNPAYWALL_EMAIL=
+#IEEE_API_KEY=
 ```
+
+:::{admonition} Don't leave placeholder values
+:class: warning
+An invented value such as `my_key_here` is sent to the API as a real key, and the API rejects every request - PubMed then returns 0 papers without an obvious error. Comment out what you don't fill in.
+:::
+
+### Create Your Run Configuration
+
+```bash
+# Create config.yaml from template
+cp config.example.yaml config.yaml
+```
+
+`config.yaml` holds your query, years, databases and filters. You'll edit it in the [Usage Examples](../review_buddy/2_Usage_Examples).
 
 ### Verify Installation
 
 ```bash
-# Run a quick test
-python 01_fetch_metadata.py
+# Show the available options
+python main.py --help
 ```
 
-You should see available sources listed. See the [Review Buddy Installation Guide](../review_buddy/1_Installation) for detailed setup instructions.
+See the [Review Buddy Installation Guide](../review_buddy/1_Installation) for a 1-minute test run and the optional services (Ollama, Zotero, real-browser fetcher).
 
 ## Step 5: Database API Keys (Optional)
 
@@ -199,32 +202,34 @@ Some databases require API keys for full access. Here's how to obtain them:
 1. Visit [IEEE Developer Portal](https://developer.ieee.org/)
 2. Create an account or log in
 3. Navigate to "My APIs"
-4. Request an API key (usually instant approval)
+4. Request an API key
+
+### PubMed
+
+No key is needed - set `PUBMED_EMAIL` to any valid email. An optional `PUBMED_API_KEY` from your [NCBI account](https://account.ncbi.nlm.nih.gov/) raises the rate limit from 3 to 10 requests per second.
 
 :::{admonition} Storing API Keys
 :class: tip
-To store your API keys as environment variables:
+The `.env` file from Step 4 is all you need. If you prefer real environment variables (for example on a shared server), use the **same names** Review Buddy reads from `.env`:
 
 **Windows (PowerShell):**
 ```powershell
-$env:IEEE_TOKEN = "your-ieee-api-key"
-$env:SCOPUS_TOKEN = "your-scopus-api-key"
+$env:SCOPUS_API_KEY = "your-scopus-api-key"
+$env:IEEE_API_KEY = "your-ieee-api-key"
 ```
 
 **macOS/Linux:**
 ```bash
-export IEEE_TOKEN="your-ieee-api-key"
-export SCOPUS_TOKEN="your-scopus-api-key"
+export SCOPUS_API_KEY="your-scopus-api-key"
+export IEEE_API_KEY="your-ieee-api-key"
 ```
 
 For permanent storage, add these to your `.bashrc`, `.zshrc`, or PowerShell profile.
-
-This step is optional, you can rely on the `.env` file -> see Step 4.
 :::
 
 ## Step 6: Verify Your Setup
 
-Let's run a quick test to ensure everything is working:
+Let's run a quick check to ensure everything is working:
 
 ### For Review Buddy (Recommended)
 
@@ -232,11 +237,18 @@ Let's run a quick test to ensure everything is working:
 # Navigate to review_buddy folder
 cd review_buddy
 
-# Run the fetch script
-python 01_fetch_metadata.py
+# Check dependencies and credentials without downloading anything
+python main.py --skip-download
 ```
 
-You should see available sources listed. If you see "No API keys configured", edit your `.env` file.
+`main.py` first runs a **preflight** check and lists anything that is missing, with the command to fix it - for example:
+
+```
+  ⚠ SCOPUS_API_KEY not set (Scopus will be skipped)
+      Add it to .env
+```
+
+If preflight passes, it goes on to run the search and the filter with the query in `query.txt`, writing the results to `results/`.
 
 ## Troubleshooting
 
@@ -266,11 +278,17 @@ You should see available sources listed. If you see "No API keys configured", ed
 # Activate environment
 conda activate autosearch
 
-# Check findpapers version
-findpapers version
+# Run the full pipeline (search → keyword filter → download)
+python main.py
 
-# View available commands
-findpapers --help
+# Same, with the AI (Ollama) filter
+python main.py --ai
+
+# Search and filter only, with another config file
+python main.py --config my_review.yaml --skip-download
+
+# View all options
+python main.py --help
 
 # Deactivate environment (when done)
 conda deactivate
@@ -280,14 +298,14 @@ conda deactivate
 
 🎉 **Congratulations!** Your environment is ready. Choose your path:
 
-➡️ **[Review Buddy Tutorial](../review_buddy/0_Overview)** - Production-ready 3-step workflow with advanced filtering
+➡️ **[Review Buddy Tutorial](../review_buddy/0_Overview)** - One-command pipeline with keyword and AI screening
 
 ## Additional Resources
 
 - [Review Buddy Documentation](https://github.com/leonardozaggia/review_buddy)
-- [Findpapers Issues](https://github.com/jonatasgrosman/findpapers/issues)
+- [Review Buddy Issues](https://github.com/leonardozaggia/review_buddy/issues)
 - [Python for Beginners](https://www.python.org/about/gettingstarted/)
-- [PRISMA Guidelines](http://www.prisma-statement.org/)
+- [PRISMA Statement](https://www.prisma-statement.org/)
 
 ---
 

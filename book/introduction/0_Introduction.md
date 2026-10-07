@@ -1,17 +1,3 @@
----
-jupytext:
-  formats: md:myst
-  text_representation:
-    extension: .md
-    format_name: myst
-    format_version: 0.13
-    jupytext_version: 1.11.5
-kernelspec:
-  display_name: Python 3
-  language: python
-  name: python3
----
-
 # <i class="fa-solid fa-book-open"></i> Understanding Systematic Reviews & Metanalysis
 
 ## What is a Systematic Review?
@@ -65,9 +51,9 @@ A **metanalysis** is a statistical technique that combines results from multiple
 **Metanalysis** = statistical synthesis of systematic review results
 :::
 
-## The PRISMA Framework
+## The Stages of a Systematic Review
 
-The **Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA)** provides guidelines for conducting and reporting systematic reviews. The typical workflow includes:
+A systematic review follows a protocol written *before* the search starts. Methods handbooks such as the Cochrane Handbook {cite}`Higgins2024Handbook` describe the stages in detail; the typical workflow is:
 
 ```{mermaid}
 graph TB
@@ -87,6 +73,17 @@ graph TB
     style H fill:#e8f5e9
 ```
 
+The tools in this book automate the orange stages: the literature search, the first screening pass and the full-text retrieval.
+
+### Reporting: PRISMA
+
+The **Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA 2020)** statement {cite}`Page2021PRISMA` is a **reporting** guideline, not a recipe for conducting the review: a 27-item checklist and a flow diagram that show readers what you searched, how many records you screened and excluded at each stage, and why. Two companions matter for automated reviews:
+
+- **PRISMA-S** {cite}`Rethlefsen2021PRISMAS` - how to report the literature *search* itself: every database, the full search strings, limits, dates and deduplication.
+- **Guidance on AI in evidence synthesis** - Cochrane, the Campbell Collaboration, JBI and the Collaboration for Environmental Evidence ask that AI tools be used under human oversight and that every AI-assisted judgement be reported transparently {cite}`Flemyng2025RAISE`.
+
+No tool makes a review "PRISMA-compliant" - your report does. Review Buddy produces the records you need to write it; [Reporting & Validation](../review_buddy/3_Reporting_and_Validation) shows how to map its outputs onto the PRISMA flow diagram.
+
 ## Why Automate?
 
 ### The Traditional Approach is Challenging
@@ -95,7 +92,7 @@ Manual systematic reviews face several challenges:
 
 | Challenge | Impact |
 |-----------|--------|
-| **Time-consuming** | Can take 6-18 months to complete |
+| **Time-consuming** | Registered reviews take on average more than a year to complete {cite}`Borah2017Time` |
 | **Multiple databases** | Each has different syntax and interfaces |
 | **Duplicate detection** | Manual deduplication is error-prone |
 | **Screen hundreds of papers** | Tedious and inconsistent |
@@ -106,23 +103,28 @@ Manual systematic reviews face several challenges:
 
 Automation tools can help with:
 
- **Speed**: Search multiple databases simultaneously  
- **Accuracy**: Consistent application of inclusion/exclusion criteria  
+ **Speed**: Search multiple databases in one run  
+ **Consistency**: The same criteria applied in the same way to every record  
  **Reproducibility**: Document and share exact search parameters  
- **Comprehensiveness**: Ensure no relevant papers are missed  
+ **Traceability**: Every exclusion recorded, with the rule or the model's reasoning behind it  
  **Organization**: Systematic tracking of decisions and classifications  
  **Efficiency**: Free up time for critical thinking and analysis
+
+:::{admonition} Automation reduces the workload - not the responsibility
+:class: caution
+An automated filter is consistent, but it can be consistently wrong: a keyword rule cannot understand meaning, and a language model can misjudge an abstract. Automated screening should support human screening, with the exclusions checked and the method reported. See [Reporting & Validation](../review_buddy/3_Reporting_and_Validation).
+:::
 
 ## Tools Overview
 
 This book focuses on powerful Python tools for automated literature review:
 
 ### 1. **Review Buddy** (Primary Tool)
-- **5-database search**: Scopus, PubMed, arXiv, Google Scholar, IEEE Xplore
-- **Smart filtering**: Keyword-based OR AI-powered (Ollama) abstract screening
-- **10+ download strategies**: Multiple fall-back options to maximise pdf-retrieval success rate
-- **Simple 3-step workflow**: Fetch → Filter → Download
-- **Production-ready**: Comprehensive error handling, logging, and documentation
+- **Multi-database search**: Scopus, PubMed, arXiv, IEEE Xplore (and Google Scholar, off by default), from one boolean query
+- **Smart filtering**: Keyword-based OR AI-powered abstract screening with a local Ollama model
+- **Zotero-style PDF retrieval**: a resolver chain with 10+ fallback strategies and an optional real-browser fetcher
+- **One command, one config file**: `python main.py` runs Fetch → Filter → Download from `config.yaml`
+- **Preflight checks**: missing keys, models or services are reported with the exact fix before anything runs
 - **Multiple exports**: BibTeX, RIS, CSV
 - **Open source**: Available at [github.com/leonardozaggia/review_buddy](https://github.com/leonardozaggia/review_buddy)
 
@@ -160,29 +162,34 @@ Let's say you want to conduct a systematic review on **"Machine Learning Applica
 - Track everything in spreadsheets (ongoing confusion)
 
 **With Review Buddy:**
-```bash
-# Step 1: Search all databases (5-10 minutes)
-python 01_fetch_metadata.py
-# Query: (machine learning OR AI) AND mental health AND diagnosis
-# Result: 200+ papers from 5 databases → references.bib
 
-# Step 2: Filter papers by abstract (5-10 minutes) - Optional
-python 02_abstract_filter.py
-# Exclude: non-English, animal studies, reviews
-# Result: 200 → 145 papers → references_filtered.bib
-
-# Step 3: Download PDFs automatically (10 minutes)
-python 03_download_papers.py
-# Result: 105 PDFs downloaded (72% success rate)
+Describe the search once, in `query.txt` and `config.yaml`:
+```yaml
+# config.yaml
+search:
+  query: '("machine learning" OR "artificial intelligence") AND "mental health" AND diagnosis'
+  year_from: 2018
+  sources: [scopus, pubmed, arxiv, ieee]
+filter:
+  enabled: {no_abstract: true, non_english: true, non_human: true, non_empirical: true}
 ```
 
-**Result:**
-1. 200+ papers found across 5 databases (Scopus, PubMed, arXiv, Scholar, IEEE)
-2. Automatic deduplication and PubMed prioritization
-3. Intelligent abstract-based filtering (keyword or AI)
-4. 105 PDFs downloaded using 10+ strategies
-5. Ready for screening in BibTeX/RIS/CSV format
-6. Everything documented, logged, and reproducible
+Then run it:
+```bash
+python main.py
+# Step 1: search all databases, deduplicate → references.bib, papers.csv
+# Step 2: filter by abstract (non-English, animal studies, reviews) → references_filtered.bib
+# Step 3: download the PDFs → results/pdfs/, plus failed_downloads.csv
+```
+
+**Result** (illustrative numbers):
+1. 200+ papers found across 4 databases, merged into one deduplicated list
+2. Every exclusion recorded per filter, ready to check - e.g. 200 → 145 papers
+3. PDFs retrieved automatically for most of the kept papers, and a list of the rest to fetch by hand
+4. Ready for screening in BibTeX/RIS/CSV format
+5. The query and every setting saved in two text files you can publish with the review
+
+How many PDFs you get depends mostly on your institution's access and the publisher mix - see [Usage Examples](../review_buddy/2_Usage_Examples) for measured numbers.
 
 ## Expected Outcomes
 
@@ -195,7 +202,7 @@ By the end of this book, you will be able to:
 5. ✅ Extract and organize relevant information
 6. ✅ Generate publication-ready bibliographies
 7. ✅ Create reproducible, documented workflows
-8. ✅ Follow PRISMA guidelines systematically
+8. ✅ Report your search and screening following PRISMA 2020 and PRISMA-S
 
 ## Next Steps
 

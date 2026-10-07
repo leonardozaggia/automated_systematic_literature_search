@@ -1,31 +1,17 @@
----
-jupytext:
-  formats: md:myst
-  text_representation:
-    extension: .md
-    format_name: myst
-    format_version: 0.13
-    jupytext_version: 1.11.5
-kernelspec:
-  display_name: Python 3
-  language: python
-  name: python3
----
-
 # Welcome to Automated Metanalysis & Systematic Reviews!
 
-This comprehensive tutorial teaches you how to **automate your literature review process** using modern Python tools. Whether you're conducting a systematic review, metanalysis, or comprehensive literature search for your research, this book will guide you through efficient, reproducible workflows that save time and improve accuracy.
+This comprehensive tutorial teaches you how to **automate your literature review process** using modern Python tools. Whether you're conducting a systematic review, metanalysis, or comprehensive literature search for your research, this book will guide you through efficient, reproducible workflows that save time and keep every decision traceable.
 
 ## Why Automate Your Literature Review?
 
 **Systematic reviews** and **metanalyses** are essential for evidence-based research, but they're traditionally time-consuming and error-prone. This book teaches you to:
 
-- **Search multiple databases simultaneously** (ACM, IEEE, Scopus, PubMed, arXiv, bioRxiv, medRxiv)
+- **Search multiple databases in one run** (Scopus, PubMed, arXiv, IEEE Xplore)
 - **Automate paper collection and deduplication**
-- **Streamline screening and selection processes**
+- **Speed up screening** with keyword rules or a local AI model - under human oversight
+- **Retrieve full-text PDFs automatically**
 - **Generate publication-ready bibliographies**
 - **Create reproducible research workflows**
-- **Reduce manual errors and bias**
 
 ## What You'll Learn
 
@@ -36,7 +22,7 @@ This book covers everything from basic setup to advanced automation techniques, 
 ✅ Downloading full-text papers automatically  
 ✅ Managing references and generating BibTeX files  
 ✅ Creating reproducible, documented workflows  
-✅ Following PRISMA guidelines for systematic reviews
+✅ Reporting your search and screening following PRISMA 2020
 
 ::::{grid} 1 1 2 3
 :class-container: text-center
@@ -69,7 +55,7 @@ Start here {fas}`arrow-right`
 :height: 100
 ```
 
-Production-ready toolkit for systematic reviews with 5-database search, intelligent filtering (keyword + AI), and 10+ download strategies.
+One-command pipeline for systematic reviews: multi-database search, keyword or local-AI screening, and Zotero-style PDF retrieval.
 +++
 Explore tutorial {fas}`arrow-right`
 :::
@@ -95,7 +81,7 @@ Explore tools {fas}`arrow-right`
 ---
 
 ### Useful Resources
-- 📖 [PRISMA Guidelines](http://www.prisma-statement.org/) - Standards for systematic reviews
+- 📖 [PRISMA Statement](https://www.prisma-statement.org/) - Reporting standards for systematic reviews
 - <i class="fa-brands fa-simplybuilt"></i> [Review Buddy](https://github.com/leonardozaggia/review_buddy)
 - 🎓 [Getting Started with Python & VS Code](https://www.youtube.com/watch?v=6i3e-j3wSf0)
 - 🔬 [PMUS Lab GitHub](https://github.com/pmus-lab)

@@ -9,16 +9,15 @@
 A comprehensive, hands-on guide for researchers looking to automate their systematic literature review workflows using Python tools.
 
 **What you'll learn:**
-- Multi-database searches (Scopus, PubMed, arXiv, IEEE, Google Scholar)
-- Smart filtering with keyword-based and AI-powered abstract screening
-- Automated PDF downloads with 10+ intelligent strategies
+- Multi-database searches (Scopus, PubMed, arXiv, IEEE Xplore) from one boolean query
+- Abstract screening with keyword rules or a local AI model (Ollama)
+- Automated PDF retrieval with a Zotero-style resolver chain and a real-browser fallback
 - Bibliography generation (BibTeX, RIS, CSV)
-- Reproducible, PRISMA-compliant workflows
+- Reproducible workflows, and how to report them following PRISMA 2020 and PRISMA-S
 
 **Featured Tools:**
-- **Review Buddy** - Production-ready 3-step workflow (Fetch → Filter → Download)
-- **Findpapers** - Configuration-based alternative
-- **Additional Resources** - LitMaps, Consensus, PaperScraper, and more
+- **Review Buddy** - One-command pipeline (Fetch → Filter → Download) driven by a single `config.yaml`
+- **Additional Resources** - Paper-Finder, Info-Extractor, LitMaps, Consensus, Elicit
 
 ---
 
