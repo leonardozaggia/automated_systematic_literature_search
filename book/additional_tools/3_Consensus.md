@@ -11,10 +11,10 @@
 - 🤖 **AI-Powered Synthesis**: Automatically summarizes findings across papers
 - ✅ **Yes/No Questions**: Get consensus on specific claims
 - 📊 **Evidence Quality**: See study types, sample sizes, and limitations
-- 🔍 **200M+ Papers**: Covers multiple disciplines
+- 🔍 **Large Multidisciplinary Corpus**: See their site for current coverage
 - 📈 **Consensus Meter**: Visual indicator of agreement/disagreement
 - 🎯 **Direct Answers**: No need to read 100 papers yourself
-- 🆓 **Free Tier**: Generous free usage limits
+- 🆓 **Free Tier**: Basic use is free; advanced features have monthly limits
 
 ## Getting Started
 
@@ -22,8 +22,10 @@
 
 Visit [https://consensus.app/](https://consensus.app/) and sign up (optional for basic use, required for full features):
 
-- Free tier: 20 Pro searches per month
-- Pro tier: Unlimited searches + advanced features
+- Free tier: a monthly allowance of advanced ("Pro") searches
+- Paid tiers: more searches and advanced features
+
+Plans change often - check [consensus.app](https://consensus.app/) for the current limits.
 
 ![Consensus Homepage](figures/placeholder_consensus_homepage.png)
 
@@ -236,21 +238,30 @@ print(f"Found {len(papers)} papers with consensus support")
 6. Use Consensus to compare your findings with general consensus
 ```
 
-**Integration Example**:
+**Integration Example**: are the papers Consensus surfaced also in your systematic search?
+
+1. Search your question on consensus.app and export the results as `consensus_export.bib`.
+2. Run the systematic search with Review Buddy: `python main.py --skip-download`.
+3. Compare the two by DOI:
+
 ```python
-# Step 1: Quick consensus check
-# Go to consensus.app and search your question
-# Export initial_consensus.bib
+import bibtexparser
+import pandas as pd
 
-# Step 2: Systematic search with Review Buddy
-from paper_searcher import PaperSearcher
-searcher = PaperSearcher(config)
-papers = searcher.search_all(query="your systematic query")
+with open("consensus_export.bib", encoding="utf-8") as f:
+    consensus = bibtexparser.load(f).entries
+consensus_dois = {e["doi"].lower() for e in consensus if e.get("doi")}
 
-# Step 3: Compare coverage
-# Are the consensus papers included in your systematic search?
-# If not, why? (date range, database coverage, etc.)
+papers = pd.read_csv("results/papers.csv")   # written by Review Buddy's step 1
+search_dois = set(papers["DOI"].dropna().str.lower())
+
+missing = consensus_dois - search_dois
+print(f"{len(consensus_dois - missing)}/{len(consensus_dois)} Consensus papers found by the systematic search")
+for doi in sorted(missing):
+    print("  not found:", doi)
 ```
+
+For every paper that is missing, ask why: date range, database coverage, or a query term your search lacks?
 
 ## Tips & Best Practices
 
@@ -347,7 +358,7 @@ Check for conflicts of interest → Form your conclusion
 
 Use Consensus alongside:
 
-- **Review Buddy/Findpapers**: Systematic database searches
+- **Review Buddy**: Systematic database searches
 - **LitMaps**: Citation network discovery
 - **Elicit**: Detailed paper analysis
 - **Traditional databases**: PubMed, Scopus, Web of Science
@@ -381,10 +392,10 @@ graph TD
 ## Resources
 
 - 🌐 **Website**: [https://consensus.app/](https://consensus.app/)
-- 📺 **Video Tutorials**: [Consensus YouTube](https://www.youtube.com/c/consensusapp)
+- 📺 **Video Tutorials**: [Consensus YouTube](https://www.youtube.com/@consensusapp)
 - 📚 **Help Center**: [help.consensus.app](https://help.consensus.app/)
-- 💬 **Community**: [Consensus Discord](https://discord.gg/consensus)
-- 📖 **Blog**: [Consensus Blog](https://consensus.app/blog) - Research tips and updates
+- 💬 **Community**: [Consensus Discord](https://discord.com/invite/consensus)
+- 📖 **Blog**: [Consensus Blog](https://consensus.app/home/blog/) - Research tips and updates
 
 ## Alternative Tools
 

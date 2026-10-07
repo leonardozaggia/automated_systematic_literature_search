@@ -18,11 +18,11 @@
 - 📝 **Paper Summaries**: AI-generated abstracts and key findings
 - 🎯 **Question Answering**: Chat with individual papers
 - 💾 **Export**: CSV/BibTeX with all extracted data
-- 🆓 **Free Tier**: 5,000 credits/month (~50-100 papers)
+- 🆓 **Free Tier**: Limited monthly usage; paid plans for heavy users
 
 ## Getting Started
 
-Visit [https://elicit.com/](https://elicit.com/) and sign up (free: 5,000 credits/month, paid plans for heavy users).
+Visit [https://elicit.com/](https://elicit.com/) and sign up. Plans and usage limits change often - check the pricing page for the current free allowance before planning a large extraction.
 
 ![Elicit Homepage](figures/placeholder_elicit_homepage.png)
 
@@ -68,27 +68,23 @@ Social Science:
 - "Effect sizes?"
 ```
 
-## Integration with Review Buddy/Findpapers
+## Integration with Review Buddy
 
 **Recommended Workflow**:
 
-```python
-# Step 1: Comprehensive search with Review Buddy
-from paper_searcher import PaperSearcher
-searcher = PaperSearcher(config)
-papers = searcher.search_all(query="your systematic query")
+1. **Comprehensive search** with Review Buddy: `python main.py --skip-download` writes every paper to `results/papers.csv`, and the papers that survived filtering to `results/papers_filtered.csv` (or `papers_filtered_ai.csv`).
+2. **Extract the DOIs** for Elicit:
+   ```python
+   import pandas as pd
 
-# Step 2: Extract DOIs for Elicit
-dois = [p['doi'] for p in papers if p.get('doi')]
-with open('dois_for_elicit.txt', 'w') as f:
-    f.write('\n'.join(dois))
-
-# Step 3: Upload to Elicit & extract custom data
-# (Manual step in web interface)
-
-# Step 4: Download structured CSV
-# Ready for analysis!
-```
+   papers = pd.read_csv("results/papers_filtered.csv")   # or papers_filtered_ai.csv
+   dois = papers["DOI"].dropna()
+   dois.to_csv("dois_for_elicit.txt", index=False, header=False)
+   print(f"{len(dois)} DOIs written ({len(papers) - len(dois)} papers have no DOI)")
+   ```
+   Alternatively, upload `results/references_filtered.bib` directly, or the PDFs Review Buddy downloaded to `results/pdfs/`.
+3. **Upload to Elicit** and define your extraction columns (manual step in the web interface).
+4. **Download the structured CSV** - ready for analysis!
 
 ## When to Use: Elicit vs Consensus
 
@@ -126,14 +122,13 @@ with open('dois_for_elicit.txt', 'w') as f:
 
 ```{admonition} Warning
 :class: warning
-AI extractions are ~80-90% accurate. Always verify for publication-quality work!
+AI extractions are not error-free, and their accuracy varies with the field, the question and the paper. Always verify extracted values against the source text for publication-quality work - and report that you used an AI tool and how you checked it.
 ```
 
 ## Resources
 
 - 🌐 [Elicit Website](https://elicit.com/)
-- 📚 [Help Center](https://elicit.com/help)
-- 📺 [Video Tutorials](https://www.youtube.com/c/elicit)
+- 📚 [Help Center](https://support.elicit.com/)
 - 📖 [Blog](https://elicit.com/blog) - Tips and use cases
 
 ---

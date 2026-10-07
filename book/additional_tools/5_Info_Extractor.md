@@ -29,14 +29,6 @@ The system returns structured output in **JSON** and **CSV** formats.
 
 ---
 
-## Key Features
-
-### 🚧 Coming Soon
-
-This section is under development. Check back soon for detailed documentation on Info-Extractor’s advanced features and usage instructions.
-
----
-
 ## Main Capabilities
 
 - **Structured Data Extraction**  
@@ -107,7 +99,22 @@ Info-Extractor can be configured to extract a wide range of variables, including
 
 ---
 
-## How to Run Info-Extractor (Local / Windows)
+## How to Run Info-Extractor (Local)
+
+### One-Time Setup
+
+Clone the repository (the same one as [Paper-Finder](1_Paper_Finder)) and create an environment for the backend:
+
+```bash
+git clone https://github.com/sanahassanimam/Automating-the-Information-Extraction
+conda create -n paperextract python=3.11 -y
+conda activate paperextract
+pip install fastapi uvicorn python-multipart pymupdf httpx jsonschema
+```
+
+The package list is taken from the backend's imports (`server.py`); the repository does not ship a `requirements.txt`, so check its README if the backend reports a missing module.
+
+For the optional LLM-assisted mode, install [Ollama](https://ollama.com) and pull a model.
 
 ### Terminal 1 — Ollama (Optional)
 ```bash
@@ -116,7 +123,7 @@ ollama serve
 
 ### Terminal 2 — Backend (FastAPI)
 ```bash
-cd Automating-the-Information-Extraction\info-extractor\backend
+cd Automating-the-Information-Extraction/Info-extractor/backend
 conda activate paperextract
 uvicorn server:app --reload --port 8000
 ```
@@ -133,9 +140,11 @@ http://127.0.0.1:8000/docs
 
 ### Terminal 3 — Frontend (HTML UI)
 ```bash
-cd Automating-the-Information-Extraction\info-extractor\frontend
+cd Automating-the-Information-Extraction/Info-extractor/frontend
 python -m http.server 5173
 ```
+
+The folder is `Info-extractor`, with a capital `I` and a lowercase `e` - on Linux, folder names are case-sensitive.
 
 Open in browser:
 ```
@@ -146,7 +155,7 @@ http://127.0.0.1:5173/extractor_ui.html
 
 ## Workflow Overview
 
-![Automating the Information Extraction workflow](images/info_extractor.jpeg)
+![Automating the Information Extraction workflow](figures/info_extractor.jpeg)
 
 ---
 
@@ -173,7 +182,7 @@ http://127.0.0.1:5173/extractor_ui.html
 
 Info-Extractor is ideal for:
 
-- **Systematic Reviews**: PRISMA-compliant data extraction  
+- **Systematic Reviews**: Consistent, documented data extraction (report the process as PRISMA 2020 asks under *data collection process* and *data items*)  
 - **Meta-Analysis**: Collecting statistical inputs for quantitative synthesis  
 - **Scoping Reviews**: Mapping study characteristics across domains  
 - **Evidence Synthesis**: Compiling structured findings from many papers  

@@ -82,25 +82,28 @@ graph TD
 These tools work best when combined with Review Buddy:
 
 ### Workflow 1: Comprehensive Discovery
-1. **Initial Search**: Use Review Buddy for systematic 5-database search
-2. **Citation Mapping**: Upload key papers to LitMaps to discover related work
+1. **Initial Search**: Use Review Buddy for a systematic multi-database search
+2. **Citation Mapping**: Upload `results/references.bib` to LitMaps to discover related work
 3. **Validation**: Check scientific consensus with Consensus
 
-### Workflow 2: Preprint-Focused Research
-1. **Preprint Search**: Use PaperScraper for latest research from arXiv/bioRxiv
-2. **AI Analysis**: Use Elicit to extract key findings from large paper sets
-3. **Integration**: Combine with peer-reviewed papers from Review Buddy
+### Workflow 2: Exploratory Scoping
+1. **Quick Exploration**: Use Paper-Finder's GUI to try search terms on PubMed and arXiv
+2. **Refine the Query**: Turn the terms that work into a boolean query in Review Buddy's `query.txt`
+3. **Systematic Search**: Run Review Buddy across all databases
 
 ### Workflow 3: AI-Assisted Review
-1. **Broad Search**: Use Review Buddy with AI-powered filtering
+1. **Broad Search**: Use Review Buddy with AI-powered filtering (`python main.py --ai`)
 2. **AI Screening**: Use Elicit for additional screening and categorization
-3. **Network Analysis**: Use LitMaps to ensure comprehensive coverage
+3. **Network Analysis**: Use LitMaps to check for missed papers
+4. **Data Extraction**: Use Info-Extractor on the downloaded PDFs
 
 ## Quick Comparison
 
 | Tool | Type | Best For | Access | Cost |
 |------|------|----------|--------|------|
 | **Review Buddy** | Python Scripts | Systematic reviews, advanced filtering | Local | Free |
+| **Paper-Finder** | Local web GUI | Exploratory searches on PubMed and arXiv | Local | Free |
+| **Info-Extractor** | Local web app | Structured data extraction from PDFs | Local | Free |
 | **LitMaps** | Web App | Citation network discovery | Web | Freemium |
 | **Consensus** | Web App | Finding scientific consensus | Web | Freemium |
 | **Elicit** | Web App | AI-powered screening & extraction | Web | Freemium |

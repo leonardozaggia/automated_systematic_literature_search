@@ -116,22 +116,15 @@ Get notified when new papers match your criteria:
 
 **Integration Workflow**:
 
-```python
-# Step 1: Get papers from Review Buddy
-from paper_searcher import PaperSearcher
-searcher = PaperSearcher(config)
-papers = searcher.search_all(query="your query")
-searcher.generate_bibliography(papers, format="bibtex", output_file="initial_papers.bib")
-
-# Step 2: Upload initial_papers.bib to LitMaps
-# (Do this manually in the web interface)
-
-# Step 3: Export expanded set from LitMaps
-# Download expanded_papers.bib from LitMaps
-
-# Step 4: Merge and deduplicate
-# Use your preferred reference manager or Python
-```
+1. **Get papers from Review Buddy** - no extra code needed: `python main.py --skip-download` already writes `results/references.bib` (all papers) and `results/references_filtered.bib` (after filtering).
+2. **Upload** one of those files to LitMaps (manually, in the web interface).
+3. **Export** the expanded set from LitMaps as BibTeX, e.g. `expanded_papers.bib`.
+4. **Merge and deduplicate** with Review Buddy:
+   ```bash
+   cat results/references.bib expanded_papers.bib > results/merged.bib
+   python 04_deduplicate_extra.py results/merged.bib
+   ```
+   `04_deduplicate_extra.py` keeps a timestamped backup and overwrites `merged.bib` with the deduplicated set. On Windows PowerShell, merge with `Get-Content results/references.bib, expanded_papers.bib | Set-Content -Encoding utf8 results/merged.bib`.
 
 ## Tips & Best Practices
 
@@ -200,7 +193,7 @@ LitMaps works best as part of a multi-stage process:
 
 ```{mermaid}
 graph LR
-    A["Database Search<br>Review Buddy/Findpapers"] --> B[Initial Paper Set]
+    A["Database Search<br>Review Buddy"] --> B[Initial Paper Set]
     B --> C["LitMaps<br>Citation Discovery"]
     C --> D[Expanded Paper Set]
     D --> E[Screening & Selection]
@@ -211,7 +204,7 @@ graph LR
     style F fill:#e8f5e9
 ```
 
-1. **Initial Search**: Use Review Buddy or Findpapers for systematic database queries
+1. **Initial Search**: Use Review Buddy for systematic database queries
 2. **Citation Expansion**: Import results into LitMaps to find related papers
 3. **Export**: Download expanded set for screening
 4. **Validation**: Check against consensus tools (see [Consensus](3_Consensus))
@@ -222,19 +215,17 @@ graph LR
 
 - **Database Coverage**: May not include all niche journals
 - **Recent Papers**: Very new papers lack citation data
-- **API Access**: No programmatic API (manual export only)
+- **Manual Export**: The workflow in this book moves files in and out of LitMaps by hand
 - **Free Tier Limits**: Limited maps and updates
 
 ### Alternatives
 
 - **Connected Papers** ([https://www.connectedpapers.com/](https://www.connectedpapers.com/))
-  - Similar visual approach
-  - Free with no account needed
-  - Limited to 5 papers per search
+  - Similar visual approach, built from a single seed paper
+  - Free plan with usage limits (check the current plans on their site)
 
-- **Citation Gecko** (browser extension)
-  - Works within Google Scholar
-  - Lightweight option
+- **Citation Gecko**
+  - Lightweight, seed-based citation explorer
   - Less sophisticated visualization
 
 - **VOSviewer** (desktop software)
@@ -245,9 +236,9 @@ graph LR
 ## Resources
 
 - 🌐 **Website**: [https://app.litmaps.com/](https://app.litmaps.com/)
-- 📺 **Video Tutorials**: [LitMaps YouTube Channel](https://www.youtube.com/c/litmaps)
+- 📺 **Video Tutorials**: [LitMaps YouTube Channel](https://www.youtube.com/@litmaps)
 - 📚 **Help Center**: [https://help.litmaps.com/](https://help.litmaps.com/)
-- 💬 **Community**: [LitMaps Twitter](https://twitter.com/litmaps)
+- 💬 **Community**: [LitMaps on X](https://x.com/litmaps)
 
 ---
 

@@ -85,8 +85,10 @@ CSV and ZIP exports can be version-controlled or shared with collaborators.
 Clone the repository:
 ```bash
 git clone https://github.com/sanahassanimam/Automating-the-Information-Extraction
-cd Automating-the-Information-Extraction/Paper-Finder
+cd Automating-the-Information-Extraction/Paper-finder
 ```
+
+Note the lowercase `f` in `Paper-finder`: on Linux, folder names are case-sensitive.
 
 Install Python dependencies:
 ```bash
