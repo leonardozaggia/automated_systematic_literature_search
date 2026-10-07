@@ -2,10 +2,18 @@
 
 ## Prerequisites
 
-- **Python 3.7+** (Python 3.8+ recommended)
-- **pip** (Python package manager)
-- **Git** (optional - to clone from GitHub)
-- **Ollama** (optional - for AI-powered filtering)
+| Requirement | Needed for | Notes |
+|---|---|---|
+| **Python 3.10 or 3.11** | Everything | Python 3.9 is the hard minimum (the code uses built-in generic type hints). The `autosearch` environment from the [Setup Guide](../introduction/1_Setup) is exactly right. |
+| **pip** | Installing dependencies | Ships with Python / conda |
+| **Git** | Cloning the repository | Optional - you can download the ZIP instead |
+| **Ollama** | The AI (LLM) abstract filter | Optional - only for `python main.py --ai` |
+| **Node.js** | The Zotero translation server | Optional - improves the PDF hit rate |
+
+:::{admonition} Which version of Review Buddy does this book describe?
+:class: note
+This book documents the **config-driven version** of Review Buddy: one `config.yaml` file for every run setting and a `main.py` command that runs the whole pipeline. If your copy of `01_fetch_metadata.py` still contains a `# ===== CONFIGURATION =====` block with `QUERY = ...`, you have an older version - run `git pull` to update.
+:::
 
 ## Installation Steps
 
@@ -19,7 +27,11 @@ cd review_buddy
 
 **Option B: Download ZIP**
 - Download from GitHub and extract
-- Navigate to the folder in terminal
+- Navigate to the folder in a terminal
+
+:::{note}
+The optional Zotero translation server lives in a git submodule (`vendor/translation-server`), which a normal clone leaves empty. You don't need to do anything now: `scripts/setup_zotero.py` (see [step 5](#rb-zotero)) initialises it, and `main.py` offers to run it for you.
+:::
 
 ### 2. Install Dependencies
 
@@ -27,225 +39,304 @@ cd review_buddy
 pip install -r requirements.txt
 ```
 
-**Core dependencies (always installed):**
-- `requests>=2.31.0` - HTTP requests
-- `lxml>=4.9.0` - HTML/XML parsing
-- `python-dotenv>=1.0.0` - Environment variable management
-- `beautifulsoup4>=4.12.0` - HTML parsing
-- `tqdm>=4.66.0` - Progress bars
-- `bibtexparser>=1.4.0` - BibTeX file handling
-- `rispy>=0.7.0` - RIS file handling
+`requirements.txt` installs everything in one go. The packages worth knowing about:
 
-**Optional dependencies:**
-- `scholarly>=1.7.0` - Google Scholar (install if using Scholar search)
-- `langdetect>=1.0.9` - Language detection (for abstract filtering)
-- `scihub` - Sci-Hub access (install if using Sci-Hub downloads)
+| Package | What it does for you |
+|---|---|
+| `requests`, `lxml`, `beautifulsoup4`, `tqdm`, `python-dotenv`, `pandas`, `PyYAML` | Core: HTTP, parsing, progress bars, reading `.env` and `config.yaml` |
+| `bibtexparser`, `rispy` | Reading and writing BibTeX / RIS |
+| `curl_cffi` | Browser-like TLS fingerprint. **Strongly recommended**: many publishers - including open-access ones such as MDPI, PLOS and PMC - answer a plain Python client with HTTP 403 |
+| `langdetect` | The `non_english` keyword filter |
+| `scholarly` | Google Scholar search (unreliable - see [Usage Examples](2_Usage_Examples)) |
+| `camoufox[geoip]`, `playwright` | The optional real-browser PDF fetcher |
+| `pymupdf` | Full-text extraction in the `scripts/` utilities |
+| `matplotlib`, `pytest`, `scihub` | Benchmark charts, the test suite, the (off by default) Sci-Hub fallback |
 
-### 3. Configure API Keys
+(rb-env)=
+### 3. Configure API Keys (`.env`)
 
-Create a `.env` file in the project root:
+API keys and emails live in a `.env` file in the project root - never in `config.yaml`, and never in git (`.env` is already in Review Buddy's `.gitignore`).
 
 ```bash
 cp .env.example .env
 ```
 
-Edit `.env` with your credentials (**at least one API key required**):
+Every line in `.env.example` is **commented out on purpose**. Uncomment and fill in **only** the lines you have values for:
 
 ```bash
-# Scopus (Recommended - best coverage)
-SCOPUS_API_KEY=your_scopus_api_key_here
+# Scopus (required for Scopus searches)
+SCOPUS_API_KEY=<your real key>
 
-# PubMed (Required for biomedical papers and better downloads)
-PUBMED_EMAIL=your.email@example.com
-PUBMED_API_KEY=optional_key_for_higher_rate_limits
+# PubMed (required for PubMed searches) - any valid email, no registration
+PUBMED_EMAIL=<your real email>
 
-# Unpaywall (Highly recommended - improves download success)
-UNPAYWALL_EMAIL=your.email@example.com
+# Optional - only raises the PubMed rate limit from 3 to 10 requests/second
+#PUBMED_API_KEY=
 
-# IEEE Xplore (Optional - for engineering papers)
-IEEE_API_KEY=your_ieee_api_key_here
+# Optional - only needed if 'ieee' is in your config.yaml sources
+#IEEE_API_KEY=
+
+# Optional - falls back to PUBMED_EMAIL when unset
+#UNPAYWALL_EMAIL=
 ```
 
-**Note**: Ollama configuration for AI filtering is done in `02_abstract_filter_ai.py` (see `AI_CONFIG`), not in `.env`.
+:::{admonition} A placeholder is worse than an empty line
+:class: warning
+Never leave an invented value such as `PUBMED_API_KEY=my_key_goes_here` in `.env`. An absent optional key only costs you a lower rate limit, but a fake one is sent to the API as if it were real: NCBI rejects the whole request (`HTTP 400 {"error":"API key invalid"}`) and **PubMed silently returns 0 papers** while every other source works.
 
-**Minimum setup**: Either `SCOPUS_API_KEY` OR `PUBMED_EMAIL` (both recommended)  
-**For best results**: Configure all available sources
+Review Buddy recognises the usual template patterns (`your_...`, `..._here`, `<...>`, `changeme`, `...@example.com`), ignores them and prints a warning - but anything else is passed through. Comment out what you don't fill in.
+:::
 
-### 4. Obtain API Keys
+**Minimum setup**: arXiv needs no key at all, so Review Buddy runs out of the box. For a real review you want at least `SCOPUS_API_KEY` and/or `PUBMED_EMAIL`.
+
+### 4. Create Your Run Configuration (`config.yaml`)
+
+Every run setting - query, years, sources, filters, model, download toggles - lives in **one file**:
+
+```bash
+cp config.example.yaml config.yaml
+```
+
+`config.yaml` is gitignored, so your query and filters never end up in git history, and `git pull` never conflicts with your settings. It only needs the keys you want to **change**; everything else falls back to `config.example.yaml`, which is the fully commented reference. For example, this is a complete, valid `config.yaml`:
+
+```yaml
+search:
+  year_from: 2018
+  sources: [scopus, pubmed]
+download:
+  use_browser: true
+```
+
+The [Usage Examples](2_Usage_Examples) walk through every section.
+
+### 5. Optional Services
+
+None of these are required. Each one unlocks a feature.
+
+#### Ollama - for the AI abstract filter
+
+1. Install Ollama: [https://ollama.com](https://ollama.com)
+2. That's it if you use `main.py`: `python main.py --ai` starts `ollama serve` and offers to pull the configured model (`--yes` pulls without asking).
+
+If you run `02_abstract_filter_ai.py` on its own, do it by hand:
+```bash
+ollama pull gemma3:4b      # the default model, one-time download
+ollama serve               # leave running in a separate terminal
+```
+
+The model, server URL and all filter prompts are set in `config.yaml` under `ai_filter:`. The `OLLAMA_MODEL` and `OLLAMA_URL` environment variables override them (handy on a cluster).
+
+(rb-zotero)=
+#### Zotero translation server - more PDFs
+
+The download step works without it, but the vendored Zotero translation server extracts PDF links from publisher landing pages and measurably raises the hit rate. It needs **Node.js** and a one-time setup:
+
+```bash
+python scripts/setup_zotero.py                        # init submodule, npm install, apply patch
+cd vendor/translation-server && node src/server.js    # start it (port 1969), leave it running
+```
+
+You rarely need the second line: `main.py` and `03_download_papers.py` detect a server that is set up but not running and offer to start it. After setup, `git status` shows the submodule as *modified* - that is the required patch, and it is expected.
+
+#### Real-browser fetcher - Cloudflare-protected publishers
+
+Elsevier/ScienceDirect, Wiley and MDPI block every plain HTTP client. Review Buddy can drive a patched Firefox ([Camoufox](https://github.com/daijro/camoufox)) as a last-resort strategy:
+
+```bash
+python -m camoufox fetch          # one-time: download the patched Firefox build
+python scripts/browser_login.py   # one-time: log in / solve a CAPTCHA yourself in a visible window
+```
+
+Then set `download.use_browser: true` in `config.yaml`. The login session is stored in `.browser_profile/` and reused by headless downloads. See [Usage Examples](2_Usage_Examples) for what this costs in time and what it does - and does not - give you access to.
+
+### 6. Obtain API Keys
 
 #### Scopus (Highly Recommended)
 - **Website**: [https://dev.elsevier.com/](https://dev.elsevier.com/)
-- **How**: Create account → Request API key
-- **Free tier**: 5,000 requests/week
+- **How**: Create account → Request API key (an institutional email may be required)
+- **Quota**: 20,000 Scopus Search requests per week
+- **Per-query ceiling**: 5,000 records per query. Review Buddy works around this automatically by re-issuing a large search as one-year slices (needs `search.year_from`)
 - **Coverage**: Best for peer-reviewed publications
 
 #### PubMed (Free, Highly Recommended)
-- **Website**: [https://www.ncbi.nlm.nih.gov/account/](https://www.ncbi.nlm.nih.gov/account/)
-- **Email**: Any valid email (no registration needed)
-- **API Key** (optional): Register for key to increase rate limits (3→10 req/sec)
+- **Email**: Any valid email address in `PUBMED_EMAIL` - no registration needed
+- **API Key** (optional): [https://account.ncbi.nlm.nih.gov/](https://account.ncbi.nlm.nih.gov/) - raises the rate limit from 3 to 10 requests/second
 - **Coverage**: Best for biomedical/life sciences
 
 #### Unpaywall (Free, Recommended)
-- **Email**: Any valid email (no registration)
-- **Benefit**: Significantly improves open access paper discovery
-- **Use**: Add your email to `.env` as `UNPAYWALL_EMAIL`
+- **Email**: Any valid email in `UNPAYWALL_EMAIL`; if unset, `PUBMED_EMAIL` is used
+- **Benefit**: Finds legal open-access copies during the download step
 
 #### IEEE Xplore (Optional)
 - **Website**: [https://developer.ieee.org/](https://developer.ieee.org/)
 - **How**: Register → Request API key
-- **Free tier**: 200 queries/day
 - **Coverage**: Engineering and computer science
-
-#### Ollama (Optional - for AI Filtering)
-- **Website**: [https://ollama.ai/](https://ollama.ai/)
-- **How**: Download and install Ollama → Pull model: `ollama pull llama3.1:8b`
-- **Models**: llama3.1:8b (powerful, yet small enough to run locally), mistral, phi3, etc.
-- **Use**: Local LLM for intelligent abstract filtering
-- **Configuration**: Edit `AI_CONFIG` dictionary in `02_abstract_filter_ai.py`
-  - Set model name: `'model': 'llama3.1:8b'`
-  - Set Ollama URL: `'ollama_url': 'http://localhost:11434'`
-  - Adjust confidence threshold: `'confidence_threshold': 0.5`
+- **Note**: Only queried if `ieee` is listed in `search.sources`
 
 ## Verify Installation
 
 ### Quick Verification
 
-The easiest way to verify is to run the fetch script:
+Create a tiny throw-away config, `smoke_test.yaml`, in the project root:
+
+```yaml
+search:
+  query: '"machine learning" AND (healthcare OR clinical)'
+  year_from: 2024
+  max_results_per_source: 25
+  sources: [arxiv]       # no API key needed
+```
+
+Run the pipeline with it, skipping the download:
 
 ```bash
-python 01_fetch_metadata.py
+python main.py --config smoke_test.yaml --skip-download
 ```
 
-You should see:
+You should see a preflight report followed by the two steps (abbreviated output from a real run):
+
 ```
-================================================================================
-REVIEW BUDDY - FETCH PAPER METADATA
-================================================================================
+==============================================================================
+REVIEW BUDDY — full pipeline
+==============================================================================
+  Query:   "machine learning" AND (healthcare OR clinical)...
+  Sources: arxiv
+  Filter:  keyword
+  Download: skipped  (browser=False, zotero=True, workers=4)
 
-✓ Available sources: Scopus, PubMed, arXiv, Google Scholar, IEEE Xplore
+==============================================================================
+PREFLIGHT
+==============================================================================
+  ✓ Core Python packages
+
+Preflight passed.
+
+==============================================================================
+▶ STEP 1/3 — Fetch metadata
+==============================================================================
+...
+FOUND 25 UNIQUE PAPERS
+...
+⏱ STEP 1/3 — Fetch metadata: 1s — done
+==============================================================================
+▶ STEP 2/3 — Filter abstracts (keyword)
+==============================================================================
+...
+⏱ STEP 2/3 — Filter abstracts (keyword): 1s — done
+==============================================================================
+PIPELINE SUMMARY
+==============================================================================
+  Fetch metadata              1s   ok
+  Filter abstracts            1s   ok
+  TOTAL                       3s   (0.0 min)
+  → results/references.bib
+  → results/references_filtered.bib
+  → results/papers.csv
+
+Pipeline complete.
 ```
 
-If you see `❌ ERROR: No API keys configured!`, check your `.env` file.
+:::{note}
+The smoke test writes to `results/`, like any run. Delete that folder (or move it aside) before starting your real search.
+:::
 
-### Manual Test (Optional)
+### Check Your Credentials
 
-Create a test script to check configuration:
-
-```python
-from pathlib import Path
-import sys
-sys.path.insert(0, str(Path(__file__).parent))
-
-from src.config import Config
-
-config = Config()
-
-print("Available sources:")
-if config.has_scopus_access():
-    print("  ✓ Scopus configured")
-if config.has_pubmed_access():
-    print("  ✓ PubMed configured")
-if config.has_arxiv_access():
-    print("  ✓ arXiv available (no key needed)")
-if config.has_scholar_access():
-    print("  ✓ Google Scholar available")
-if config.has_ieee_access():
-    print("  ✓ IEEE Xplore configured")
-```
-
-### Test Search (Optional)
-
-Run a small test search:
+Now point the preflight at your real configuration:
 
 ```bash
-# Edit 01_fetch_metadata.py to set:
-# QUERY = "machine learning"
-# MAX_RESULTS_PER_SOURCE = 5
-
-python 01_fetch_metadata.py
+python main.py --skip-download
 ```
 
-Check that `results/references.bib` is created with papers.
+Preflight reports every source that will be skipped and why, for example:
+
+```
+  ⚠ SCOPUS_API_KEY not set (Scopus will be skipped)
+      Add it to .env
+```
+
+Fix anything marked `⚠` that you care about. Anything marked `✗` blocks the run and comes with the exact command to fix it.
+
+### Run the Test Suite (Optional)
+
+```bash
+pytest tests/
+```
 
 ## Troubleshooting
 
-### No API Keys Configured
-**Error**: `❌ ERROR: No API keys configured!`
+### A Source Returns 0 Papers
+**Symptom**: one database returns nothing while the others work.
 
-**Solution**: 
-1. Check that `.env` file exists in project root
-2. Add at least one API key (Scopus or PubMed email)
-3. Restart your terminal/IDE
+**Solution**:
+1. Read the preflight / step 1 output for a `⚠ ... will be SKIPPED` line - a missing key or email skips the source.
+2. **PubMed returns 0**: check `.env` for a leftover placeholder in `PUBMED_API_KEY` (see the warning in [step 3](#rb-env)).
+3. **PubMed or arXiv return 0 but Scopus works**: your query probably uses Scopus-only syntax (`TITLE-ABS-KEY(...)`, `W/5`, `PRE/3`). Review Buddy warns about this before searching; see *Query portability* in [Usage Examples](2_Usage_Examples).
+4. A very long query (over ~3,000 characters) is rejected by the APIs (HTTP 413/414) - this is reported as a failure in the log, not as "0 results".
 
 ### Import Errors
-**Error**: `ModuleNotFoundError: No module named 'src'`
+**Error**: `ModuleNotFoundError: No module named 'src'` (or `yaml`, `pandas`, ...)
 
 **Solution**:
 ```bash
-# Run scripts from project root (where src/ folder is)
+# Run scripts from the project root (where src/ is)
 cd /path/to/review_buddy
-python 01_fetch_metadata.py
+conda activate autosearch
+python main.py
 ```
 
-### API Key Not Working
-**Error**: `Invalid API key` or `Authentication failed`
-
-**Solution**:
-```bash
-# Verify .env file is in project root
-ls .env
-
-# Check environment variables load correctly
-python -c "from dotenv import load_dotenv; import os; load_dotenv(); print('Scopus:', os.getenv('SCOPUS_API_KEY')[:10] if os.getenv('SCOPUS_API_KEY') else 'Not set')"
-```
+If you launch `main.py` from an environment that is missing dependencies, it automatically re-launches itself inside a conda environment named `autosearch` when one exists.
 
 ### Rate Limit Errors
-**Error**: `Rate limit exceeded`
+**Error**: `Rate limit exceeded` / HTTP 429
 
 **Solution**:
-- **PubMed**: Get API key to increase from 3→10 req/sec
-- **Scopus**: Check weekly quota at [dev.elsevier.com](https://dev.elsevier.com)
-- **Wait**: Rate limits reset after a few minutes
+- **PubMed**: add a `PUBMED_API_KEY` to go from 3 to 10 requests/second
+- **Scopus**: check your weekly quota at [dev.elsevier.com](https://dev.elsevier.com)
+- **Wait**: limits reset after a few minutes
 
-### No Papers Found
-**Error**: Search completes but finds 0 papers
-
-**Solution**:
+### No Papers Found At All
 1. Try a simpler query: `"machine learning"`
-2. Check year range (some databases lag by 1-2 years)
-3. Verify API keys are valid
-4. Try a different source
+2. Check the year range (some databases lag by 1-2 years)
+3. Run one source at a time (`search.sources: [pubmed]`) to see which one fails
 
 ### Language Detection Issues
-**Error**: `langdetect not installed`
+**Error**: `langdetect not installed - language filtering will be skipped`
 
-**Solution**:
-```bash
-pip install langdetect
+**Solution**: `pip install langdetect`, or switch the filter off in `config.yaml`:
+```yaml
+filter:
+  enabled:
+    no_abstract: true
+    non_english: false   # disabled
+    non_human: true
 ```
-
-Or disable language filtering in `02_abstract_filter.py`:
-```python
-FILTERS_ENABLED = {
-    'non_english': False,  # Disable
-    # ... other filters
-}
-```
+Remember that `filter.enabled` **replaces** the default list, so list every filter you want to keep.
 
 ### Ollama Not Working (AI Filtering)
 **Error**: `Cannot connect to Ollama server`
 
 **Solution**:
-1. Install Ollama: [https://ollama.ai](https://ollama.ai)
-2. Pull model: `ollama pull llama3.1:8b`
-3. Start Ollama server: `ollama serve`
-4. Check server is running: `ollama list`
-5. Verify configuration in `02_abstract_filter_ai.py`: `AI_CONFIG['ollama_url']`
+1. Install Ollama: [https://ollama.com](https://ollama.com)
+2. Prefer `python main.py --ai`: it starts the server and pulls the model for you
+3. Running the script directly? Start the server (`ollama serve`) and pull the model (`ollama pull gemma3:4b`)
+4. Check the server: `ollama list`
+5. Verify `ai_filter.ollama_url` in `config.yaml` (or the `OLLAMA_URL` environment variable)
+
+### Zotero Translation Server Not Running
+**Message**: `⚠ Zotero translation server is not running.`
+
+This is not an error: downloads continue with Zotero's hosted open-access index and the built-in strategies, you just get fewer PDFs. Run `python scripts/setup_zotero.py` once (needs Node.js) to enable it.
+
+### Browser Profile Locked
+**Message**: `⚠ Browser profile appears to be in use (.browser_profile locked)`
+
+Close any open `browser_login.py` / Camoufox window before running the download step - a browser profile can only be opened by one process at a time.
 
 ## What's Next?
 
 Proceed to [Usage Examples](2_Usage_Examples) to learn how to:
 - Configure and run searches across multiple databases
 - Filter papers by abstract content (keyword or AI)
-- Download PDFs with intelligent fallback strategies
+- Download PDFs with the resolver chain and the browser fallback
 - Export results in multiple formats
